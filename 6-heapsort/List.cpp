@@ -8,11 +8,11 @@ using namespace std;
 /**
  * Print all elements in list
  */
-void PrintList(int list[], int length) {
+void PrintList(vector<int>& list) {
    cout << "List: [";
-    int counter;
-    for (counter = 0; counter < length; counter++) {
-        if (counter == length - 1) {
+    unsigned int counter;
+    for (counter = 0; counter < list.size(); counter++) {
+        if (counter == (list.size() - 1)) {
             cout << list[counter];
         } else {
             cout << list[counter] << ", ";
@@ -21,13 +21,13 @@ void PrintList(int list[], int length) {
     cout << ("] \n");
 }
 
-void MakeList(int list[], int length) {
+void MakeList(vector<int>& list, int length) {
     unsigned int seed = (unsigned int)time(NULL);
     srand(seed);
 
-    int counter;
+    unsigned int counter;
 
-    for (counter = 0; counter < length; counter++) {
+    for (counter = 0; counter < list.size(); counter++) {
         // use rand() % 1000 will get random number between 1-1000
         list[counter] = rand() % 1000;
     }
