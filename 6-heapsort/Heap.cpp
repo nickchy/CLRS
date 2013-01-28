@@ -128,7 +128,21 @@ void Heap::IncreaseKey(int i, int key)
         }
     }
 }
-            
 
+void Heap::SetMaxHeapSize(int maxHeapSize)
+{
+    m_maxHeapSize = maxHeapSize;
+}
+
+void Heap::MaxHeapInsert(int key)
+{
+
+    vector<int>::iterator it = m_list.begin();
+    m_list.insert(it+(m_heapSize), 1,-numeric_limits<int>::infinity());
+    m_heapSize++;
+    m_list[m_heapSize-1] = key;
+    IncreaseKey(m_heapSize-1,key);
+    SetMaxHeapSize(m_list.size());
+}
 
 

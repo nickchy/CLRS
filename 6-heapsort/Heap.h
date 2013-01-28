@@ -21,6 +21,9 @@ class Heap
         int Maximum();
         int ExtractMaximum();
         void IncreaseKey(int, int);
+        void MaxHeapInsert(int);
+        void SetMaxHeapSize(int);
+//        void MaxHeapInsert(int); 
         int GetHeapSize() {return m_heapSize;}
         void ResetHeapSize() {m_heapSize = m_maxHeapSize;}
 };

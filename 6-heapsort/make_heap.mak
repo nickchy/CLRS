@@ -102,7 +102,7 @@ all: $(COMMAND)
 #COMPILER 
 CC= g++
 # CFLAGS is used for C++ compilation options.
-CXXFLAGS=  -g -O0
+CFLAGS=  -g -O0
 #WARNNING FLAG
 WARNFLAGS= -Werror -Wall
 #-Wshadow -fno-common
@@ -119,6 +119,8 @@ LDFLAGS  := \
 BOOST_LIBDIR = /home/nick/boost_1_51_0/lib/
 BOOST_INCLUDEDIR = /home/nick/boost_1_51_0/include/
 
+LIBDIR = /home/nick/CLRS/util/
+INCLUDEDIR = /home/nick/CLRS/util/
 # Which Boost modules to use (all)
 #BOOST_MODULES = \
   date_time     \
@@ -130,30 +132,37 @@ BOOST_INCLUDEDIR = /home/nick/boost_1_51_0/include/
   serialization \
   regex		\
 
+
+SMODULES := \
+  List
+
 # Boost libraries' type (a suffix)
-BOOST_MODULES_TYPE := -mt
+#BOOST_MODULES_TYPE := -mt
 
 # Define library names with their type
-BOOST_MODULES_LIBS := $(addsuffix $(BOOT_MODULES_TYPE),$(BOOST_MODULES))
+#BOOST_MODULES_LIBS := $(addsuffix $(BOOT_MODULES_TYPE),$(BOOST_MODULES))
 
 # Define the linker argument to use the Boost libraries.
-BOOST_LDFLAGS := $(addprefix -lboost_,$(BOOST_MODULES_LIBS))
+#BOOST_LDFLAGS := $(addprefix -lboost_,$(BOOST_MODULES_LIBS))
+
+# Define the linker argument to tuse the libraries
+LIB_SMODULES := $(addprefix -l,$(SMODULES))
 
 # Feed compiler/linker flags with Boost's
-#CPPFLAGS += -I$(BOOST_INCLUDEDIR)
-#LDFLAGS += -L$(BOOST_LIBDIR)
+CPPFLAGS += -I$(INCLUDEDIR)
+LDFLAGS += -L$(LIBDIR)
 
 #LIBS = $(BOOST_INCLUDEDIR)
 
 #BUILD THE FINAL PROGRAM
 $(COMMAND): $(OBJS) 
 #$(COMMAND): %.o 
-	$(CC) -o $(COMMAND) $(LDFLAGS) $(OBJS) $(BOOST_LDFLAGS)
+	$(CC) -o $(COMMAND) $(LDFLAGS) $(OBJS) $(LIB_SMODULES)
 	@echo "Linking complete!"
 #BUILD OBJECT FILES                 
 #$(OBJS): $(SRCS) $(HDRS) $(MAKEFILE)
 %.o: %.cpp $(HDRS) $(MAKEFILE)
-	$(CC) $(CPPFLAGS) $(CXXFLAGS) $(WARNFLAGS) -c $< -o $@ 
+	$(CC) $(CPPFLAGS) $(CFLAGS) $(WARNFLAGS) -c $< -o $@ 
 	@echo "Compiled "$<" successfully!" 
 
 #random_seed.o : random_seed.cpp $(MAKEFILE)
