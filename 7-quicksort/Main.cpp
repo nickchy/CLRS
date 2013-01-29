@@ -10,6 +10,10 @@ int main(int argc, char *argv[])
 {
     cout<<argv[1]<<endl;
     int length =atoi(argv[1]);
+// generate random seed   
+    unsigned int seed = (unsigned int)time(NULL);
+    srand(seed);
+
     vector<int> list1;
     vector<double> list2;
     list1.resize(length);
@@ -30,5 +34,33 @@ int main(int argc, char *argv[])
     cout<<"Sort the double vector:\n";
     SortAlgo<double>::MergeSort(list2,0,length-1);
     PrintList(list2);
-
+   // re create the list
+    MakeList(list1, length);
+    MakeList(list2, length);
+   cout<<"Now, quick sort: \n\n";
+    cout<<"For double vector:\n";
+    PrintList(list2);
+    cout<<"Sort the double vector:\n";
+    SortAlgo<double>::QuickSort(list2,0,length-1);
+    PrintList(list2);
+    cout<<"For integer vector:\n";
+    PrintList(list1);
+    cout<<"Sort the int vector:\n";
+    SortAlgo<int>::QuickSort(list1,0,length-1);
+    PrintList(list1);
+     
+     MakeList(list1, length);
+    MakeList(list2, length);
+    cout<<"Now, random sampled quick sort: \n\n";
+    cout<<"For double vector:\n";
+    PrintList(list2);
+    cout<<"Sort the double vector:\n";
+    SortAlgo<double>::RandomQuickSort(list2,0,length-1);
+    PrintList(list2);
+    cout<<"For integer vector:\n";
+    PrintList(list1);
+    cout<<"Sort the int vector:\n";
+    SortAlgo<int>::RandomQuickSort(list1,0,length-1);
+    PrintList(list1);
+     
 } 

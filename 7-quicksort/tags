@@ -1,0 +1,1187 @@
+	SortALgo.vim	/^cnoremap  <Home>$/;"	m
+	SortAlgo.vim	/^cnoremap  <Home>$/;"	m
+	SortALgo.vim	/^inoremap  $/;"	m
+	SortAlgo.vim	/^inoremap  $/;"	m
+	SortALgo.vim	/^cnoremap  <End>$/;"	m
+	SortAlgo.vim	/^cnoremap  <End>$/;"	m
+	SortALgo.vim	/^inoremap  $/;"	m
+	SortAlgo.vim	/^inoremap  $/;"	m
+	SortALgo.vim	/^nmap  :h$/;"	m
+	SortAlgo.vim	/^nmap  :h$/;"	m
+	SortALgo.vim	/^cnoremap  $/;"	m
+	SortALgo.vim	/^inoremap <expr>  pumvisible()?"\\<PageUp>\\\\":"\\"$/;"	m
+	SortALgo.vim	/^nmap  :k$/;"	m
+	SortAlgo.vim	/^cnoremap  $/;"	m
+	SortAlgo.vim	/^inoremap <expr>  pumvisible()?"\\<PageUp>\\\\":"\\"$/;"	m
+	SortAlgo.vim	/^nmap  :k$/;"	m
+	SortALgo.vim	/^inoremap  $/;"	m
+	SortALgo.vim	/^nmap  :l$/;"	m
+	SortAlgo.vim	/^inoremap  $/;"	m
+	SortAlgo.vim	/^nmap  :l$/;"	m
+	SortALgo.vim	/^inoremap <expr> $/;"	m
+	SortAlgo.vim	/^inoremap <expr> $/;"	m
+	SortALgo.vim	/^nnoremap <buffer>  :WinManagerGotoNextInGroup "BufExplorer"$/;"	m
+	SortALgo.vim	/^nnoremap <buffer>  :WinManagerGotoNextInGroup "FileExplorer"$/;"	m
+	SortAlgo.vim	/^nnoremap <buffer>  :WinManagerGotoNextInGroup "BufExplorer"$/;"	m
+	SortAlgo.vim	/^nnoremap <buffer>  :WinManagerGotoNextInGroup "FileExplorer"$/;"	m
+	SortALgo.vim	/^nnoremap <buffer>  :WinManagerGotoPrevInGroup "BufExplorer"$/;"	m
+	SortALgo.vim	/^nnoremap <buffer>  :WinManagerGotoPrevInGroup "FileExplorer"$/;"	m
+	SortAlgo.vim	/^nnoremap <buffer>  :WinManagerGotoPrevInGroup "BufExplorer"$/;"	m
+	SortAlgo.vim	/^nnoremap <buffer>  :WinManagerGotoPrevInGroup "FileExplorer"$/;"	m
+	SortALgo.vim	/^inoremap <expr>  pumvisible()?"\\":"\\"$/;"	m
+	SortAlgo.vim	/^inoremap <expr>  pumvisible()?"\\":"\\"$/;"	m
+	SortALgo.vim	/^nmap  :BottomExplorerWindow$/;"	m
+	SortAlgo.vim	/^nmap  :BottomExplorerWindow$/;"	m
+	SortALgo.vim	/^nmap  :FirstExplorerWindow$/;"	m
+	SortAlgo.vim	/^nmap  :FirstExplorerWindow$/;"	m
+	SortALgo.vim	/^inoremap <expr>  omni#cpp#maycomplete#Complete()$/;"	m
+	SortAlgo.vim	/^inoremap <expr>  omni#cpp#maycomplete#Complete()$/;"	m
+	SortALgo.vim	/^inoremap <buffer>  q$/;"	m
+	SortALgo.vim	/^nnoremap <buffer>  q$/;"	m
+	SortALgo.vim	/^inoremap  $/;"	m
+	SortAlgo.vim	/^inoremap  $/;"	m
+	SortALgo.vim	/^nnoremap <buffer>  <Nop>$/;"	m
+	SortAlgo.vim	/^nnoremap <buffer>  <Nop>$/;"	m
+<w-down>	SortALgo.vim	/^nnoremap <w-down> :resize +5$/;"	m
+<w-down>	SortAlgo.vim	/^nnoremap <w-down> :resize +5$/;"	m
+<w-left>	SortALgo.vim	/^nnoremap <w-left> :vertical resize -5$/;"	m
+<w-left>	SortAlgo.vim	/^nnoremap <w-left> :vertical resize -5$/;"	m
+<w-right>	SortALgo.vim	/^nnoremap <w-right> :vertical resize +5$/;"	m
+<w-right>	SortAlgo.vim	/^nnoremap <w-right> :vertical resize +5$/;"	m
+<w-up>	SortALgo.vim	/^nnoremap <w-up> :resize -5$/;"	m
+<w-up>	SortAlgo.vim	/^nnoremap <w-up> :resize -5$/;"	m
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+#	SortALgo.vim	/^vnoremap <silent> # :call VisualSearch('b')$/;"	m
+#	SortAlgo.vim	/^vnoremap <silent> # :call VisualSearch('b')$/;"	m
+*	SortALgo.vim	/^vnoremap <silent> * :call VisualSearch('f')$/;"	m
+*	SortAlgo.vim	/^vnoremap <silent> * :call VisualSearch('f')$/;"	m
+,	SortALgo.vim	/^map <buffer> ,  :make$/;"	m
+,	SortALgo.vim	/^map <buffer> ,  :w!$/;"	m
+,	SortAlgo.vim	/^map <buffer> ,  :make$/;"	m
+,	SortAlgo.vim	/^map <buffer> ,  :w!$/;"	m
+,	SortALgo.vim	/^nmap <silent> ,$/;"	m
+,	SortAlgo.vim	/^nmap <silent> ,$/;"	m
+,$	SortALgo.vim	/^map ,$ :syntax sync fromstart$/;"	m
+,$	SortAlgo.vim	/^map ,$ :syntax sync fromstart$/;"	m
+,1	SortALgo.vim	/^map ,1 :set syntax=cpp$/;"	m
+,1	SortAlgo.vim	/^map ,1 :set syntax=cpp$/;"	m
+,2	SortALgo.vim	/^map ,2 :set syntax=xhtml$/;"	m
+,2	SortAlgo.vim	/^map ,2 :set syntax=xhtml$/;"	m
+,3	SortALgo.vim	/^map ,3 :set syntax=python$/;"	m
+,3	SortAlgo.vim	/^map ,3 :set syntax=python$/;"	m
+,4	SortALgo.vim	/^map ,4 :set ft=javascript$/;"	m
+,4	SortAlgo.vim	/^map ,4 :set ft=javascript$/;"	m
+,<Left>	SortALgo.vim	/^map ,<Left> :bp$/;"	m
+,<Left>	SortAlgo.vim	/^map ,<Left> :bp$/;"	m
+,<Right>	SortALgo.vim	/^map ,<Right> :bn$/;"	m
+,<Right>	SortAlgo.vim	/^map ,<Right> :bn$/;"	m
+,bb	SortALgo.vim	/^nmap <silent> ,bb :TagbarToggle$/;"	m
+,bb	SortAlgo.vim	/^nmap <silent> ,bb :TagbarToggle$/;"	m
+,bd	SortALgo.vim	/^map ,bd :Bclose$/;"	m
+,bd	SortAlgo.vim	/^map ,bd :Bclose$/;"	m
+,c	SortALgo.vim	/^nmap ,c  <Plug>NERDCommenterToggle$/;"	m
+,c	SortALgo.vim	/^vmap ,c  <Plug>NERDCommenterToggle$/;"	m
+,c	SortAlgo.vim	/^nmap ,c  <Plug>NERDCommenterToggle$/;"	m
+,c	SortAlgo.vim	/^vmap ,c  <Plug>NERDCommenterToggle$/;"	m
+,c$	SortALgo.vim	/^nmap ,c$ <Plug>NERDCommenterToEOL$/;"	m
+,c$	SortALgo.vim	/^vmap ,c$ <Plug>NERDCommenterToEOL$/;"	m
+,c$	SortAlgo.vim	/^nmap ,c$ <Plug>NERDCommenterToEOL$/;"	m
+,c$	SortAlgo.vim	/^vmap ,c$ <Plug>NERDCommenterToEOL$/;"	m
+,cA	SortALgo.vim	/^nmap ,cA <Plug>NERDCommenterAppend$/;"	m
+,cA	SortALgo.vim	/^vmap ,cA <Plug>NERDCommenterAppend$/;"	m
+,cA	SortAlgo.vim	/^nmap ,cA <Plug>NERDCommenterAppend$/;"	m
+,cA	SortAlgo.vim	/^vmap ,cA <Plug>NERDCommenterAppend$/;"	m
+,ca	SortALgo.vim	/^nmap ,ca <Plug>NERDCommenterAltDelims$/;"	m
+,ca	SortAlgo.vim	/^nmap ,ca <Plug>NERDCommenterAltDelims$/;"	m
+,cb	SortALgo.vim	/^nmap ,cb <Plug>NERDCommenterAlignBoth$/;"	m
+,cb	SortALgo.vim	/^vmap ,cb <Plug>NERDCommenterAlignBoth$/;"	m
+,cb	SortAlgo.vim	/^nmap ,cb <Plug>NERDCommenterAlignBoth$/;"	m
+,cb	SortAlgo.vim	/^vmap ,cb <Plug>NERDCommenterAlignBoth$/;"	m
+,cc	SortALgo.vim	/^nmap ,cc :botright lw 10$/;"	m
+,cc	SortALgo.vim	/^vmap ,cc <Plug>NERDCommenterComment$/;"	m
+,cc	SortAlgo.vim	/^nmap ,cc <Plug>NERDCommenterComment$/;"	m
+,cc	SortAlgo.vim	/^vmap ,cc <Plug>NERDCommenterComment$/;"	m
+,cd	SortALgo.vim	/^map <silent> ,cd :cd %:p:h$/;"	m
+,cd	SortAlgo.vim	/^map <silent> ,cd :cd %:p:h$/;"	m
+,ci	SortALgo.vim	/^nmap ,ci <Plug>NERDCommenterInvert$/;"	m
+,ci	SortALgo.vim	/^vmap ,ci <Plug>NERDCommenterInvert$/;"	m
+,ci	SortAlgo.vim	/^nmap ,ci <Plug>NERDCommenterInvert$/;"	m
+,ci	SortAlgo.vim	/^vmap ,ci <Plug>NERDCommenterInvert$/;"	m
+,cl	SortALgo.vim	/^nmap ,cl <Plug>NERDCommenterAlignLeft$/;"	m
+,cl	SortALgo.vim	/^vmap ,cl <Plug>NERDCommenterAlignLeft$/;"	m
+,cl	SortAlgo.vim	/^nmap ,cl <Plug>NERDCommenterAlignLeft$/;"	m
+,cl	SortAlgo.vim	/^vmap ,cl <Plug>NERDCommenterAlignLeft$/;"	m
+,cm	SortALgo.vim	/^nmap ,cm <Plug>NERDCommenterMinimal$/;"	m
+,cm	SortALgo.vim	/^vmap ,cm <Plug>NERDCommenterMinimal$/;"	m
+,cm	SortAlgo.vim	/^nmap ,cm <Plug>NERDCommenterMinimal$/;"	m
+,cm	SortAlgo.vim	/^vmap ,cm <Plug>NERDCommenterMinimal$/;"	m
+,cn	SortALgo.vim	/^nmap ,cn :cn$/;"	m
+,cn	SortALgo.vim	/^vmap ,cn <Plug>NERDCommenterNest$/;"	m
+,cn	SortAlgo.vim	/^nmap ,cn <Plug>NERDCommenterNest$/;"	m
+,cn	SortAlgo.vim	/^vmap ,cn <Plug>NERDCommenterNest$/;"	m
+,cp	SortALgo.vim	/^nmap ,cp :cp$/;"	m
+,cp	SortAlgo.vim	/^nmap ,cp :cp$/;"	m
+,cs	SortALgo.vim	/^nmap ,cs <Plug>NERDCommenterSexy$/;"	m
+,cs	SortALgo.vim	/^vmap ,cs <Plug>NERDCommenterSexy$/;"	m
+,cs	SortAlgo.vim	/^nmap ,cs <Plug>NERDCommenterSexy$/;"	m
+,cs	SortAlgo.vim	/^vmap ,cs <Plug>NERDCommenterSexy$/;"	m
+,cu	SortALgo.vim	/^nmap ,cu <Plug>NERDCommenterUncomment$/;"	m
+,cu	SortALgo.vim	/^vmap ,cu <Plug>NERDCommenterUncomment$/;"	m
+,cu	SortAlgo.vim	/^nmap ,cu <Plug>NERDCommenterUncomment$/;"	m
+,cu	SortAlgo.vim	/^vmap ,cu <Plug>NERDCommenterUncomment$/;"	m
+,cw	SortALgo.vim	/^nmap ,cw :botright cw 10$/;"	m
+,cw	SortAlgo.vim	/^nmap ,cw :botright cw 10$/;"	m
+,cy	SortALgo.vim	/^nmap ,cy <Plug>NERDCommenterYank$/;"	m
+,cy	SortALgo.vim	/^vmap ,cy <Plug>NERDCommenterYank$/;"	m
+,cy	SortAlgo.vim	/^nmap ,cy <Plug>NERDCommenterYank$/;"	m
+,cy	SortAlgo.vim	/^vmap ,cy <Plug>NERDCommenterYank$/;"	m
+,dm	SortALgo.vim	/^noremap ,dm mzHmx:%s\/$/;"	m
+,dm	SortAlgo.vim	/^noremap ,dm mzHmx:%s\/$/;"	m
+,ec	SortALgo.vim	/^map ,ec :tabnew ~\/tmp\/scratch.txt$/;"	m
+,ec	SortAlgo.vim	/^map ,ec :tabnew ~\/tmp\/scratch.txt$/;"	m
+,ee	SortALgo.vim	/^map <silent> ,ee :call SwitchToBuf("~\/.vimrc")$/;"	m
+,ee	SortAlgo.vim	/^map <silent> ,ee :call SwitchToBuf("~\/.vimrc")$/;"	m
+,es	SortALgo.vim	/^map ,es :tabnew$/;"	m
+,es	SortAlgo.vim	/^map ,es :tabnew$/;"	m
+,fd	SortALgo.vim	/^nmap ,fd :se ff=dos$/;"	m
+,fd	SortAlgo.vim	/^nmap ,fd :se ff=dos$/;"	m
+,fe	SortALgo.vim	/^nmap <silent> ,fe :Sexplore!$/;"	m
+,fe	SortAlgo.vim	/^nmap <silent> ,fe :Sexplore!$/;"	m
+,fu	SortALgo.vim	/^nmap ,fu :se ff=unix$/;"	m
+,fu	SortAlgo.vim	/^nmap ,fu :se ff=unix$/;"	m
+,hh	SortALgo.vim	/^nmap <silent> ,hh <Plug>MarkClear$/;"	m
+,hh	SortALgo.vim	/^vmap <silent> ,hh <Plug>MarkClear$/;"	m
+,hh	SortAlgo.vim	/^nmap <silent> ,hh <Plug>MarkClear$/;"	m
+,hh	SortAlgo.vim	/^vmap <silent> ,hh <Plug>MarkClear$/;"	m
+,hl	SortALgo.vim	/^nmap <silent> ,hl <Plug>MarkSet$/;"	m
+,hl	SortALgo.vim	/^vmap <silent> ,hl <Plug>MarkSet$/;"	m
+,hl	SortAlgo.vim	/^nmap <silent> ,hl <Plug>MarkSet$/;"	m
+,hl	SortAlgo.vim	/^vmap <silent> ,hl <Plug>MarkSet$/;"	m
+,hr	SortALgo.vim	/^nmap <silent> ,hr <Plug>MarkRegex$/;"	m
+,hr	SortALgo.vim	/^vmap <silent> ,hr <Plug>MarkRegex$/;"	m
+,hr	SortAlgo.vim	/^nmap <silent> ,hr <Plug>MarkRegex$/;"	m
+,hr	SortAlgo.vim	/^vmap <silent> ,hr <Plug>MarkRegex$/;"	m
+,ih	SortALgo.vim	/^imap ,ih :IHS$/;"	m
+,ih	SortALgo.vim	/^nmap ,ih :IHS$/;"	m
+,ih	SortAlgo.vim	/^imap ,ih :IHS$/;"	m
+,ih	SortAlgo.vim	/^nmap ,ih :IHS$/;"	m
+,ihn	SortALgo.vim	/^imap ,ihn :IHN$/;"	m
+,ihn	SortALgo.vim	/^nmap ,ihn :IHN$/;"	m
+,ihn	SortAlgo.vim	/^imap ,ihn :IHN$/;"	m
+,ihn	SortAlgo.vim	/^nmap ,ihn :IHN$/;"	m
+,is	SortALgo.vim	/^imap ,is :IHS$/;"	m
+,is	SortALgo.vim	/^nmap ,is :IHS$/;"	m
+,is	SortAlgo.vim	/^imap ,is :IHS$/;"	m
+,is	SortAlgo.vim	/^nmap ,is :IHS$/;"	m
+,lk	SortALgo.vim	/^nmap <silent> ,lk :LUTags$/;"	m
+,lk	SortAlgo.vim	/^nmap <silent> ,lk :LUTags$/;"	m
+,ll	SortALgo.vim	/^nmap <silent> ,ll :LUBufs$/;"	m
+,ll	SortAlgo.vim	/^nmap <silent> ,ll :LUBufs$/;"	m
+,lv	SortALgo.vim	/^nmap <silent> ,lv :lv \/=expand("<cword>")$/;"	m
+,lv	SortAlgo.vim	/^nmap <silent> ,lv :lv \/=expand("<cword>")$/;"	m
+,lw	SortALgo.vim	/^nmap <silent> ,lw :LUWalk$/;"	m
+,lw	SortAlgo.vim	/^nmap <silent> ,lw :LUWalk$/;"	m
+,ma	SortALgo.vim	/^map <silent> ,ma :ShowMarksClearAll$/;"	m
+,ma	SortAlgo.vim	/^map <silent> ,ma :ShowMarksClearAll$/;"	m
+,mh	SortALgo.vim	/^map <silent> ,mh :ShowMarksClearMark$/;"	m
+,mh	SortAlgo.vim	/^map <silent> ,mh :ShowMarksClearMark$/;"	m
+,mk	SortALgo.vim	/^nmap <silent> ,mk :MarksBrowser$/;"	m
+,mk	SortAlgo.vim	/^nmap <silent> ,mk :MarksBrowser$/;"	m
+,mm	SortALgo.vim	/^map <silent> ,mm :ShowMarksPlaceMark$/;"	m
+,mm	SortAlgo.vim	/^map <silent> ,mm :ShowMarksPlaceMark$/;"	m
+,mo	SortALgo.vim	/^map <silent> ,mo :ShowMarksOn$/;"	m
+,mo	SortAlgo.vim	/^map <silent> ,mo :ShowMarksOn$/;"	m
+,mt	SortALgo.vim	/^map <silent> ,mt :ShowMarksToggle$/;"	m
+,mt	SortAlgo.vim	/^map <silent> ,mt :ShowMarksToggle$/;"	m
+,of	SortALgo.vim	/^nmap <silent> ,of :FSHere$/;"	m
+,of	SortAlgo.vim	/^nmap <silent> ,of :FSHere$/;"	m
+,qa	SortALgo.vim	/^nmap <silent> ,qa :qa$/;"	m
+,qa	SortAlgo.vim	/^nmap <silent> ,qa :qa$/;"	m
+,qf	SortALgo.vim	/^nmap <silent> ,qf :q!$/;"	m
+,qf	SortAlgo.vim	/^nmap <silent> ,qf :q!$/;"	m
+,qq	SortALgo.vim	/^nmap <silent> ,qq :q$/;"	m
+,qq	SortAlgo.vim	/^nmap <silent> ,qq :q$/;"	m
+,qw	SortALgo.vim	/^nmap <silent> ,qw :wq$/;"	m
+,qw	SortAlgo.vim	/^nmap <silent> ,qw :wq$/;"	m
+,rr	SortALgo.vim	/^nmap <silent> ,rr :redraw!$/;"	m
+,rr	SortAlgo.vim	/^nmap <silent> ,rr :redraw!$/;"	m
+,s?	SortALgo.vim	/^map ,s? z=$/;"	m
+,s?	SortAlgo.vim	/^map ,s? z=$/;"	m
+,sa	SortALgo.vim	/^map ,sa zg$/;"	m
+,sa	SortAlgo.vim	/^map ,sa zg$/;"	m
+,sn	SortALgo.vim	/^map ,sn ]s$/;"	m
+,sn	SortAlgo.vim	/^map ,sn ]s$/;"	m
+,sp	SortALgo.vim	/^map ,sp [s$/;"	m
+,sp	SortAlgo.vim	/^map ,sp [s$/;"	m
+,ss	SortALgo.vim	/^map <silent> ,ss :source ~\/.vimrc$/;"	m
+,ss	SortAlgo.vim	/^map <silent> ,ss :source ~\/.vimrc$/;"	m
+,t2	SortALgo.vim	/^map ,t2 :set shiftwidth=2$/;"	m
+,t2	SortAlgo.vim	/^map ,t2 :set shiftwidth=2$/;"	m
+,t4	SortALgo.vim	/^map ,t4 :set shiftwidth=4$/;"	m
+,t4	SortAlgo.vim	/^map ,t4 :set shiftwidth=4$/;"	m
+,tc	SortALgo.vim	/^map ,tc :tabclose$/;"	m
+,tc	SortAlgo.vim	/^map ,tc :tabclose$/;"	m
+,te	SortALgo.vim	/^map ,te :tabedit$/;"	m
+,te	SortAlgo.vim	/^map ,te :tabedit$/;"	m
+,tm	SortALgo.vim	/^map ,tm :tabmove$/;"	m
+,tm	SortAlgo.vim	/^map ,tm :tabmove$/;"	m
+,tn	SortALgo.vim	/^map ,tn :tabnew$/;"	m
+,tn	SortAlgo.vim	/^map ,tn :tabnew$/;"	m
+,tt	SortALgo.vim	/^nmap <silent> ,tt :NERDTreeToggle$/;"	m
+,tt	SortAlgo.vim	/^nmap <silent> ,tt :NERDTreeToggle$/;"	m
+,wf	SortALgo.vim	/^nmap <silent> ,wf :w!$/;"	m
+,wf	SortAlgo.vim	/^nmap <silent> ,wf :w!$/;"	m
+,wm	SortALgo.vim	/^nmap <silent> ,wm :WMToggle$/;"	m
+,wm	SortAlgo.vim	/^nmap <silent> ,wm :WMToggle$/;"	m
+,ws	SortALgo.vim	/^nmap <silent> ,ws :call DeleteTrailingWS()$/;"	m
+,ws	SortAlgo.vim	/^nmap <silent> ,ws :call DeleteTrailingWS()$/;"	m
+,ww	SortALgo.vim	/^nmap <silent> ,ww :w$/;"	m
+,ww	SortAlgo.vim	/^nmap <silent> ,ww :w$/;"	m
+,yr	SortALgo.vim	/^map ,yr :YRShow$/;"	m
+,yr	SortAlgo.vim	/^map ,yr :YRShow$/;"	m
+,zo	SortALgo.vim	/^nmap <silent> ,zo zO$/;"	m
+,zo	SortALgo.vim	/^vmap <silent> ,zo zO$/;"	m
+,zo	SortAlgo.vim	/^nmap <silent> ,zo zO$/;"	m
+,zo	SortAlgo.vim	/^vmap <silent> ,zo zO$/;"	m
+.	SortALgo.vim	/^inoremap <expr> . omni#cpp#maycomplete#Dot()$/;"	m
+.	SortAlgo.vim	/^inoremap <expr> . omni#cpp#maycomplete#Dot()$/;"	m
+/*	SortALgo.vim	/^inoremap <buffer> \/* \/*  *\/<Left><Left><Left>$/;"	m
+/*	SortALgo.vim	/^vnoremap <buffer> \/* s\/*  *\/<Left><Left><Left>p$/;"	m
+/*	SortAlgo.vim	/^inoremap <buffer> \/* \/*  *\/<Left><Left><Left>$/;"	m
+/*	SortAlgo.vim	/^vnoremap <buffer> \/* s\/*  *\/<Left><Left><Left>p$/;"	m
+/*	SortALgo.vim	/^inoremap <buffer> \/*$/;"	m
+/*	SortAlgo.vim	/^inoremap <buffer> \/*$/;"	m
+0	SortALgo.vim	/^normal! 0$/;"	m
+0	SortAlgo.vim	/^normal! 0$/;"	m
+018l	SortALgo.vim	/^normal! 018l$/;"	m
+01l	SortALgo.vim	/^normal! 01l$/;"	m
+025l	SortAlgo.vim	/^normal! 025l$/;"	m
+05l	SortAlgo.vim	/^normal! 05l$/;"	m
+08l	SortALgo.vim	/^normal! 08l$/;"	m
+:	SortALgo.vim	/^inoremap <expr> : omni#cpp#maycomplete#Scope()$/;"	m
+:	SortAlgo.vim	/^inoremap <expr> : omni#cpp#maycomplete#Scope()$/;"	m
+<C-F12>	SortALgo.vim	/^map <C-F12> :!ctags -R --sort=yes --c++-kinds=+pl --fields=+iaS --extra=+q .$/;"	m
+<C-F12>	SortAlgo.vim	/^map <C-F12> :!ctags -R --sort=yes --c++-kinds=+pl --fields=+iaS --extra=+q .$/;"	m
+<C-F9>	SortALgo.vim	/^imap <buffer> <silent> <C-F9> :call C_Run()$/;"	m
+<C-F9>	SortALgo.vim	/^map <buffer> <silent> <C-F9> :call C_Run()$/;"	m
+<C-F9>	SortAlgo.vim	/^imap <buffer> <silent> <C-F9> :call C_Run()$/;"	m
+<C-F9>	SortAlgo.vim	/^map <buffer> <silent> <C-F9> :call C_Run()$/;"	m
+<F1>	SortALgo.vim	/^cmap <F1> $/;"	m
+<F1>	SortALgo.vim	/^imap <F1> $/;"	m
+<F1>	SortALgo.vim	/^nmap <F1> $/;"	m
+<F1>	SortALgo.vim	/^vmap <F1> $/;"	m
+<F1>	SortAlgo.vim	/^cmap <F1> $/;"	m
+<F1>	SortAlgo.vim	/^imap <F1> $/;"	m
+<F1>	SortAlgo.vim	/^nmap <F1> $/;"	m
+<F1>	SortAlgo.vim	/^vmap <F1> $/;"	m
+<F3>	SortALgo.vim	/^noremap <silent> <F3>  :TlistUpdate$/;"	m
+<F3>	SortAlgo.vim	/^noremap <silent> <F3>  :TlistUpdate$/;"	m
+<F5>	SortALgo.vim	/^imap <silent> <expr> <F5> (pumvisible() ? "\\<Plug>LookupFileCE" : "")."\\\\<Plug>LookupFile"$/;"	m
+<F5>	SortALgo.vim	/^nmap <silent> <F5> <Plug>LookupFile$/;"	m
+<F5>	SortAlgo.vim	/^imap <silent> <expr> <F5> (pumvisible() ? "\\<Plug>LookupFileCE" : "")."\\\\<Plug>LookupFile"$/;"	m
+<F5>	SortAlgo.vim	/^nmap <silent> <F5> <Plug>LookupFile$/;"	m
+<F8>	SortALgo.vim	/^nmap <silent> <F8>  :Tlist$/;"	m
+<F8>	SortAlgo.vim	/^nmap <silent> <F8>  :Tlist$/;"	m
+<F9>	SortALgo.vim	/^imap <buffer> <silent> <F9> :call C_Link()$/;"	m
+<F9>	SortALgo.vim	/^map <buffer> <silent> <F9> :call C_Link()$/;"	m
+<F9>	SortAlgo.vim	/^imap <buffer> <silent> <F9> :call C_Link()$/;"	m
+<F9>	SortAlgo.vim	/^map <buffer> <silent> <F9> :call C_Link()$/;"	m
+<M-F9>	SortALgo.vim	/^imap <buffer> <silent> <M-F9> :call C_Compile()$/;"	m
+<M-F9>	SortALgo.vim	/^map <buffer> <silent> <M-F9> :call C_Compile()$/;"	m
+<M-F9>	SortAlgo.vim	/^imap <buffer> <silent> <M-F9> :call C_Compile()$/;"	m
+<M-F9>	SortAlgo.vim	/^map <buffer> <silent> <M-F9> :call C_Compile()$/;"	m
+<NL>	SortALgo.vim	/^imap <buffer> <silent> <NL> =C_JumpCtrlJ()$/;"	m
+<NL>	SortALgo.vim	/^inoremap <expr> <NL> pumvisible()?"\\<PageDown>\\\\":"\\"$/;"	m
+<NL>	SortALgo.vim	/^nmap <NL> :j$/;"	m
+<NL>	SortALgo.vim	/^nmap <buffer> <silent> <NL> i=C_JumpCtrlJ()$/;"	m
+<NL>	SortALgo.vim	/^vmap <NL> <Plug>IMAP_JumpForward$/;"	m
+<NL>	SortAlgo.vim	/^imap <NL> <Plug>IMAP_JumpForward$/;"	m
+<NL>	SortAlgo.vim	/^imap <buffer> <silent> <NL> =C_JumpCtrlJ()$/;"	m
+<NL>	SortAlgo.vim	/^nmap <NL> <Plug>IMAP_JumpForward$/;"	m
+<NL>	SortAlgo.vim	/^nmap <buffer> <silent> <NL> i=C_JumpCtrlJ()$/;"	m
+<NL>	SortAlgo.vim	/^vmap <NL> <Plug>IMAP_JumpForward$/;"	m
+<Nul>c	SortALgo.vim	/^nmap <Nul>c :cs find c =expand("<cword>")$/;"	m
+<Nul>c	SortAlgo.vim	/^nmap <Nul>c :cs find c =expand("<cword>")$/;"	m
+<Nul>d	SortALgo.vim	/^nmap <Nul>d :cs find d =expand("<cword>")$/;"	m
+<Nul>d	SortAlgo.vim	/^nmap <Nul>d :cs find d =expand("<cword>")$/;"	m
+<Nul>e	SortALgo.vim	/^nmap <Nul>e :cs find e =expand("<cword>")$/;"	m
+<Nul>e	SortAlgo.vim	/^nmap <Nul>e :cs find e =expand("<cword>")$/;"	m
+<Nul>f	SortALgo.vim	/^nmap <Nul>f :cs find f =expand("<cfile>")$/;"	m
+<Nul>f	SortAlgo.vim	/^nmap <Nul>f :cs find f =expand("<cfile>")$/;"	m
+<Nul>g	SortALgo.vim	/^nmap <Nul>g :cs find g =expand("<cword>")$/;"	m
+<Nul>g	SortAlgo.vim	/^nmap <Nul>g :cs find g =expand("<cword>")$/;"	m
+<Nul>i	SortALgo.vim	/^nmap <Nul>i :cs find i ^=expand("<cfile>")$/;"	m
+<Nul>i	SortAlgo.vim	/^nmap <Nul>i :cs find i ^=expand("<cfile>")$/;"	m
+<Nul>s	SortALgo.vim	/^nmap <Nul>s :cs find s =expand("<cword>")$/;"	m
+<Nul>s	SortAlgo.vim	/^nmap <Nul>s :cs find s =expand("<cword>")$/;"	m
+<Nul>t	SortALgo.vim	/^nmap <Nul>t :cs find t =expand("<cword>")$/;"	m
+<Nul>t	SortAlgo.vim	/^nmap <Nul>t :cs find t =expand("<cword>")$/;"	m
+<Plug>IMAP_DeleteAndJumpBack	SortALgo.vim	/^vmap <silent> <Plug>IMAP_DeleteAndJumpBack "_<Del>i=IMAP_Jumpfunc('b', 0)$/;"	m
+<Plug>IMAP_DeleteAndJumpBack	SortAlgo.vim	/^vmap <silent> <Plug>IMAP_DeleteAndJumpBack "_<Del>i=IMAP_Jumpfunc('b', 0)$/;"	m
+<Plug>IMAP_DeleteAndJumpForward	SortALgo.vim	/^vmap <silent> <Plug>IMAP_DeleteAndJumpForward "_<Del>i=IMAP_Jumpfunc('', 0)$/;"	m
+<Plug>IMAP_DeleteAndJumpForward	SortAlgo.vim	/^vmap <silent> <Plug>IMAP_DeleteAndJumpForward "_<Del>i=IMAP_Jumpfunc('', 0)$/;"	m
+<Plug>IMAP_JumpBack	SortALgo.vim	/^imap <silent> <Plug>IMAP_JumpBack =IMAP_Jumpfunc('b', 0)$/;"	m
+<Plug>IMAP_JumpBack	SortALgo.vim	/^nmap <silent> <Plug>IMAP_JumpBack i=IMAP_Jumpfunc('b', 0)$/;"	m
+<Plug>IMAP_JumpBack	SortALgo.vim	/^vmap <silent> <Plug>IMAP_JumpBack `<i=IMAP_Jumpfunc('b', 0)$/;"	m
+<Plug>IMAP_JumpBack	SortAlgo.vim	/^imap <silent> <Plug>IMAP_JumpBack =IMAP_Jumpfunc('b', 0)$/;"	m
+<Plug>IMAP_JumpBack	SortAlgo.vim	/^nmap <silent> <Plug>IMAP_JumpBack i=IMAP_Jumpfunc('b', 0)$/;"	m
+<Plug>IMAP_JumpBack	SortAlgo.vim	/^vmap <silent> <Plug>IMAP_JumpBack `<i=IMAP_Jumpfunc('b', 0)$/;"	m
+<Plug>IMAP_JumpForward	SortALgo.vim	/^imap <silent> <Plug>IMAP_JumpForward =IMAP_Jumpfunc('', 0)$/;"	m
+<Plug>IMAP_JumpForward	SortALgo.vim	/^nmap <silent> <Plug>IMAP_JumpForward i=IMAP_Jumpfunc('', 0)$/;"	m
+<Plug>IMAP_JumpForward	SortALgo.vim	/^vmap <silent> <Plug>IMAP_JumpForward i=IMAP_Jumpfunc('', 0)$/;"	m
+<Plug>IMAP_JumpForward	SortAlgo.vim	/^imap <silent> <Plug>IMAP_JumpForward =IMAP_Jumpfunc('', 0)$/;"	m
+<Plug>IMAP_JumpForward	SortAlgo.vim	/^nmap <silent> <Plug>IMAP_JumpForward i=IMAP_Jumpfunc('', 0)$/;"	m
+<Plug>IMAP_JumpForward	SortAlgo.vim	/^vmap <silent> <Plug>IMAP_JumpForward i=IMAP_Jumpfunc('', 0)$/;"	m
+<Plug>LookupFileCE	SortALgo.vim	/^inoremap <Plug>LookupFileCE $/;"	m
+<Plug>LookupFileCE	SortAlgo.vim	/^inoremap <Plug>LookupFileCE $/;"	m
+<Plug>NERDCommenterAlignBoth	SortALgo.vim	/^nnoremap <silent> <Plug>NERDCommenterAlignBoth :call NERDComment(0, "alignBoth")$/;"	m
+<Plug>NERDCommenterAlignBoth	SortALgo.vim	/^vnoremap <silent> <Plug>NERDCommenterAlignBoth :call NERDComment(1, "alignBoth")$/;"	m
+<Plug>NERDCommenterAlignBoth	SortAlgo.vim	/^nnoremap <silent> <Plug>NERDCommenterAlignBoth :call NERDComment(0, "alignBoth")$/;"	m
+<Plug>NERDCommenterAlignBoth	SortAlgo.vim	/^vnoremap <silent> <Plug>NERDCommenterAlignBoth :call NERDComment(1, "alignBoth")$/;"	m
+<Plug>NERDCommenterAlignLeft	SortALgo.vim	/^nnoremap <silent> <Plug>NERDCommenterAlignLeft :call NERDComment(0, "alignLeft")$/;"	m
+<Plug>NERDCommenterAlignLeft	SortALgo.vim	/^vnoremap <silent> <Plug>NERDCommenterAlignLeft :call NERDComment(1, "alignLeft")$/;"	m
+<Plug>NERDCommenterAlignLeft	SortAlgo.vim	/^nnoremap <silent> <Plug>NERDCommenterAlignLeft :call NERDComment(0, "alignLeft")$/;"	m
+<Plug>NERDCommenterAlignLeft	SortAlgo.vim	/^vnoremap <silent> <Plug>NERDCommenterAlignLeft :call NERDComment(1, "alignLeft")$/;"	m
+<Plug>NERDCommenterAppend	SortALgo.vim	/^nmap <silent> <Plug>NERDCommenterAppend :call NERDComment(0, "append")$/;"	m
+<Plug>NERDCommenterAppend	SortAlgo.vim	/^nmap <silent> <Plug>NERDCommenterAppend :call NERDComment(0, "append")$/;"	m
+<Plug>NERDCommenterComment	SortALgo.vim	/^nnoremap <silent> <Plug>NERDCommenterComment :call NERDComment(0, "norm")$/;"	m
+<Plug>NERDCommenterComment	SortALgo.vim	/^vnoremap <silent> <Plug>NERDCommenterComment :call NERDComment(1, "norm")$/;"	m
+<Plug>NERDCommenterComment	SortAlgo.vim	/^nnoremap <silent> <Plug>NERDCommenterComment :call NERDComment(0, "norm")$/;"	m
+<Plug>NERDCommenterComment	SortAlgo.vim	/^vnoremap <silent> <Plug>NERDCommenterComment :call NERDComment(1, "norm")$/;"	m
+<Plug>NERDCommenterInInsert	SortALgo.vim	/^inoremap <silent> <Plug>NERDCommenterInInsert  <BS>:call NERDComment(0, "insert")$/;"	m
+<Plug>NERDCommenterInInsert	SortAlgo.vim	/^inoremap <silent> <Plug>NERDCommenterInInsert  <BS>:call NERDComment(0, "insert")$/;"	m
+<Plug>NERDCommenterInvert	SortALgo.vim	/^nnoremap <silent> <Plug>NERDCommenterInvert :call NERDComment(0, "invert")$/;"	m
+<Plug>NERDCommenterInvert	SortALgo.vim	/^vnoremap <silent> <Plug>NERDCommenterInvert :call NERDComment(1, "invert")$/;"	m
+<Plug>NERDCommenterInvert	SortAlgo.vim	/^nnoremap <silent> <Plug>NERDCommenterInvert :call NERDComment(0, "invert")$/;"	m
+<Plug>NERDCommenterInvert	SortAlgo.vim	/^vnoremap <silent> <Plug>NERDCommenterInvert :call NERDComment(1, "invert")$/;"	m
+<Plug>NERDCommenterMinimal	SortALgo.vim	/^nnoremap <silent> <Plug>NERDCommenterMinimal :call NERDComment(0, "minimal")$/;"	m
+<Plug>NERDCommenterMinimal	SortALgo.vim	/^vnoremap <silent> <Plug>NERDCommenterMinimal :call NERDComment(1, "minimal")$/;"	m
+<Plug>NERDCommenterMinimal	SortAlgo.vim	/^nnoremap <silent> <Plug>NERDCommenterMinimal :call NERDComment(0, "minimal")$/;"	m
+<Plug>NERDCommenterMinimal	SortAlgo.vim	/^vnoremap <silent> <Plug>NERDCommenterMinimal :call NERDComment(1, "minimal")$/;"	m
+<Plug>NERDCommenterNest	SortALgo.vim	/^nnoremap <silent> <Plug>NERDCommenterNest :call NERDComment(0, "nested")$/;"	m
+<Plug>NERDCommenterNest	SortALgo.vim	/^vnoremap <silent> <Plug>NERDCommenterNest :call NERDComment(1, "nested")$/;"	m
+<Plug>NERDCommenterNest	SortAlgo.vim	/^nnoremap <silent> <Plug>NERDCommenterNest :call NERDComment(0, "nested")$/;"	m
+<Plug>NERDCommenterNest	SortAlgo.vim	/^vnoremap <silent> <Plug>NERDCommenterNest :call NERDComment(1, "nested")$/;"	m
+<Plug>NERDCommenterSexy	SortALgo.vim	/^nnoremap <silent> <Plug>NERDCommenterSexy :call NERDComment(0, "sexy")$/;"	m
+<Plug>NERDCommenterSexy	SortALgo.vim	/^vnoremap <silent> <Plug>NERDCommenterSexy :call NERDComment(1, "sexy")$/;"	m
+<Plug>NERDCommenterSexy	SortAlgo.vim	/^nnoremap <silent> <Plug>NERDCommenterSexy :call NERDComment(0, "sexy")$/;"	m
+<Plug>NERDCommenterSexy	SortAlgo.vim	/^vnoremap <silent> <Plug>NERDCommenterSexy :call NERDComment(1, "sexy")$/;"	m
+<Plug>NERDCommenterToEOL	SortALgo.vim	/^nnoremap <silent> <Plug>NERDCommenterToEOL :call NERDComment(0, "toEOL")$/;"	m
+<Plug>NERDCommenterToEOL	SortAlgo.vim	/^nnoremap <silent> <Plug>NERDCommenterToEOL :call NERDComment(0, "toEOL")$/;"	m
+<Plug>NERDCommenterToggle	SortALgo.vim	/^nnoremap <silent> <Plug>NERDCommenterToggle :call NERDComment(0, "toggle")$/;"	m
+<Plug>NERDCommenterToggle	SortALgo.vim	/^vnoremap <silent> <Plug>NERDCommenterToggle :call NERDComment(1, "toggle")$/;"	m
+<Plug>NERDCommenterToggle	SortAlgo.vim	/^nnoremap <silent> <Plug>NERDCommenterToggle :call NERDComment(0, "toggle")$/;"	m
+<Plug>NERDCommenterToggle	SortAlgo.vim	/^vnoremap <silent> <Plug>NERDCommenterToggle :call NERDComment(1, "toggle")$/;"	m
+<Plug>NERDCommenterUncomment	SortALgo.vim	/^nnoremap <silent> <Plug>NERDCommenterUncomment :call NERDComment(0, "uncomment")$/;"	m
+<Plug>NERDCommenterUncomment	SortALgo.vim	/^vnoremap <silent> <Plug>NERDCommenterUncomment :call NERDComment(1, "uncomment")$/;"	m
+<Plug>NERDCommenterUncomment	SortAlgo.vim	/^nnoremap <silent> <Plug>NERDCommenterUncomment :call NERDComment(0, "uncomment")$/;"	m
+<Plug>NERDCommenterUncomment	SortAlgo.vim	/^vnoremap <silent> <Plug>NERDCommenterUncomment :call NERDComment(1, "uncomment")$/;"	m
+<Plug>NERDCommenterYank	SortALgo.vim	/^nmap <silent> <Plug>NERDCommenterYank :call NERDComment(0, "yank")$/;"	m
+<Plug>NERDCommenterYank	SortALgo.vim	/^vmap <silent> <Plug>NERDCommenterYank :call NERDComment(1, "yank")$/;"	m
+<Plug>NERDCommenterYank	SortAlgo.vim	/^nmap <silent> <Plug>NERDCommenterYank :call NERDComment(0, "yank")$/;"	m
+<Plug>NERDCommenterYank	SortAlgo.vim	/^vmap <silent> <Plug>NERDCommenterYank :call NERDComment(1, "yank")$/;"	m
+<Plug>NetrwBrowseX	SortALgo.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)$/;"	m
+<Plug>NetrwBrowseX	SortAlgo.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)$/;"	m
+<S-F9>	SortALgo.vim	/^imap <buffer> <silent> <S-F9> :call C_Arguments()$/;"	m
+<S-F9>	SortALgo.vim	/^map <buffer> <silent> <S-F9> :call C_Arguments()$/;"	m
+<S-F9>	SortAlgo.vim	/^imap <buffer> <silent> <S-F9> :call C_Arguments()$/;"	m
+<S-F9>	SortAlgo.vim	/^map <buffer> <silent> <S-F9> :call C_Arguments()$/;"	m
+<S-Insert>	SortALgo.vim	/^map <S-Insert> <MiddleMouse>$/;"	m
+<S-Insert>	SortALgo.vim	/^map! <S-Insert> <MiddleMouse>$/;"	m
+<S-Insert>	SortAlgo.vim	/^map <S-Insert> <MiddleMouse>$/;"	m
+<S-Insert>	SortAlgo.vim	/^map! <S-Insert> <MiddleMouse>$/;"	m
+>	SortALgo.vim	/^inoremap <expr> > omni#cpp#maycomplete#Arrow()$/;"	m
+>	SortAlgo.vim	/^inoremap <expr> > omni#cpp#maycomplete#Arrow()$/;"	m
+BOOST_INCLUDEDIR	make_sort.mak	/^BOOST_INCLUDEDIR = \/home\/nick\/boost_1_51_0\/include\/$/;"	m
+BOOST_LIBDIR	make_sort.mak	/^BOOST_LIBDIR = \/home\/nick\/boost_1_51_0\/lib\/$/;"	m
+CC	make_sort.mak	/^CC= g++$/;"	m
+CFLAGS	make_sort.mak	/^CFLAGS=  -g -O0$/;"	m
+COMMAND	make_sort.mak	/^COMMAND= Main$/;"	m
+CPPFLAGS	make_sort.mak	/^CPPFLAGS := \\$/;"	m
+G	SortALgo.vim	/^nnoremap <buffer> <silent> G :keepjumps normal! G$/;"	m
+G	SortAlgo.vim	/^nnoremap <buffer> <silent> G :keepjumps normal! G$/;"	m
+H	SortALgo.vim	/^nnoremap <buffer> <silent> H :keepjumps normal! H$/;"	m
+H	SortAlgo.vim	/^nnoremap <buffer> <silent> H :keepjumps normal! H$/;"	m
+HDRS	make_sort.mak	/^HDRS= \\$/;"	m
+INCLUDEDIR	make_sort.mak	/^INCLUDEDIR = \/home\/nick\/CLRS\/util\/$/;"	m
+L	SortALgo.vim	/^nnoremap <buffer> <silent> L :keepjumps normal! L$/;"	m
+L	SortAlgo.cpp	/^   vector<T> L;$/;"	l
+L	SortAlgo.vim	/^nnoremap <buffer> <silent> L :keepjumps normal! L$/;"	m
+LDFLAGS	make_sort.mak	/^LDFLAGS  := \\$/;"	m
+LIBDIR	make_sort.mak	/^LIBDIR = \/home\/nick\/CLRS\/util\/$/;"	m
+LIB_SMODULES	make_sort.mak	/^LIB_SMODULES := $(addprefix -l,$(SMODULES))$/;"	m
+LIST_LEN	7-1_quicksort.c	5;"	d	file:
+M	SortALgo.vim	/^nnoremap <buffer> <silent> M :keepjumps normal! M$/;"	m
+M	SortAlgo.vim	/^nnoremap <buffer> <silent> M :keepjumps normal! M$/;"	m
+MAKEFILE	make_sort.mak	/^MAKEFILE= make_heap.mak$/;"	m
+MOREFLAGS	make_sort.mak	/^MOREFLAGS= -ansi -pedantic -Wpointer-arith -Wcast-qual -Wcast-align \\$/;"	m
+Merge	SortAlgo.cpp	/^void SortAlgo<T>::Merge (vector<T>& List, int low, int mid, int high)$/;"	f	class:SortAlgo	signature:(vector<T>& List, int low, int mid, int high)
+Merge	SortAlgo.h	/^        static void Merge (vector<T>& List, int low, int mid, int high);$/;"	p	class:SortAlgo	access:public	signature:(vector<T>& List, int low, int mid, int high)
+MergeSort	Main.cpp	/^    SortAlgo<double>::MergeSort(list2,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list2,0,length-1)
+MergeSort	Main.cpp	/^    SortAlgo<int>::MergeSort(list1,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list1,0,length-1)
+MergeSort	Main.cpp	/^    SortAlgo<int>::MergeSort(list1,2,length-2);$/;"	p	class:SortAlgo	file:	signature:(list1,2,length-2)
+MergeSort	SortAlgo.cpp	/^void SortAlgo<T>::MergeSort ( vector<T>& List,int low, int high)$/;"	f	class:SortAlgo	signature:( vector<T>& List,int low, int high)
+MergeSort	SortAlgo.h	/^        static void MergeSort ( vector<T>& List,int low, int high);$/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List,int low, int high)
+N	SortALgo.vim	/^nnoremap <buffer> <silent> N :keepjumps normal! N$/;"	m
+N	SortAlgo.vim	/^nnoremap <buffer> <silent> N :keepjumps normal! N$/;"	m
+OBJS	make_sort.mak	/^OBJS= $(addsuffix .o, $(basename $(SRCS)))$/;"	m
+Partition	SortAlgo.h	/^       static int Partition ( vector<T>& List, int Low,int high);$/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List, int Low,int high)
+R	SortAlgo.cpp	/^   vector<T> R;$/;"	l
+SHELL	make_sort.mak	/^SHELL=\/bin\/sh$/;"	m
+SMODULES	make_sort.mak	/^SMODULES := \\$/;"	m
+SORTALGO_H	SortAlgo.h	20;"	d
+SRCS	make_sort.mak	/^SRCS= \\$/;"	m
+SessionLoad	SortALgo.vim	/^let SessionLoad = 1$/;"	v
+SessionLoad	SortAlgo.vim	/^let SessionLoad = 1$/;"	v
+SortAlgo	SortAlgo.cpp	/^SortAlgo< T >::SortAlgo ()$/;"	f	class:SortAlgo	signature:()
+SortAlgo	SortAlgo.h	/^          SortAlgo ();$/;"	p	class:SortAlgo	access:public	signature:()
+SortAlgo	SortAlgo.h	/^class SortAlgo$/;"	c
+SortAlgo::Merge	SortAlgo.cpp	/^void SortAlgo<T>::Merge (vector<T>& List, int low, int mid, int high)$/;"	f	class:SortAlgo	signature:(vector<T>& List, int low, int mid, int high)
+SortAlgo::Merge	SortAlgo.h	/^        static void Merge (vector<T>& List, int low, int mid, int high);$/;"	p	class:SortAlgo	access:public	signature:(vector<T>& List, int low, int mid, int high)
+SortAlgo::MergeSort	Main.cpp	/^    SortAlgo<double>::MergeSort(list2,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list2,0,length-1)
+SortAlgo::MergeSort	Main.cpp	/^    SortAlgo<int>::MergeSort(list1,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list1,0,length-1)
+SortAlgo::MergeSort	Main.cpp	/^    SortAlgo<int>::MergeSort(list1,2,length-2);$/;"	p	class:SortAlgo	file:	signature:(list1,2,length-2)
+SortAlgo::MergeSort	SortAlgo.cpp	/^void SortAlgo<T>::MergeSort ( vector<T>& List,int low, int high)$/;"	f	class:SortAlgo	signature:( vector<T>& List,int low, int high)
+SortAlgo::MergeSort	SortAlgo.h	/^        static void MergeSort ( vector<T>& List,int low, int high);$/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List,int low, int high)
+SortAlgo::Partition	SortAlgo.h	/^       static int Partition ( vector<T>& List, int Low,int high);$/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List, int Low,int high)
+SortAlgo::SortAlgo	SortAlgo.cpp	/^SortAlgo< T >::SortAlgo ()$/;"	f	class:SortAlgo	signature:()
+SortAlgo::SortAlgo	SortAlgo.h	/^          SortAlgo ();$/;"	p	class:SortAlgo	access:public	signature:()
+SortAlgo::~SortAlgo	SortAlgo.cpp	/^SortAlgo< T >::~SortAlgo ()$/;"	f	class:SortAlgo	signature:()
+SortAlgo::~SortAlgo	SortAlgo.h	/^        ~SortAlgo ();$/;"	p	class:SortAlgo	access:public	signature:()
+WARNFLAGS	make_sort.mak	/^WARNFLAGS= -Werror -Wall$/;"	m
+["	SortALgo.vim	/^nnoremap <buffer> <silent> [" :call search('\\%(^\\s*".*\\n\\)\\%(^\\s*"\\)\\@!', "bW")$/;"	m
+["	SortALgo.vim	/^vnoremap <buffer> <silent> [" :exe "normal! gv"|call search('\\%(^\\s*".*\\n\\)\\%(^\\s*"\\)\\@!', "bW")$/;"	m
+["	SortAlgo.vim	/^nnoremap <buffer> <silent> [" :call search('\\%(^\\s*".*\\n\\)\\%(^\\s*"\\)\\@!', "bW")$/;"	m
+["	SortAlgo.vim	/^vnoremap <buffer> <silent> [" :exe "normal! gv"|call search('\\%(^\\s*".*\\n\\)\\%(^\\s*"\\)\\@!', "bW")$/;"	m
+[%	SortALgo.vim	/^vmap [% [%m'gv``$/;"	m
+[%	SortAlgo.vim	/^vmap [% [%m'gv``$/;"	m
+[[	SortALgo.vim	/^nnoremap <buffer> <silent> [[ m':call search('^\\s*fu\\%[nction]\\>', "bW")$/;"	m
+[[	SortALgo.vim	/^vnoremap <buffer> <silent> [[ m':exe "normal! gv"|call search('^\\s*fu\\%[nction]\\>', "bW")$/;"	m
+[[	SortAlgo.vim	/^nnoremap <buffer> <silent> [[ m':call search('^\\s*fu\\%[nction]\\>', "bW")$/;"	m
+[[	SortAlgo.vim	/^vnoremap <buffer> <silent> [[ m':exe "normal! gv"|call search('^\\s*fu\\%[nction]\\>', "bW")$/;"	m
+[]	SortALgo.vim	/^nnoremap <buffer> <silent> [] m':call search('^\\s*endf*\\%[unction]\\>', "bW")$/;"	m
+[]	SortALgo.vim	/^vnoremap <buffer> <silent> [] m':exe "normal! gv"|call search('^\\s*endf*\\%[unction]\\>', "bW")$/;"	m
+[]	SortAlgo.vim	/^nnoremap <buffer> <silent> [] m':call search('^\\s*endf*\\%[unction]\\>', "bW")$/;"	m
+[]	SortAlgo.vim	/^vnoremap <buffer> <silent> [] m':exe "normal! gv"|call search('^\\s*endf*\\%[unction]\\>', "bW")$/;"	m
+\+"	SortALgo.vim	/^inoremap <buffer> <silent> \\+" :call C_InsertTemplate("cpp.cout-operator")$/;"	m
+\+"	SortALgo.vim	/^noremap <buffer> <silent> \\+" :call C_InsertTemplate("cpp.cout-operator")$/;"	m
+\+"	SortAlgo.vim	/^inoremap <buffer> <silent> \\+" :call C_InsertTemplate("cpp.cout-operator")$/;"	m
+\+"	SortAlgo.vim	/^noremap <buffer> <silent> \\+" :call C_InsertTemplate("cpp.cout-operator")$/;"	m
+\+ai	SortALgo.vim	/^inoremap <buffer> <silent> \\+ai :call C_InsertTemplate("cpp.accessor-implementation")$/;"	m
+\+ai	SortALgo.vim	/^noremap <buffer> <silent> \\+ai :call C_InsertTemplate("cpp.accessor-implementation")$/;"	m
+\+ai	SortAlgo.vim	/^inoremap <buffer> <silent> \\+ai :call C_InsertTemplate("cpp.accessor-implementation")$/;"	m
+\+ai	SortAlgo.vim	/^noremap <buffer> <silent> \\+ai :call C_InsertTemplate("cpp.accessor-implementation")$/;"	m
+\+c	SortALgo.vim	/^inoremap <buffer> <silent> \\+c :call C_InsertTemplate("cpp.class-definition")$/;"	m
+\+c	SortALgo.vim	/^noremap <buffer> <silent> \\+c :call C_InsertTemplate("cpp.class-definition")$/;"	m
+\+c	SortAlgo.vim	/^inoremap <buffer> <silent> \\+c :call C_InsertTemplate("cpp.class-definition")$/;"	m
+\+c	SortAlgo.vim	/^noremap <buffer> <silent> \\+c :call C_InsertTemplate("cpp.class-definition")$/;"	m
+\+c.	SortALgo.vim	/^inoremap <buffer> <silent> \\+c. :call C_InsertTemplate("cpp.catch-points")$/;"	m
+\+c.	SortALgo.vim	/^nnoremap <buffer> <silent> \\+c. :call C_InsertTemplate("cpp.catch-points")$/;"	m
+\+c.	SortALgo.vim	/^onoremap <buffer> <silent> \\+c. :call C_InsertTemplate("cpp.catch-points")$/;"	m
+\+c.	SortALgo.vim	/^vnoremap <buffer> <silent> \\+c. :call C_InsertTemplate("cpp.catch-points", "v")$/;"	m
+\+c.	SortAlgo.vim	/^inoremap <buffer> <silent> \\+c. :call C_InsertTemplate("cpp.catch-points")$/;"	m
+\+c.	SortAlgo.vim	/^nnoremap <buffer> <silent> \\+c. :call C_InsertTemplate("cpp.catch-points")$/;"	m
+\+c.	SortAlgo.vim	/^onoremap <buffer> <silent> \\+c. :call C_InsertTemplate("cpp.catch-points")$/;"	m
+\+c.	SortAlgo.vim	/^vnoremap <buffer> <silent> \\+c. :call C_InsertTemplate("cpp.catch-points", "v")$/;"	m
+\+ca	SortALgo.vim	/^inoremap <buffer> <silent> \\+ca :call C_InsertTemplate("cpp.catch")$/;"	m
+\+ca	SortALgo.vim	/^nnoremap <buffer> <silent> \\+ca :call C_InsertTemplate("cpp.catch")$/;"	m
+\+ca	SortALgo.vim	/^onoremap <buffer> <silent> \\+ca :call C_InsertTemplate("cpp.catch")$/;"	m
+\+ca	SortALgo.vim	/^vnoremap <buffer> <silent> \\+ca :call C_InsertTemplate("cpp.catch", "v")$/;"	m
+\+ca	SortAlgo.vim	/^inoremap <buffer> <silent> \\+ca :call C_InsertTemplate("cpp.catch")$/;"	m
+\+ca	SortAlgo.vim	/^nnoremap <buffer> <silent> \\+ca :call C_InsertTemplate("cpp.catch")$/;"	m
+\+ca	SortAlgo.vim	/^onoremap <buffer> <silent> \\+ca :call C_InsertTemplate("cpp.catch")$/;"	m
+\+ca	SortAlgo.vim	/^vnoremap <buffer> <silent> \\+ca :call C_InsertTemplate("cpp.catch", "v")$/;"	m
+\+ci	SortALgo.vim	/^inoremap <buffer> <silent> \\+ci :call C_InsertTemplate("cpp.class-implementation")$/;"	m
+\+ci	SortALgo.vim	/^noremap <buffer> <silent> \\+ci :call C_InsertTemplate("cpp.class-implementation")$/;"	m
+\+ci	SortAlgo.vim	/^inoremap <buffer> <silent> \\+ci :call C_InsertTemplate("cpp.class-implementation")$/;"	m
+\+ci	SortAlgo.vim	/^noremap <buffer> <silent> \\+ci :call C_InsertTemplate("cpp.class-implementation")$/;"	m
+\+cn	SortALgo.vim	/^inoremap <buffer> <silent> \\+cn :call C_InsertTemplate("cpp.class-using-new-definition")$/;"	m
+\+cn	SortALgo.vim	/^noremap <buffer> <silent> \\+cn :call C_InsertTemplate("cpp.class-using-new-definition")$/;"	m
+\+cn	SortAlgo.vim	/^inoremap <buffer> <silent> \\+cn :call C_InsertTemplate("cpp.class-using-new-definition")$/;"	m
+\+cn	SortAlgo.vim	/^noremap <buffer> <silent> \\+cn :call C_InsertTemplate("cpp.class-using-new-definition")$/;"	m
+\+cni	SortALgo.vim	/^inoremap <buffer> <silent> \\+cni :call C_InsertTemplate("cpp.class-using-new-implementation")$/;"	m
+\+cni	SortALgo.vim	/^noremap <buffer> <silent> \\+cni :call C_InsertTemplate("cpp.class-using-new-implementation")$/;"	m
+\+cni	SortAlgo.vim	/^inoremap <buffer> <silent> \\+cni :call C_InsertTemplate("cpp.class-using-new-implementation")$/;"	m
+\+cni	SortAlgo.vim	/^noremap <buffer> <silent> \\+cni :call C_InsertTemplate("cpp.class-using-new-implementation")$/;"	m
+\+co	SortALgo.vim	/^inoremap <buffer> <silent> \\+co :call C_InsertTemplate("cpp.cout")$/;"	m
+\+co	SortALgo.vim	/^noremap <buffer> <silent> \\+co :call C_InsertTemplate("cpp.cout")$/;"	m
+\+co	SortAlgo.vim	/^inoremap <buffer> <silent> \\+co :call C_InsertTemplate("cpp.cout")$/;"	m
+\+co	SortAlgo.vim	/^noremap <buffer> <silent> \\+co :call C_InsertTemplate("cpp.cout")$/;"	m
+\+ec	SortALgo.vim	/^inoremap <buffer> <silent> \\+ec :call C_InsertTemplate("cpp.error-class")$/;"	m
+\+ec	SortALgo.vim	/^noremap <buffer> <silent> \\+ec :call C_InsertTemplate("cpp.error-class")$/;"	m
+\+ec	SortAlgo.vim	/^inoremap <buffer> <silent> \\+ec :call C_InsertTemplate("cpp.error-class")$/;"	m
+\+ec	SortAlgo.vim	/^noremap <buffer> <silent> \\+ec :call C_InsertTemplate("cpp.error-class")$/;"	m
+\+mi	SortALgo.vim	/^inoremap <buffer> <silent> \\+mi :call C_InsertTemplate("cpp.method-implementation")$/;"	m
+\+mi	SortALgo.vim	/^noremap <buffer> <silent> \\+mi :call C_InsertTemplate("cpp.method-implementation")$/;"	m
+\+mi	SortAlgo.vim	/^inoremap <buffer> <silent> \\+mi :call C_InsertTemplate("cpp.method-implementation")$/;"	m
+\+mi	SortAlgo.vim	/^noremap <buffer> <silent> \\+mi :call C_InsertTemplate("cpp.method-implementation")$/;"	m
+\+pc	SortALgo.vim	/^inoremap <buffer> \\+pc :IncludeCppC9Library $/;"	m
+\+pc	SortALgo.vim	/^noremap <buffer> \\+pc :IncludeCppCLibrary $/;"	m
+\+pc	SortAlgo.vim	/^inoremap <buffer> \\+pc :IncludeCppC9Library $/;"	m
+\+pc	SortAlgo.vim	/^noremap <buffer> \\+pc :IncludeCppCLibrary $/;"	m
+\+ps	SortALgo.vim	/^inoremap <buffer> \\+ps :IncludeCppLibrary $/;"	m
+\+ps	SortALgo.vim	/^noremap <buffer> \\+ps :IncludeCppLibrary $/;"	m
+\+ps	SortAlgo.vim	/^inoremap <buffer> \\+ps :IncludeCppLibrary $/;"	m
+\+ps	SortAlgo.vim	/^noremap <buffer> \\+ps :IncludeCppLibrary $/;"	m
+\+tai	SortALgo.vim	/^inoremap <buffer> <silent> \\+tai :call C_InsertTemplate("cpp.template-accessor-implementation")$/;"	m
+\+tai	SortALgo.vim	/^noremap <buffer> <silent> \\+tai :call C_InsertTemplate("cpp.template-accessor-implementation")$/;"	m
+\+tai	SortAlgo.vim	/^inoremap <buffer> <silent> \\+tai :call C_InsertTemplate("cpp.template-accessor-implementation")$/;"	m
+\+tai	SortAlgo.vim	/^noremap <buffer> <silent> \\+tai :call C_InsertTemplate("cpp.template-accessor-implementation")$/;"	m
+\+tc	SortALgo.vim	/^inoremap <buffer> <silent> \\+tc :call C_InsertTemplate("cpp.template-class-definition")$/;"	m
+\+tc	SortALgo.vim	/^noremap <buffer> <silent> \\+tc :call C_InsertTemplate("cpp.template-class-definition")$/;"	m
+\+tc	SortAlgo.vim	/^inoremap <buffer> <silent> \\+tc :call C_InsertTemplate("cpp.template-class-definition")$/;"	m
+\+tc	SortAlgo.vim	/^noremap <buffer> <silent> \\+tc :call C_InsertTemplate("cpp.template-class-definition")$/;"	m
+\+tci	SortALgo.vim	/^inoremap <buffer> <silent> \\+tci :call C_InsertTemplate("cpp.template-class-implementation")$/;"	m
+\+tci	SortALgo.vim	/^noremap <buffer> <silent> \\+tci :call C_InsertTemplate("cpp.template-class-implementation")$/;"	m
+\+tci	SortAlgo.vim	/^inoremap <buffer> <silent> \\+tci :call C_InsertTemplate("cpp.template-class-implementation")$/;"	m
+\+tci	SortAlgo.vim	/^noremap <buffer> <silent> \\+tci :call C_InsertTemplate("cpp.template-class-implementation")$/;"	m
+\+tcn	SortALgo.vim	/^inoremap <buffer> <silent> \\+tcn :call C_InsertTemplate("cpp.template-class-using-new-definition")$/;"	m
+\+tcn	SortALgo.vim	/^noremap <buffer> <silent> \\+tcn :call C_InsertTemplate("cpp.template-class-using-new-definition")$/;"	m
+\+tcn	SortAlgo.vim	/^inoremap <buffer> <silent> \\+tcn :call C_InsertTemplate("cpp.template-class-using-new-definition")$/;"	m
+\+tcn	SortAlgo.vim	/^noremap <buffer> <silent> \\+tcn :call C_InsertTemplate("cpp.template-class-using-new-definition")$/;"	m
+\+tcni	SortALgo.vim	/^inoremap <buffer> <silent> \\+tcni :call C_InsertTemplate("cpp.template-class-using-new-implementation")$/;"	m
+\+tcni	SortALgo.vim	/^noremap <buffer> <silent> \\+tcni :call C_InsertTemplate("cpp.template-class-using-new-implementation")$/;"	m
+\+tcni	SortAlgo.vim	/^inoremap <buffer> <silent> \\+tcni :call C_InsertTemplate("cpp.template-class-using-new-implementation")$/;"	m
+\+tcni	SortAlgo.vim	/^noremap <buffer> <silent> \\+tcni :call C_InsertTemplate("cpp.template-class-using-new-implementation")$/;"	m
+\+tf	SortALgo.vim	/^inoremap <buffer> <silent> \\+tf :call C_InsertTemplate("cpp.template-function")$/;"	m
+\+tf	SortALgo.vim	/^noremap <buffer> <silent> \\+tf :call C_InsertTemplate("cpp.template-function")$/;"	m
+\+tf	SortAlgo.vim	/^inoremap <buffer> <silent> \\+tf :call C_InsertTemplate("cpp.template-function")$/;"	m
+\+tf	SortAlgo.vim	/^noremap <buffer> <silent> \\+tf :call C_InsertTemplate("cpp.template-function")$/;"	m
+\+tmi	SortALgo.vim	/^inoremap <buffer> <silent> \\+tmi :call C_InsertTemplate("cpp.template-method-implementation")$/;"	m
+\+tmi	SortALgo.vim	/^noremap <buffer> <silent> \\+tmi :call C_InsertTemplate("cpp.template-method-implementation")$/;"	m
+\+tmi	SortAlgo.vim	/^inoremap <buffer> <silent> \\+tmi :call C_InsertTemplate("cpp.template-method-implementation")$/;"	m
+\+tmi	SortAlgo.vim	/^noremap <buffer> <silent> \\+tmi :call C_InsertTemplate("cpp.template-method-implementation")$/;"	m
+\+tr	SortALgo.vim	/^inoremap <buffer> <silent> \\+tr :call C_InsertTemplate("cpp.try-catch")$/;"	m
+\+tr	SortALgo.vim	/^nnoremap <buffer> <silent> \\+tr :call C_InsertTemplate("cpp.try-catch")$/;"	m
+\+tr	SortALgo.vim	/^onoremap <buffer> <silent> \\+tr :call C_InsertTemplate("cpp.try-catch")$/;"	m
+\+tr	SortALgo.vim	/^vnoremap <buffer> <silent> \\+tr :call C_InsertTemplate("cpp.try-catch", "v")$/;"	m
+\+tr	SortAlgo.vim	/^inoremap <buffer> <silent> \\+tr :call C_InsertTemplate("cpp.try-catch")$/;"	m
+\+tr	SortAlgo.vim	/^nnoremap <buffer> <silent> \\+tr :call C_InsertTemplate("cpp.try-catch")$/;"	m
+\+tr	SortAlgo.vim	/^onoremap <buffer> <silent> \\+tr :call C_InsertTemplate("cpp.try-catch")$/;"	m
+\+tr	SortAlgo.vim	/^vnoremap <buffer> <silent> \\+tr :call C_InsertTemplate("cpp.try-catch", "v")$/;"	m
+\c*	SortALgo.vim	/^nnoremap <buffer> <silent> \\c* :call C_CodeToCommentC()$/;"	m
+\c*	SortALgo.vim	/^onoremap <buffer> <silent> \\c* :call C_CodeToCommentC()$/;"	m
+\c*	SortALgo.vim	/^vnoremap <buffer> <silent> \\c* :call C_CodeToCommentC()$/;"	m
+\c*	SortAlgo.vim	/^nnoremap <buffer> <silent> \\c* :call C_CodeToCommentC()$/;"	m
+\c*	SortAlgo.vim	/^onoremap <buffer> <silent> \\c* :call C_CodeToCommentC()$/;"	m
+\c*	SortAlgo.vim	/^vnoremap <buffer> <silent> \\c* :call C_CodeToCommentC()$/;"	m
+\cc	SortALgo.vim	/^nnoremap <buffer> <silent> \\cc :call C_CodeToCommentCpp()$/;"	m
+\cc	SortALgo.vim	/^onoremap <buffer> <silent> \\cc :call C_CodeToCommentCpp()$/;"	m
+\cc	SortALgo.vim	/^vnoremap <buffer> <silent> \\cc :call C_CodeToCommentCpp()$/;"	m
+\cc	SortAlgo.vim	/^nnoremap <buffer> <silent> \\cc :call C_CodeToCommentCpp()$/;"	m
+\cc	SortAlgo.vim	/^onoremap <buffer> <silent> \\cc :call C_CodeToCommentCpp()$/;"	m
+\cc	SortAlgo.vim	/^vnoremap <buffer> <silent> \\cc :call C_CodeToCommentCpp()$/;"	m
+\ccl	SortALgo.vim	/^inoremap <buffer> <silent> \\ccl :call C_InsertTemplate("comment.class")$/;"	m
+\ccl	SortALgo.vim	/^noremap <buffer> <silent> \\ccl :call C_InsertTemplate("comment.class")$/;"	m
+\ccl	SortAlgo.vim	/^inoremap <buffer> <silent> \\ccl :call C_InsertTemplate("comment.class")$/;"	m
+\ccl	SortAlgo.vim	/^noremap <buffer> <silent> \\ccl :call C_InsertTemplate("comment.class")$/;"	m
+\ccs	SortALgo.vim	/^inoremap <buffer> \\ccs :CFileSection $/;"	m
+\ccs	SortALgo.vim	/^noremap <buffer> \\ccs :CFileSection $/;"	m
+\ccs	SortAlgo.vim	/^inoremap <buffer> \\ccs :CFileSection $/;"	m
+\ccs	SortAlgo.vim	/^noremap <buffer> \\ccs :CFileSection $/;"	m
+\cd	SortALgo.vim	/^inoremap <buffer> <silent> \\cd :call C_InsertDateAndTime('d')$/;"	m
+\cd	SortALgo.vim	/^nnoremap <buffer> <silent> \\cd :call C_InsertDateAndTime('d')$/;"	m
+\cd	SortALgo.vim	/^onoremap <buffer> <silent> \\cd :call C_InsertDateAndTime('d')$/;"	m
+\cd	SortALgo.vim	/^vnoremap <buffer> <silent> \\cd s:call C_InsertDateAndTime('d')$/;"	m
+\cd	SortAlgo.vim	/^inoremap <buffer> <silent> \\cd :call C_InsertDateAndTime('d')$/;"	m
+\cd	SortAlgo.vim	/^nnoremap <buffer> <silent> \\cd :call C_InsertDateAndTime('d')$/;"	m
+\cd	SortAlgo.vim	/^onoremap <buffer> <silent> \\cd :call C_InsertDateAndTime('d')$/;"	m
+\cd	SortAlgo.vim	/^vnoremap <buffer> <silent> \\cd s:call C_InsertDateAndTime('d')$/;"	m
+\cfdh	SortALgo.vim	/^inoremap <buffer> <silent> \\cfdh :call C_InsertTemplate("comment.file-description-header")$/;"	m
+\cfdh	SortALgo.vim	/^noremap <buffer> <silent> \\cfdh :call C_InsertTemplate("comment.file-description-header")$/;"	m
+\cfdh	SortAlgo.vim	/^inoremap <buffer> <silent> \\cfdh :call C_InsertTemplate("comment.file-description-header")$/;"	m
+\cfdh	SortAlgo.vim	/^noremap <buffer> <silent> \\cfdh :call C_InsertTemplate("comment.file-description-header")$/;"	m
+\cfdi	SortALgo.vim	/^inoremap <buffer> <silent> \\cfdi :call C_InsertTemplate("comment.file-description")$/;"	m
+\cfdi	SortALgo.vim	/^noremap <buffer> <silent> \\cfdi :call C_InsertTemplate("comment.file-description")$/;"	m
+\cfdi	SortAlgo.vim	/^inoremap <buffer> <silent> \\cfdi :call C_InsertTemplate("comment.file-description")$/;"	m
+\cfdi	SortAlgo.vim	/^noremap <buffer> <silent> \\cfdi :call C_InsertTemplate("comment.file-description")$/;"	m
+\cfr	SortALgo.vim	/^inoremap <buffer> <silent> \\cfr :call C_InsertTemplate("comment.frame")$/;"	m
+\cfr	SortALgo.vim	/^noremap <buffer> <silent> \\cfr :call C_InsertTemplate("comment.frame")$/;"	m
+\cfr	SortAlgo.vim	/^inoremap <buffer> <silent> \\cfr :call C_InsertTemplate("comment.frame")$/;"	m
+\cfr	SortAlgo.vim	/^noremap <buffer> <silent> \\cfr :call C_InsertTemplate("comment.frame")$/;"	m
+\cfu	SortALgo.vim	/^inoremap <buffer> <silent> \\cfu :call C_InsertTemplate("comment.function")$/;"	m
+\cfu	SortALgo.vim	/^noremap <buffer> <silent> \\cfu :call C_InsertTemplate("comment.function")$/;"	m
+\cfu	SortAlgo.vim	/^inoremap <buffer> <silent> \\cfu :call C_InsertTemplate("comment.function")$/;"	m
+\cfu	SortAlgo.vim	/^noremap <buffer> <silent> \\cfu :call C_InsertTemplate("comment.function")$/;"	m
+\chs	SortALgo.vim	/^inoremap <buffer> \\chs :HFileSection $/;"	m
+\chs	SortALgo.vim	/^noremap <buffer> \\chs :HFileSection $/;"	m
+\chs	SortAlgo.vim	/^inoremap <buffer> \\chs :HFileSection $/;"	m
+\chs	SortAlgo.vim	/^noremap <buffer> \\chs :HFileSection $/;"	m
+\cj	SortALgo.vim	/^inoremap <buffer> <silent> \\cj :call C_AdjustLineEndComm()$/;"	m
+\cj	SortALgo.vim	/^nnoremap <buffer> <silent> \\cj :call C_AdjustLineEndComm()$/;"	m
+\cj	SortALgo.vim	/^vnoremap <buffer> <silent> \\cj :call C_AdjustLineEndComm()$/;"	m
+\cj	SortAlgo.vim	/^inoremap <buffer> <silent> \\cj :call C_AdjustLineEndComm()$/;"	m
+\cj	SortAlgo.vim	/^nnoremap <buffer> <silent> \\cj :call C_AdjustLineEndComm()$/;"	m
+\cj	SortAlgo.vim	/^vnoremap <buffer> <silent> \\cj :call C_AdjustLineEndComm()$/;"	m
+\ckc	SortALgo.vim	/^inoremap <buffer> \\ckc :KeywordComment $/;"	m
+\ckc	SortALgo.vim	/^noremap <buffer> \\ckc :KeywordComment $/;"	m
+\ckc	SortAlgo.vim	/^inoremap <buffer> \\ckc :KeywordComment $/;"	m
+\ckc	SortAlgo.vim	/^noremap <buffer> \\ckc :KeywordComment $/;"	m
+\cl	SortALgo.vim	/^inoremap <buffer> <silent> \\cl :call C_EndOfLineComment()$/;"	m
+\cl	SortALgo.vim	/^nnoremap <buffer> <silent> \\cl :call C_EndOfLineComment()$/;"	m
+\cl	SortALgo.vim	/^onoremap <buffer> <silent> \\cl :call C_EndOfLineComment()$/;"	m
+\cl	SortALgo.vim	/^vnoremap <buffer> <silent> \\cl :call C_EndOfLineComment()$/;"	m
+\cl	SortAlgo.vim	/^inoremap <buffer> <silent> \\cl :call C_EndOfLineComment()$/;"	m
+\cl	SortAlgo.vim	/^nnoremap <buffer> <silent> \\cl :call C_EndOfLineComment()$/;"	m
+\cl	SortAlgo.vim	/^onoremap <buffer> <silent> \\cl :call C_EndOfLineComment()$/;"	m
+\cl	SortAlgo.vim	/^vnoremap <buffer> <silent> \\cl :call C_EndOfLineComment()$/;"	m
+\cme	SortALgo.vim	/^inoremap <buffer> <silent> \\cme :call C_InsertTemplate("comment.method")$/;"	m
+\cme	SortALgo.vim	/^noremap <buffer> <silent> \\cme :call C_InsertTemplate("comment.method")$/;"	m
+\cme	SortAlgo.vim	/^inoremap <buffer> <silent> \\cme :call C_InsertTemplate("comment.method")$/;"	m
+\cme	SortAlgo.vim	/^noremap <buffer> <silent> \\cme :call C_InsertTemplate("comment.method")$/;"	m
+\co	SortALgo.vim	/^nnoremap <buffer> <silent> \\co :call C_CommentToCode()$/;"	m
+\co	SortALgo.vim	/^onoremap <buffer> <silent> \\co :call C_CommentToCode()$/;"	m
+\co	SortALgo.vim	/^vnoremap <buffer> <silent> \\co :call C_CommentToCode()$/;"	m
+\co	SortAlgo.vim	/^nnoremap <buffer> <silent> \\co :call C_CommentToCode()$/;"	m
+\co	SortAlgo.vim	/^onoremap <buffer> <silent> \\co :call C_CommentToCode()$/;"	m
+\co	SortAlgo.vim	/^vnoremap <buffer> <silent> \\co :call C_CommentToCode()$/;"	m
+\cs	SortALgo.vim	/^noremap <buffer> <silent> \\cs :call C_GetLineEndCommCol()$/;"	m
+\cs	SortAlgo.vim	/^noremap <buffer> <silent> \\cs :call C_GetLineEndCommCol()$/;"	m
+\csc	SortALgo.vim	/^inoremap <buffer> \\csc :SpecialComment $/;"	m
+\csc	SortALgo.vim	/^noremap <buffer> \\csc :SpecialComment $/;"	m
+\csc	SortAlgo.vim	/^inoremap <buffer> \\csc :SpecialComment $/;"	m
+\csc	SortAlgo.vim	/^noremap <buffer> \\csc :SpecialComment $/;"	m
+\ct	SortALgo.vim	/^inoremap <buffer> <silent> \\ct :call C_InsertDateAndTime('dt')$/;"	m
+\ct	SortALgo.vim	/^nnoremap <buffer> <silent> \\ct :call C_InsertDateAndTime('dt')$/;"	m
+\ct	SortALgo.vim	/^onoremap <buffer> <silent> \\ct :call C_InsertDateAndTime('dt')$/;"	m
+\ct	SortALgo.vim	/^vnoremap <buffer> <silent> \\ct s:call C_InsertDateAndTime('dt')$/;"	m
+\ct	SortAlgo.vim	/^inoremap <buffer> <silent> \\ct :call C_InsertDateAndTime('dt')$/;"	m
+\ct	SortAlgo.vim	/^nnoremap <buffer> <silent> \\ct :call C_InsertDateAndTime('dt')$/;"	m
+\ct	SortAlgo.vim	/^onoremap <buffer> <silent> \\ct :call C_InsertDateAndTime('dt')$/;"	m
+\ct	SortAlgo.vim	/^vnoremap <buffer> <silent> \\ct s:call C_InsertDateAndTime('dt')$/;"	m
+\cx	SortALgo.vim	/^inoremap <buffer> <silent> \\cx :call C_CommentToggle( )$/;"	m
+\cx	SortALgo.vim	/^nnoremap <buffer> <silent> \\cx :call C_CommentToggle( )$/;"	m
+\cx	SortALgo.vim	/^onoremap <buffer> <silent> \\cx :call C_CommentToggle( )$/;"	m
+\cx	SortALgo.vim	/^vnoremap <buffer> <silent> \\cx :call C_CommentToggle( )$/;"	m
+\cx	SortAlgo.vim	/^inoremap <buffer> <silent> \\cx :call C_CommentToggle( )$/;"	m
+\cx	SortAlgo.vim	/^nnoremap <buffer> <silent> \\cx :call C_CommentToggle( )$/;"	m
+\cx	SortAlgo.vim	/^onoremap <buffer> <silent> \\cx :call C_CommentToggle( )$/;"	m
+\cx	SortAlgo.vim	/^vnoremap <buffer> <silent> \\cx :call C_CommentToggle( )$/;"	m
+\hm	SortALgo.vim	/^imap <buffer> <silent> \\hm :call C_Help("m")$/;"	m
+\hm	SortALgo.vim	/^map <buffer> <silent> \\hm :call C_Help("m")$/;"	m
+\hm	SortAlgo.vim	/^imap <buffer> <silent> \\hm :call C_Help("m")$/;"	m
+\hm	SortAlgo.vim	/^map <buffer> <silent> \\hm :call C_Help("m")$/;"	m
+\hp	SortALgo.vim	/^imap <buffer> <silent> \\hp :call C_HelpCsupport()$/;"	m
+\hp	SortALgo.vim	/^map <buffer> <silent> \\hp :call C_HelpCsupport()$/;"	m
+\hp	SortAlgo.vim	/^imap <buffer> <silent> \\hp :call C_HelpCsupport()$/;"	m
+\hp	SortAlgo.vim	/^map <buffer> <silent> \\hp :call C_HelpCsupport()$/;"	m
+\i0	SortALgo.vim	/^inoremap <buffer> <silent> \\i0 :call C_CodeFor("up"  )$/;"	m
+\i0	SortALgo.vim	/^nnoremap <buffer> <silent> \\i0 :call C_CodeFor("up"  )$/;"	m
+\i0	SortALgo.vim	/^onoremap <buffer> <silent> \\i0 :call C_CodeFor("up"  )$/;"	m
+\i0	SortALgo.vim	/^vnoremap <buffer> <silent> \\i0 :call C_CodeFor("up"  )$/;"	m
+\i0	SortAlgo.vim	/^inoremap <buffer> <silent> \\i0 :call C_CodeFor("up"  )$/;"	m
+\i0	SortAlgo.vim	/^nnoremap <buffer> <silent> \\i0 :call C_CodeFor("up"  )$/;"	m
+\i0	SortAlgo.vim	/^onoremap <buffer> <silent> \\i0 :call C_CodeFor("up"  )$/;"	m
+\i0	SortAlgo.vim	/^vnoremap <buffer> <silent> \\i0 :call C_CodeFor("up"  )$/;"	m
+\ias	SortALgo.vim	/^inoremap <buffer> <silent> \\ias :call C_InsertTemplate("idioms.assert")$/;"	m
+\ias	SortALgo.vim	/^nnoremap <buffer> <silent> \\ias :call C_InsertTemplate("idioms.assert")$/;"	m
+\ias	SortALgo.vim	/^onoremap <buffer> <silent> \\ias :call C_InsertTemplate("idioms.assert")$/;"	m
+\ias	SortALgo.vim	/^vnoremap <buffer> <silent> \\ias :call C_InsertTemplate("idioms.assert", "v")$/;"	m
+\ias	SortAlgo.vim	/^inoremap <buffer> <silent> \\ias :call C_InsertTemplate("idioms.assert")$/;"	m
+\ias	SortAlgo.vim	/^nnoremap <buffer> <silent> \\ias :call C_InsertTemplate("idioms.assert")$/;"	m
+\ias	SortAlgo.vim	/^onoremap <buffer> <silent> \\ias :call C_InsertTemplate("idioms.assert")$/;"	m
+\ias	SortAlgo.vim	/^vnoremap <buffer> <silent> \\ias :call C_InsertTemplate("idioms.assert", "v")$/;"	m
+\ica	SortALgo.vim	/^inoremap <buffer> <silent> \\ica :call C_InsertTemplate("idioms.calloc")$/;"	m
+\ica	SortALgo.vim	/^noremap <buffer> <silent> \\ica :call C_InsertTemplate("idioms.calloc")$/;"	m
+\ica	SortAlgo.vim	/^inoremap <buffer> <silent> \\ica :call C_InsertTemplate("idioms.calloc")$/;"	m
+\ica	SortAlgo.vim	/^noremap <buffer> <silent> \\ica :call C_InsertTemplate("idioms.calloc")$/;"	m
+\ie	SortALgo.vim	/^inoremap <buffer> <silent> \\ie :call C_InsertTemplate("idioms.enum")$/;"	m
+\ie	SortALgo.vim	/^nnoremap <buffer> <silent> \\ie :call C_InsertTemplate("idioms.enum")$/;"	m
+\ie	SortALgo.vim	/^onoremap <buffer> <silent> \\ie :call C_InsertTemplate("idioms.enum")$/;"	m
+\ie	SortALgo.vim	/^vnoremap <buffer> <silent> \\ie :call C_InsertTemplate("idioms.enum"  , "v")$/;"	m
+\ie	SortAlgo.vim	/^inoremap <buffer> <silent> \\ie :call C_InsertTemplate("idioms.enum")$/;"	m
+\ie	SortAlgo.vim	/^nnoremap <buffer> <silent> \\ie :call C_InsertTemplate("idioms.enum")$/;"	m
+\ie	SortAlgo.vim	/^onoremap <buffer> <silent> \\ie :call C_InsertTemplate("idioms.enum")$/;"	m
+\ie	SortAlgo.vim	/^vnoremap <buffer> <silent> \\ie :call C_InsertTemplate("idioms.enum"  , "v")$/;"	m
+\if	SortALgo.vim	/^inoremap <buffer> <silent> \\if :call C_InsertTemplate("idioms.function")$/;"	m
+\if	SortALgo.vim	/^nnoremap <buffer> <silent> \\if :call C_InsertTemplate("idioms.function")$/;"	m
+\if	SortALgo.vim	/^onoremap <buffer> <silent> \\if :call C_InsertTemplate("idioms.function")$/;"	m
+\if	SortALgo.vim	/^vnoremap <buffer> <silent> \\if :call C_InsertTemplate("idioms.function", "v")$/;"	m
+\if	SortAlgo.vim	/^inoremap <buffer> <silent> \\if :call C_InsertTemplate("idioms.function")$/;"	m
+\if	SortAlgo.vim	/^nnoremap <buffer> <silent> \\if :call C_InsertTemplate("idioms.function")$/;"	m
+\if	SortAlgo.vim	/^onoremap <buffer> <silent> \\if :call C_InsertTemplate("idioms.function")$/;"	m
+\if	SortAlgo.vim	/^vnoremap <buffer> <silent> \\if :call C_InsertTemplate("idioms.function", "v")$/;"	m
+\ifp	SortALgo.vim	/^inoremap <buffer> <silent> \\ifp :call C_InsertTemplate("idioms.fprintf")$/;"	m
+\ifp	SortALgo.vim	/^noremap <buffer> <silent> \\ifp :call C_InsertTemplate("idioms.fprintf")$/;"	m
+\ifp	SortAlgo.vim	/^inoremap <buffer> <silent> \\ifp :call C_InsertTemplate("idioms.fprintf")$/;"	m
+\ifp	SortAlgo.vim	/^noremap <buffer> <silent> \\ifp :call C_InsertTemplate("idioms.fprintf")$/;"	m
+\ifs	SortALgo.vim	/^inoremap <buffer> <silent> \\ifs :call C_InsertTemplate("idioms.fscanf")$/;"	m
+\ifs	SortALgo.vim	/^noremap <buffer> <silent> \\ifs :call C_InsertTemplate("idioms.fscanf")$/;"	m
+\ifs	SortAlgo.vim	/^inoremap <buffer> <silent> \\ifs :call C_InsertTemplate("idioms.fscanf")$/;"	m
+\ifs	SortAlgo.vim	/^noremap <buffer> <silent> \\ifs :call C_InsertTemplate("idioms.fscanf")$/;"	m
+\ii	SortALgo.vim	/^inoremap <buffer> <silent> \\ii :call C_InsertTemplate("idioms.open-input-file")$/;"	m
+\ii	SortALgo.vim	/^nnoremap <buffer> <silent> \\ii :call C_InsertTemplate("idioms.open-input-file")$/;"	m
+\ii	SortALgo.vim	/^onoremap <buffer> <silent> \\ii :call C_InsertTemplate("idioms.open-input-file")$/;"	m
+\ii	SortALgo.vim	/^vnoremap <buffer> <silent> \\ii :call C_InsertTemplate("idioms.open-input-file", "v")$/;"	m
+\ii	SortAlgo.vim	/^inoremap <buffer> <silent> \\ii :call C_InsertTemplate("idioms.open-input-file")$/;"	m
+\ii	SortAlgo.vim	/^nnoremap <buffer> <silent> \\ii :call C_InsertTemplate("idioms.open-input-file")$/;"	m
+\ii	SortAlgo.vim	/^onoremap <buffer> <silent> \\ii :call C_InsertTemplate("idioms.open-input-file")$/;"	m
+\ii	SortAlgo.vim	/^vnoremap <buffer> <silent> \\ii :call C_InsertTemplate("idioms.open-input-file", "v")$/;"	m
+\im	SortALgo.vim	/^inoremap <buffer> <silent> \\im :call C_InsertTemplate("idioms.main")$/;"	m
+\im	SortALgo.vim	/^nnoremap <buffer> <silent> \\im :call C_InsertTemplate("idioms.main")$/;"	m
+\im	SortALgo.vim	/^onoremap <buffer> <silent> \\im :call C_InsertTemplate("idioms.main")$/;"	m
+\im	SortALgo.vim	/^vnoremap <buffer> <silent> \\im :call C_InsertTemplate("idioms.main", "v")$/;"	m
+\im	SortAlgo.vim	/^inoremap <buffer> <silent> \\im :call C_InsertTemplate("idioms.main")$/;"	m
+\im	SortAlgo.vim	/^nnoremap <buffer> <silent> \\im :call C_InsertTemplate("idioms.main")$/;"	m
+\im	SortAlgo.vim	/^onoremap <buffer> <silent> \\im :call C_InsertTemplate("idioms.main")$/;"	m
+\im	SortAlgo.vim	/^vnoremap <buffer> <silent> \\im :call C_InsertTemplate("idioms.main", "v")$/;"	m
+\ima	SortALgo.vim	/^inoremap <buffer> <silent> \\ima :call C_InsertTemplate("idioms.malloc")$/;"	m
+\ima	SortALgo.vim	/^noremap <buffer> <silent> \\ima :call C_InsertTemplate("idioms.malloc")$/;"	m
+\ima	SortAlgo.vim	/^inoremap <buffer> <silent> \\ima :call C_InsertTemplate("idioms.malloc")$/;"	m
+\ima	SortAlgo.vim	/^noremap <buffer> <silent> \\ima :call C_InsertTemplate("idioms.malloc")$/;"	m
+\in	SortALgo.vim	/^inoremap <buffer> <silent> \\in :call C_CodeFor("down")$/;"	m
+\in	SortALgo.vim	/^nnoremap <buffer> <silent> \\in :call C_CodeFor("down")$/;"	m
+\in	SortALgo.vim	/^onoremap <buffer> <silent> \\in :call C_CodeFor("down")$/;"	m
+\in	SortALgo.vim	/^vnoremap <buffer> <silent> \\in :call C_CodeFor("down")$/;"	m
+\in	SortAlgo.vim	/^inoremap <buffer> <silent> \\in :call C_CodeFor("down")$/;"	m
+\in	SortAlgo.vim	/^nnoremap <buffer> <silent> \\in :call C_CodeFor("down")$/;"	m
+\in	SortAlgo.vim	/^onoremap <buffer> <silent> \\in :call C_CodeFor("down")$/;"	m
+\in	SortAlgo.vim	/^vnoremap <buffer> <silent> \\in :call C_CodeFor("down")$/;"	m
+\io	SortALgo.vim	/^inoremap <buffer> <silent> \\io :call C_InsertTemplate("idioms.open-output-file")$/;"	m
+\io	SortALgo.vim	/^nnoremap <buffer> <silent> \\io :call C_InsertTemplate("idioms.open-output-file")$/;"	m
+\io	SortALgo.vim	/^onoremap <buffer> <silent> \\io :call C_InsertTemplate("idioms.open-output-file")$/;"	m
+\io	SortALgo.vim	/^vnoremap <buffer> <silent> \\io :call C_InsertTemplate("idioms.open-output-file", "v")$/;"	m
+\io	SortAlgo.vim	/^inoremap <buffer> <silent> \\io :call C_InsertTemplate("idioms.open-output-file")$/;"	m
+\io	SortAlgo.vim	/^nnoremap <buffer> <silent> \\io :call C_InsertTemplate("idioms.open-output-file")$/;"	m
+\io	SortAlgo.vim	/^onoremap <buffer> <silent> \\io :call C_InsertTemplate("idioms.open-output-file")$/;"	m
+\io	SortAlgo.vim	/^vnoremap <buffer> <silent> \\io :call C_InsertTemplate("idioms.open-output-file", "v")$/;"	m
+\ip	SortALgo.vim	/^inoremap <buffer> <silent> \\ip :call C_InsertTemplate("idioms.printf")$/;"	m
+\ip	SortALgo.vim	/^noremap <buffer> <silent> \\ip :call C_InsertTemplate("idioms.printf")$/;"	m
+\ip	SortAlgo.vim	/^inoremap <buffer> <silent> \\ip :call C_InsertTemplate("idioms.printf")$/;"	m
+\ip	SortAlgo.vim	/^noremap <buffer> <silent> \\ip :call C_InsertTemplate("idioms.printf")$/;"	m
+\ire	SortALgo.vim	/^inoremap <buffer> <silent> \\ire :call C_InsertTemplate("idioms.realloc")$/;"	m
+\ire	SortALgo.vim	/^noremap <buffer> <silent> \\ire :call C_InsertTemplate("idioms.realloc")$/;"	m
+\ire	SortAlgo.vim	/^inoremap <buffer> <silent> \\ire :call C_InsertTemplate("idioms.realloc")$/;"	m
+\ire	SortAlgo.vim	/^noremap <buffer> <silent> \\ire :call C_InsertTemplate("idioms.realloc")$/;"	m
+\is	SortALgo.vim	/^inoremap <buffer> <silent> \\is :call C_InsertTemplate("idioms.struct")$/;"	m
+\is	SortALgo.vim	/^nnoremap <buffer> <silent> \\is :call C_InsertTemplate("idioms.struct")$/;"	m
+\is	SortALgo.vim	/^onoremap <buffer> <silent> \\is :call C_InsertTemplate("idioms.struct")$/;"	m
+\is	SortALgo.vim	/^vnoremap <buffer> <silent> \\is :call C_InsertTemplate("idioms.struct", "v")$/;"	m
+\is	SortAlgo.vim	/^inoremap <buffer> <silent> \\is :call C_InsertTemplate("idioms.struct")$/;"	m
+\is	SortAlgo.vim	/^nnoremap <buffer> <silent> \\is :call C_InsertTemplate("idioms.struct")$/;"	m
+\is	SortAlgo.vim	/^onoremap <buffer> <silent> \\is :call C_InsertTemplate("idioms.struct")$/;"	m
+\is	SortAlgo.vim	/^vnoremap <buffer> <silent> \\is :call C_InsertTemplate("idioms.struct", "v")$/;"	m
+\isc	SortALgo.vim	/^inoremap <buffer> <silent> \\isc :call C_InsertTemplate("idioms.scanf")$/;"	m
+\isc	SortALgo.vim	/^noremap <buffer> <silent> \\isc :call C_InsertTemplate("idioms.scanf")$/;"	m
+\isc	SortAlgo.vim	/^inoremap <buffer> <silent> \\isc :call C_InsertTemplate("idioms.scanf")$/;"	m
+\isc	SortAlgo.vim	/^noremap <buffer> <silent> \\isc :call C_InsertTemplate("idioms.scanf")$/;"	m
+\isf	SortALgo.vim	/^inoremap <buffer> <silent> \\isf :call C_InsertTemplate("idioms.function-static")$/;"	m
+\isf	SortALgo.vim	/^nnoremap <buffer> <silent> \\isf :call C_InsertTemplate("idioms.function-static")$/;"	m
+\isf	SortALgo.vim	/^onoremap <buffer> <silent> \\isf :call C_InsertTemplate("idioms.function-static")$/;"	m
+\isf	SortALgo.vim	/^vnoremap <buffer> <silent> \\isf :call C_InsertTemplate("idioms.function-static", "v")$/;"	m
+\isf	SortAlgo.vim	/^inoremap <buffer> <silent> \\isf :call C_InsertTemplate("idioms.function-static")$/;"	m
+\isf	SortAlgo.vim	/^nnoremap <buffer> <silent> \\isf :call C_InsertTemplate("idioms.function-static")$/;"	m
+\isf	SortAlgo.vim	/^onoremap <buffer> <silent> \\isf :call C_InsertTemplate("idioms.function-static")$/;"	m
+\isf	SortAlgo.vim	/^vnoremap <buffer> <silent> \\isf :call C_InsertTemplate("idioms.function-static", "v")$/;"	m
+\isi	SortALgo.vim	/^inoremap <buffer> <silent> \\isi :call C_InsertTemplate("idioms.sizeof")$/;"	m
+\isi	SortALgo.vim	/^nnoremap <buffer> <silent> \\isi :call C_InsertTemplate("idioms.sizeof")$/;"	m
+\isi	SortALgo.vim	/^onoremap <buffer> <silent> \\isi :call C_InsertTemplate("idioms.sizeof")$/;"	m
+\isi	SortALgo.vim	/^vnoremap <buffer> <silent> \\isi :call C_InsertTemplate("idioms.sizeof", "v")$/;"	m
+\isi	SortAlgo.vim	/^inoremap <buffer> <silent> \\isi :call C_InsertTemplate("idioms.sizeof")$/;"	m
+\isi	SortAlgo.vim	/^nnoremap <buffer> <silent> \\isi :call C_InsertTemplate("idioms.sizeof")$/;"	m
+\isi	SortAlgo.vim	/^onoremap <buffer> <silent> \\isi :call C_InsertTemplate("idioms.sizeof")$/;"	m
+\isi	SortAlgo.vim	/^vnoremap <buffer> <silent> \\isi :call C_InsertTemplate("idioms.sizeof", "v")$/;"	m
+\iu	SortALgo.vim	/^inoremap <buffer> <silent> \\iu :call C_InsertTemplate("idioms.union")$/;"	m
+\iu	SortALgo.vim	/^nnoremap <buffer> <silent> \\iu :call C_InsertTemplate("idioms.union")$/;"	m
+\iu	SortALgo.vim	/^onoremap <buffer> <silent> \\iu :call C_InsertTemplate("idioms.union")$/;"	m
+\iu	SortALgo.vim	/^vnoremap <buffer> <silent> \\iu :call C_InsertTemplate("idioms.union" , "v")$/;"	m
+\iu	SortAlgo.vim	/^inoremap <buffer> <silent> \\iu :call C_InsertTemplate("idioms.union")$/;"	m
+\iu	SortAlgo.vim	/^nnoremap <buffer> <silent> \\iu :call C_InsertTemplate("idioms.union")$/;"	m
+\iu	SortAlgo.vim	/^onoremap <buffer> <silent> \\iu :call C_InsertTemplate("idioms.union")$/;"	m
+\iu	SortAlgo.vim	/^vnoremap <buffer> <silent> \\iu :call C_InsertTemplate("idioms.union" , "v")$/;"	m
+\nc	SortALgo.vim	/^inoremap <buffer> <silent> \\nc :call C_ProtoClear()$/;"	m
+\nc	SortALgo.vim	/^noremap <buffer> <silent> \\nc :call C_ProtoClear()$/;"	m
+\nc	SortAlgo.vim	/^inoremap <buffer> <silent> \\nc :call C_ProtoClear()$/;"	m
+\nc	SortAlgo.vim	/^noremap <buffer> <silent> \\nc :call C_ProtoClear()$/;"	m
+\ne	SortALgo.vim	/^inoremap <buffer> <silent> \\ne :call C_CodeSnippet("e")$/;"	m
+\ne	SortALgo.vim	/^noremap <buffer> <silent> \\ne :call C_CodeSnippet("e")$/;"	m
+\ne	SortAlgo.vim	/^inoremap <buffer> <silent> \\ne :call C_CodeSnippet("e")$/;"	m
+\ne	SortAlgo.vim	/^noremap <buffer> <silent> \\ne :call C_CodeSnippet("e")$/;"	m
+\nf	SortALgo.vim	/^inoremap <buffer> <silent> \\nf :call C_ProtoPick("function")$/;"	m
+\nf	SortALgo.vim	/^nnoremap <buffer> <silent> \\nf :call C_ProtoPick("function")$/;"	m
+\nf	SortALgo.vim	/^onoremap <buffer> <silent> \\nf :call C_ProtoPick("function")$/;"	m
+\nf	SortALgo.vim	/^vnoremap <buffer> <silent> \\nf :call C_ProtoPick("function")$/;"	m
+\nf	SortAlgo.vim	/^inoremap <buffer> <silent> \\nf :call C_ProtoPick("function")$/;"	m
+\nf	SortAlgo.vim	/^nnoremap <buffer> <silent> \\nf :call C_ProtoPick("function")$/;"	m
+\nf	SortAlgo.vim	/^onoremap <buffer> <silent> \\nf :call C_ProtoPick("function")$/;"	m
+\nf	SortAlgo.vim	/^vnoremap <buffer> <silent> \\nf :call C_ProtoPick("function")$/;"	m
+\ni	SortALgo.vim	/^inoremap <buffer> <silent> \\ni :call C_ProtoInsert()$/;"	m
+\ni	SortALgo.vim	/^noremap <buffer> <silent> \\ni :call C_ProtoInsert()$/;"	m
+\ni	SortAlgo.vim	/^inoremap <buffer> <silent> \\ni :call C_ProtoInsert()$/;"	m
+\ni	SortAlgo.vim	/^noremap <buffer> <silent> \\ni :call C_ProtoInsert()$/;"	m
+\nm	SortALgo.vim	/^inoremap <buffer> <silent> \\nm :call C_ProtoPick("method")$/;"	m
+\nm	SortALgo.vim	/^nnoremap <buffer> <silent> \\nm :call C_ProtoPick("method")$/;"	m
+\nm	SortALgo.vim	/^onoremap <buffer> <silent> \\nm :call C_ProtoPick("method")$/;"	m
+\nm	SortALgo.vim	/^vnoremap <buffer> <silent> \\nm :call C_ProtoPick("method")$/;"	m
+\nm	SortAlgo.vim	/^inoremap <buffer> <silent> \\nm :call C_ProtoPick("method")$/;"	m
+\nm	SortAlgo.vim	/^nnoremap <buffer> <silent> \\nm :call C_ProtoPick("method")$/;"	m
+\nm	SortAlgo.vim	/^onoremap <buffer> <silent> \\nm :call C_ProtoPick("method")$/;"	m
+\nm	SortAlgo.vim	/^vnoremap <buffer> <silent> \\nm :call C_ProtoPick("method")$/;"	m
+\np	SortALgo.vim	/^inoremap <buffer> <silent> \\np :call C_ProtoPick("function")$/;"	m
+\np	SortALgo.vim	/^nnoremap <buffer> <silent> \\np :call C_ProtoPick("function")$/;"	m
+\np	SortALgo.vim	/^onoremap <buffer> <silent> \\np :call C_ProtoPick("function")$/;"	m
+\np	SortALgo.vim	/^vnoremap <buffer> <silent> \\np :call C_ProtoPick("function")$/;"	m
+\np	SortAlgo.vim	/^inoremap <buffer> <silent> \\np :call C_ProtoPick("function")$/;"	m
+\np	SortAlgo.vim	/^nnoremap <buffer> <silent> \\np :call C_ProtoPick("function")$/;"	m
+\np	SortAlgo.vim	/^onoremap <buffer> <silent> \\np :call C_ProtoPick("function")$/;"	m
+\np	SortAlgo.vim	/^vnoremap <buffer> <silent> \\np :call C_ProtoPick("function")$/;"	m
+\nr	SortALgo.vim	/^inoremap <buffer> <silent> \\nr :call C_CodeSnippet("r")$/;"	m
+\nr	SortALgo.vim	/^noremap <buffer> <silent> \\nr :call C_CodeSnippet("r")$/;"	m
+\nr	SortAlgo.vim	/^inoremap <buffer> <silent> \\nr :call C_CodeSnippet("r")$/;"	m
+\nr	SortAlgo.vim	/^noremap <buffer> <silent> \\nr :call C_CodeSnippet("r")$/;"	m
+\ns	SortALgo.vim	/^inoremap <buffer> <silent> \\ns :call C_ProtoShow()$/;"	m
+\ns	SortALgo.vim	/^noremap <buffer> <silent> \\ns :call C_ProtoShow()$/;"	m
+\ns	SortAlgo.vim	/^inoremap <buffer> <silent> \\ns :call C_ProtoShow()$/;"	m
+\ns	SortAlgo.vim	/^noremap <buffer> <silent> \\ns :call C_ProtoShow()$/;"	m
+\ntl	SortALgo.vim	/^inoremap <buffer> <silent> \\ntl :call C_BrowseTemplateFiles("Local")$/;"	m
+\ntl	SortALgo.vim	/^noremap <buffer> <silent> \\ntl :call C_BrowseTemplateFiles("Local")$/;"	m
+\ntl	SortAlgo.vim	/^inoremap <buffer> <silent> \\ntl :call C_BrowseTemplateFiles("Local")$/;"	m
+\ntl	SortAlgo.vim	/^noremap <buffer> <silent> \\ntl :call C_BrowseTemplateFiles("Local")$/;"	m
+\ntr	SortALgo.vim	/^inoremap <buffer> <silent> \\ntr :call C_RereadTemplates()$/;"	m
+\ntr	SortALgo.vim	/^noremap <buffer> <silent> \\ntr :call C_RereadTemplates()$/;"	m
+\ntr	SortAlgo.vim	/^inoremap <buffer> <silent> \\ntr :call C_RereadTemplates()$/;"	m
+\ntr	SortAlgo.vim	/^noremap <buffer> <silent> \\ntr :call C_RereadTemplates()$/;"	m
+\nts	SortALgo.vim	/^inoremap <buffer> \\nts :CStyle $/;"	m
+\nts	SortALgo.vim	/^noremap <buffer> \\nts :CStyle $/;"	m
+\nts	SortAlgo.vim	/^inoremap <buffer> \\nts :CStyle $/;"	m
+\nts	SortAlgo.vim	/^noremap <buffer> \\nts :CStyle $/;"	m
+\nw	SortALgo.vim	/^inoremap <buffer> <silent> \\nw :call C_CodeSnippet("w")$/;"	m
+\nw	SortALgo.vim	/^nnoremap <buffer> <silent> \\nw :call C_CodeSnippet("w")$/;"	m
+\nw	SortALgo.vim	/^onoremap <buffer> <silent> \\nw :call C_CodeSnippet("w")$/;"	m
+\nw	SortALgo.vim	/^vnoremap <buffer> <silent> \\nw :call C_CodeSnippet("wv")$/;"	m
+\nw	SortAlgo.vim	/^inoremap <buffer> <silent> \\nw :call C_CodeSnippet("w")$/;"	m
+\nw	SortAlgo.vim	/^nnoremap <buffer> <silent> \\nw :call C_CodeSnippet("w")$/;"	m
+\nw	SortAlgo.vim	/^onoremap <buffer> <silent> \\nw :call C_CodeSnippet("w")$/;"	m
+\nw	SortAlgo.vim	/^vnoremap <buffer> <silent> \\nw :call C_CodeSnippet("wv")$/;"	m
+\p<	SortALgo.vim	/^inoremap <buffer> <silent> \\p< :call C_InsertTemplate("preprocessor.include-global")$/;"	m
+\p<	SortALgo.vim	/^noremap <buffer> <silent> \\p< :call C_InsertTemplate("preprocessor.include-global")$/;"	m
+\p<	SortAlgo.vim	/^inoremap <buffer> <silent> \\p< :call C_InsertTemplate("preprocessor.include-global")$/;"	m
+\p<	SortAlgo.vim	/^noremap <buffer> <silent> \\p< :call C_InsertTemplate("preprocessor.include-global")$/;"	m
+\p"	SortALgo.vim	/^inoremap <buffer> <silent> \\p" :call C_InsertTemplate("preprocessor.include-local")$/;"	m
+\p"	SortALgo.vim	/^noremap <buffer> <silent> \\p" :call C_InsertTemplate("preprocessor.include-local")$/;"	m
+\p"	SortAlgo.vim	/^inoremap <buffer> <silent> \\p" :call C_InsertTemplate("preprocessor.include-local")$/;"	m
+\p"	SortAlgo.vim	/^noremap <buffer> <silent> \\p" :call C_InsertTemplate("preprocessor.include-local")$/;"	m
+\pc	SortALgo.vim	/^inoremap <buffer> \\pc :IncludeC99Library $/;"	m
+\pc	SortALgo.vim	/^noremap <buffer> \\pc :IncludeC99Library $/;"	m
+\pc	SortAlgo.vim	/^inoremap <buffer> \\pc :IncludeC99Library $/;"	m
+\pc	SortAlgo.vim	/^noremap <buffer> \\pc :IncludeC99Library $/;"	m
+\pd	SortALgo.vim	/^inoremap <buffer> <silent> \\pd :call C_InsertTemplate("preprocessor.define")$/;"	m
+\pd	SortALgo.vim	/^noremap <buffer> <silent> \\pd :call C_InsertTemplate("preprocessor.define")$/;"	m
+\pd	SortAlgo.vim	/^inoremap <buffer> <silent> \\pd :call C_InsertTemplate("preprocessor.define")$/;"	m
+\pd	SortAlgo.vim	/^noremap <buffer> <silent> \\pd :call C_InsertTemplate("preprocessor.define")$/;"	m
+\pe	SortALgo.vim	/^inoremap <buffer> <silent> \\pe :call C_InsertTemplate("preprocessor.error")$/;"	m
+\pe	SortALgo.vim	/^noremap <buffer> <silent> \\pe :call C_InsertTemplate("preprocessor.error")$/;"	m
+\pe	SortAlgo.vim	/^inoremap <buffer> <silent> \\pe :call C_InsertTemplate("preprocessor.error")$/;"	m
+\pe	SortAlgo.vim	/^noremap <buffer> <silent> \\pe :call C_InsertTemplate("preprocessor.error")$/;"	m
+\pi0	SortALgo.vim	/^inoremap <buffer> <silent> \\pi0 :call C_PPIf0("a")$/;"	m
+\pi0	SortALgo.vim	/^nnoremap <buffer> <silent> \\pi0 :call C_PPIf0("a")$/;"	m
+\pi0	SortALgo.vim	/^onoremap <buffer> <silent> \\pi0 :call C_PPIf0("a")$/;"	m
+\pi0	SortALgo.vim	/^vnoremap <buffer> <silent> \\pi0 :call C_PPIf0("v")$/;"	m
+\pi0	SortAlgo.vim	/^inoremap <buffer> <silent> \\pi0 :call C_PPIf0("a")$/;"	m
+\pi0	SortAlgo.vim	/^nnoremap <buffer> <silent> \\pi0 :call C_PPIf0("a")$/;"	m
+\pi0	SortAlgo.vim	/^onoremap <buffer> <silent> \\pi0 :call C_PPIf0("a")$/;"	m
+\pi0	SortAlgo.vim	/^vnoremap <buffer> <silent> \\pi0 :call C_PPIf0("v")$/;"	m
+\pid	SortALgo.vim	/^inoremap <buffer> <silent> \\pid :call C_InsertTemplate("preprocessor.ifdef-else-endif")$/;"	m
+\pid	SortALgo.vim	/^nnoremap <buffer> <silent> \\pid :call C_InsertTemplate("preprocessor.ifdef-else-endif")$/;"	m
+\pid	SortALgo.vim	/^onoremap <buffer> <silent> \\pid :call C_InsertTemplate("preprocessor.ifdef-else-endif")$/;"	m
+\pid	SortALgo.vim	/^vnoremap <buffer> <silent> \\pid :call C_InsertTemplate("preprocessor.ifdef-else-endif", "v")$/;"	m
+\pid	SortAlgo.vim	/^inoremap <buffer> <silent> \\pid :call C_InsertTemplate("preprocessor.ifdef-else-endif")$/;"	m
+\pid	SortAlgo.vim	/^nnoremap <buffer> <silent> \\pid :call C_InsertTemplate("preprocessor.ifdef-else-endif")$/;"	m
+\pid	SortAlgo.vim	/^onoremap <buffer> <silent> \\pid :call C_InsertTemplate("preprocessor.ifdef-else-endif")$/;"	m
+\pid	SortAlgo.vim	/^vnoremap <buffer> <silent> \\pid :call C_InsertTemplate("preprocessor.ifdef-else-endif", "v")$/;"	m
+\pie	SortALgo.vim	/^inoremap <buffer> <silent> \\pie :call C_InsertTemplate("preprocessor.if-else-endif")$/;"	m
+\pie	SortALgo.vim	/^nnoremap <buffer> <silent> \\pie :call C_InsertTemplate("preprocessor.if-else-endif")$/;"	m
+\pie	SortALgo.vim	/^onoremap <buffer> <silent> \\pie :call C_InsertTemplate("preprocessor.if-else-endif")$/;"	m
+\pie	SortALgo.vim	/^vnoremap <buffer> <silent> \\pie :call C_InsertTemplate("preprocessor.if-else-endif", "v")$/;"	m
+\pie	SortAlgo.vim	/^inoremap <buffer> <silent> \\pie :call C_InsertTemplate("preprocessor.if-else-endif")$/;"	m
+\pie	SortAlgo.vim	/^nnoremap <buffer> <silent> \\pie :call C_InsertTemplate("preprocessor.if-else-endif")$/;"	m
+\pie	SortAlgo.vim	/^onoremap <buffer> <silent> \\pie :call C_InsertTemplate("preprocessor.if-else-endif")$/;"	m
+\pie	SortAlgo.vim	/^vnoremap <buffer> <silent> \\pie :call C_InsertTemplate("preprocessor.if-else-endif", "v")$/;"	m
+\pif	SortALgo.vim	/^inoremap <buffer> <silent> \\pif :call C_InsertTemplate("preprocessor.if-endif")$/;"	m
+\pif	SortALgo.vim	/^nnoremap <buffer> <silent> \\pif :call C_InsertTemplate("preprocessor.if-endif")$/;"	m
+\pif	SortALgo.vim	/^onoremap <buffer> <silent> \\pif :call C_InsertTemplate("preprocessor.if-endif")$/;"	m
+\pif	SortALgo.vim	/^vnoremap <buffer> <silent> \\pif :call C_InsertTemplate("preprocessor.if-endif", "v")$/;"	m
+\pif	SortAlgo.vim	/^inoremap <buffer> <silent> \\pif :call C_InsertTemplate("preprocessor.if-endif")$/;"	m
+\pif	SortAlgo.vim	/^nnoremap <buffer> <silent> \\pif :call C_InsertTemplate("preprocessor.if-endif")$/;"	m
+\pif	SortAlgo.vim	/^onoremap <buffer> <silent> \\pif :call C_InsertTemplate("preprocessor.if-endif")$/;"	m
+\pif	SortAlgo.vim	/^vnoremap <buffer> <silent> \\pif :call C_InsertTemplate("preprocessor.if-endif", "v")$/;"	m
+\pin	SortALgo.vim	/^inoremap <buffer> <silent> \\pin :call C_InsertTemplate("preprocessor.ifndef-else-endif")$/;"	m
+\pin	SortALgo.vim	/^nnoremap <buffer> <silent> \\pin :call C_InsertTemplate("preprocessor.ifndef-else-endif")$/;"	m
+\pin	SortALgo.vim	/^onoremap <buffer> <silent> \\pin :call C_InsertTemplate("preprocessor.ifndef-else-endif")$/;"	m
+\pin	SortALgo.vim	/^vnoremap <buffer> <silent> \\pin :call C_InsertTemplate("preprocessor.ifndef-else-endif", "v")$/;"	m
+\pin	SortAlgo.vim	/^inoremap <buffer> <silent> \\pin :call C_InsertTemplate("preprocessor.ifndef-else-endif")$/;"	m
+\pin	SortAlgo.vim	/^nnoremap <buffer> <silent> \\pin :call C_InsertTemplate("preprocessor.ifndef-else-endif")$/;"	m
+\pin	SortAlgo.vim	/^onoremap <buffer> <silent> \\pin :call C_InsertTemplate("preprocessor.ifndef-else-endif")$/;"	m
+\pin	SortAlgo.vim	/^vnoremap <buffer> <silent> \\pin :call C_InsertTemplate("preprocessor.ifndef-else-endif", "v")$/;"	m
+\pind	SortALgo.vim	/^inoremap <buffer> <silent> \\pind :call C_InsertTemplate("preprocessor.ifndef-def-endif")$/;"	m
+\pind	SortALgo.vim	/^nnoremap <buffer> <silent> \\pind :call C_InsertTemplate("preprocessor.ifndef-def-endif")$/;"	m
+\pind	SortALgo.vim	/^onoremap <buffer> <silent> \\pind :call C_InsertTemplate("preprocessor.ifndef-def-endif")$/;"	m
+\pind	SortALgo.vim	/^vnoremap <buffer> <silent> \\pind :call C_InsertTemplate("preprocessor.ifndef-def-endif", "v")$/;"	m
+\pind	SortAlgo.vim	/^inoremap <buffer> <silent> \\pind :call C_InsertTemplate("preprocessor.ifndef-def-endif")$/;"	m
+\pind	SortAlgo.vim	/^nnoremap <buffer> <silent> \\pind :call C_InsertTemplate("preprocessor.ifndef-def-endif")$/;"	m
+\pind	SortAlgo.vim	/^onoremap <buffer> <silent> \\pind :call C_InsertTemplate("preprocessor.ifndef-def-endif")$/;"	m
+\pind	SortAlgo.vim	/^vnoremap <buffer> <silent> \\pind :call C_InsertTemplate("preprocessor.ifndef-def-endif", "v")$/;"	m
+\pl	SortALgo.vim	/^inoremap <buffer> <silent> \\pl :call C_InsertTemplate("preprocessor.line")$/;"	m
+\pl	SortALgo.vim	/^noremap <buffer> <silent> \\pl :call C_InsertTemplate("preprocessor.line")$/;"	m
+\pl	SortAlgo.vim	/^inoremap <buffer> <silent> \\pl :call C_InsertTemplate("preprocessor.line")$/;"	m
+\pl	SortAlgo.vim	/^noremap <buffer> <silent> \\pl :call C_InsertTemplate("preprocessor.line")$/;"	m
+\pp	SortALgo.vim	/^inoremap <buffer> <silent> \\pp :call C_InsertTemplate("preprocessor.pragma")$/;"	m
+\pp	SortALgo.vim	/^noremap <buffer> <silent> \\pp :call C_InsertTemplate("preprocessor.pragma")$/;"	m
+\pp	SortAlgo.vim	/^inoremap <buffer> <silent> \\pp :call C_InsertTemplate("preprocessor.pragma")$/;"	m
+\pp	SortAlgo.vim	/^noremap <buffer> <silent> \\pp :call C_InsertTemplate("preprocessor.pragma")$/;"	m
+\pr0	SortALgo.vim	/^inoremap <buffer> <silent> \\pr0 :call C_PPIf0Remove()$/;"	m
+\pr0	SortALgo.vim	/^noremap <buffer> <silent> \\pr0 :call C_PPIf0Remove()$/;"	m
+\pr0	SortAlgo.vim	/^inoremap <buffer> <silent> \\pr0 :call C_PPIf0Remove()$/;"	m
+\pr0	SortAlgo.vim	/^noremap <buffer> <silent> \\pr0 :call C_PPIf0Remove()$/;"	m
+\ps	SortALgo.vim	/^inoremap <buffer> \\ps :IncludeStdLibrary $/;"	m
+\ps	SortALgo.vim	/^noremap <buffer> \\ps :IncludeStdLibrary $/;"	m
+\ps	SortAlgo.vim	/^inoremap <buffer> \\ps :IncludeStdLibrary $/;"	m
+\ps	SortAlgo.vim	/^noremap <buffer> \\ps :IncludeStdLibrary $/;"	m
+\pu	SortALgo.vim	/^inoremap <buffer> <silent> \\pu :call C_InsertTemplate("preprocessor.undefine")$/;"	m
+\pu	SortALgo.vim	/^noremap <buffer> <silent> \\pu :call C_InsertTemplate("preprocessor.undefine")$/;"	m
+\pu	SortAlgo.vim	/^inoremap <buffer> <silent> \\pu :call C_InsertTemplate("preprocessor.undefine")$/;"	m
+\pu	SortAlgo.vim	/^noremap <buffer> <silent> \\pu :call C_InsertTemplate("preprocessor.undefine")$/;"	m
+\ra	SortALgo.vim	/^imap <buffer> <silent> \\ra :call C_Arguments()$/;"	m
+\ra	SortALgo.vim	/^map <buffer> <silent> \\ra :call C_Arguments()$/;"	m
+\ra	SortAlgo.vim	/^imap <buffer> <silent> \\ra :call C_Arguments()$/;"	m
+\ra	SortAlgo.vim	/^map <buffer> <silent> \\ra :call C_Arguments()$/;"	m
+\rc	SortALgo.vim	/^imap <buffer> <silent> \\rc :call C_Compile()$/;"	m
+\rc	SortALgo.vim	/^map <buffer> <silent> \\rc :call C_Compile()$/;"	m
+\rc	SortAlgo.vim	/^imap <buffer> <silent> \\rc :call C_Compile()$/;"	m
+\rc	SortAlgo.vim	/^map <buffer> <silent> \\rc :call C_Compile()$/;"	m
+\rcm	SortALgo.vim	/^map <buffer> <silent> \\rcm :call C_ChooseMakefile()$/;"	m
+\rcm	SortAlgo.vim	/^map <buffer> <silent> \\rcm :call C_ChooseMakefile()$/;"	m
+\rd	SortALgo.vim	/^imap <buffer> <silent> \\rd :call C_Indent()$/;"	m
+\rd	SortALgo.vim	/^map <buffer> <silent> \\rd :call C_Indent()$/;"	m
+\rd	SortAlgo.vim	/^imap <buffer> <silent> \\rd :call C_Indent()$/;"	m
+\rd	SortAlgo.vim	/^map <buffer> <silent> \\rd :call C_Indent()$/;"	m
+\rh	SortALgo.vim	/^imap <buffer> <silent> \\rh :call C_Hardcopy()$/;"	m
+\rh	SortALgo.vim	/^nmap <buffer> <silent> \\rh :call C_Hardcopy()$/;"	m
+\rh	SortALgo.vim	/^omap <buffer> <silent> \\rh :call C_Hardcopy()$/;"	m
+\rh	SortALgo.vim	/^vmap <buffer> <silent> \\rh :call C_Hardcopy()$/;"	m
+\rh	SortAlgo.vim	/^imap <buffer> <silent> \\rh :call C_Hardcopy()$/;"	m
+\rh	SortAlgo.vim	/^nmap <buffer> <silent> \\rh :call C_Hardcopy()$/;"	m
+\rh	SortAlgo.vim	/^omap <buffer> <silent> \\rh :call C_Hardcopy()$/;"	m
+\rh	SortAlgo.vim	/^vmap <buffer> <silent> \\rh :call C_Hardcopy()$/;"	m
+\rl	SortALgo.vim	/^imap <buffer> <silent> \\rl :call C_Link()$/;"	m
+\rl	SortALgo.vim	/^map <buffer> <silent> \\rl :call C_Link()$/;"	m
+\rl	SortAlgo.vim	/^imap <buffer> <silent> \\rl :call C_Link()$/;"	m
+\rl	SortAlgo.vim	/^map <buffer> <silent> \\rl :call C_Link()$/;"	m
+\rm	SortALgo.vim	/^imap <buffer> <silent> \\rm :call C_Make()$/;"	m
+\rm	SortALgo.vim	/^map <buffer> <silent> \\rm :call C_Make()$/;"	m
+\rm	SortAlgo.vim	/^imap <buffer> <silent> \\rm :call C_Make()$/;"	m
+\rm	SortAlgo.vim	/^map <buffer> <silent> \\rm :call C_Make()$/;"	m
+\rma	SortALgo.vim	/^imap <buffer> <silent> \\rma :call C_MakeArguments()$/;"	m
+\rma	SortALgo.vim	/^map <buffer> <silent> \\rma :call C_MakeArguments()$/;"	m
+\rma	SortAlgo.vim	/^imap <buffer> <silent> \\rma :call C_MakeArguments()$/;"	m
+\rma	SortAlgo.vim	/^map <buffer> <silent> \\rma :call C_MakeArguments()$/;"	m
+\rmc	SortALgo.vim	/^imap <buffer> <silent> \\rmc :call C_MakeClean()$/;"	m
+\rmc	SortALgo.vim	/^map <buffer> <silent> \\rmc :call C_MakeClean()$/;"	m
+\rmc	SortAlgo.vim	/^imap <buffer> <silent> \\rmc :call C_MakeClean()$/;"	m
+\rmc	SortAlgo.vim	/^map <buffer> <silent> \\rmc :call C_MakeClean()$/;"	m
+\rme	SortALgo.vim	/^imap <buffer> <silent> \\rme :call C_ExeToRun()$/;"	m
+\rme	SortALgo.vim	/^map <buffer> <silent> \\rme :call C_ExeToRun()$/;"	m
+\rme	SortAlgo.vim	/^imap <buffer> <silent> \\rme :call C_ExeToRun()$/;"	m
+\rme	SortAlgo.vim	/^map <buffer> <silent> \\rme :call C_ExeToRun()$/;"	m
+\ro	SortALgo.vim	/^imap <buffer> <silent> \\ro :call C_Toggle_Gvim_Xterm()$/;"	m
+\ro	SortALgo.vim	/^map <buffer> <silent> \\ro :call C_Toggle_Gvim_Xterm()$/;"	m
+\ro	SortAlgo.vim	/^imap <buffer> <silent> \\ro :call C_Toggle_Gvim_Xterm()$/;"	m
+\ro	SortAlgo.vim	/^map <buffer> <silent> \\ro :call C_Toggle_Gvim_Xterm()$/;"	m
+\rp	SortALgo.vim	/^imap <buffer> <silent> \\rp :call C_SplintCheck()$/;"	m
+\rp	SortALgo.vim	/^map <buffer> <silent> \\rp :call C_SplintCheck()$/;"	m
+\rp	SortAlgo.vim	/^imap <buffer> <silent> \\rp :call C_SplintCheck()$/;"	m
+\rp	SortAlgo.vim	/^map <buffer> <silent> \\rp :call C_SplintCheck()$/;"	m
+\rpa	SortALgo.vim	/^imap <buffer> <silent> \\rpa :call C_SplintArguments()$/;"	m
+\rpa	SortALgo.vim	/^map <buffer> <silent> \\rpa :call C_SplintArguments()$/;"	m
+\rpa	SortAlgo.vim	/^imap <buffer> <silent> \\rpa :call C_SplintArguments()$/;"	m
+\rpa	SortAlgo.vim	/^map <buffer> <silent> \\rpa :call C_SplintArguments()$/;"	m
+\rr	SortALgo.vim	/^imap <buffer> <silent> \\rr :call C_Run()$/;"	m
+\rr	SortALgo.vim	/^map <buffer> <silent> \\rr :call C_Run()$/;"	m
+\rr	SortAlgo.vim	/^imap <buffer> <silent> \\rr :call C_Run()$/;"	m
+\rr	SortAlgo.vim	/^map <buffer> <silent> \\rr :call C_Run()$/;"	m
+\rs	SortALgo.vim	/^imap <buffer> <silent> \\rs :call C_Settings()$/;"	m
+\rs	SortALgo.vim	/^map <buffer> <silent> \\rs :call C_Settings()$/;"	m
+\rs	SortAlgo.vim	/^imap <buffer> <silent> \\rs :call C_Settings()$/;"	m
+\rs	SortAlgo.vim	/^map <buffer> <silent> \\rs :call C_Settings()$/;"	m
+\rx	SortALgo.vim	/^imap <buffer> <silent> \\rx :call C_XtermSize()$/;"	m
+\rx	SortALgo.vim	/^map <buffer> <silent> \\rx :call C_XtermSize()$/;"	m
+\rx	SortAlgo.vim	/^imap <buffer> <silent> \\rx :call C_XtermSize()$/;"	m
+\rx	SortAlgo.vim	/^map <buffer> <silent> \\rx :call C_XtermSize()$/;"	m
+\sb	SortALgo.vim	/^inoremap <buffer> <silent> \\sb :call C_InsertTemplate("statements.block")$/;"	m
+\sb	SortALgo.vim	/^nnoremap <buffer> <silent> \\sb :call C_InsertTemplate("statements.block")$/;"	m
+\sb	SortALgo.vim	/^onoremap <buffer> <silent> \\sb :call C_InsertTemplate("statements.block")$/;"	m
+\sb	SortALgo.vim	/^vnoremap <buffer> <silent> \\sb :call C_InsertTemplate("statements.block", "v")$/;"	m
+\sb	SortAlgo.vim	/^inoremap <buffer> <silent> \\sb :call C_InsertTemplate("statements.block")$/;"	m
+\sb	SortAlgo.vim	/^nnoremap <buffer> <silent> \\sb :call C_InsertTemplate("statements.block")$/;"	m
+\sb	SortAlgo.vim	/^onoremap <buffer> <silent> \\sb :call C_InsertTemplate("statements.block")$/;"	m
+\sb	SortAlgo.vim	/^vnoremap <buffer> <silent> \\sb :call C_InsertTemplate("statements.block", "v")$/;"	m
+\sc	SortALgo.vim	/^inoremap <buffer> <silent> \\sc :call C_InsertTemplate("statements.case")$/;"	m
+\sc	SortALgo.vim	/^noremap <buffer> <silent> \\sc :call C_InsertTemplate("statements.case")$/;"	m
+\sc	SortAlgo.vim	/^inoremap <buffer> <silent> \\sc :call C_InsertTemplate("statements.case")$/;"	m
+\sc	SortAlgo.vim	/^noremap <buffer> <silent> \\sc :call C_InsertTemplate("statements.case")$/;"	m
+\sd	SortALgo.vim	/^inoremap <buffer> <silent> \\sd :call C_InsertTemplate("statements.do-while")$/;"	m
+\sd	SortALgo.vim	/^nnoremap <buffer> <silent> \\sd :call C_InsertTemplate("statements.do-while")$/;"	m
+\sd	SortALgo.vim	/^onoremap <buffer> <silent> \\sd :call C_InsertTemplate("statements.do-while")$/;"	m
+\sd	SortALgo.vim	/^vnoremap <buffer> <silent> \\sd :call C_InsertTemplate("statements.do-while", "v")$/;"	m
+\sd	SortAlgo.vim	/^inoremap <buffer> <silent> \\sd :call C_InsertTemplate("statements.do-while")$/;"	m
+\sd	SortAlgo.vim	/^nnoremap <buffer> <silent> \\sd :call C_InsertTemplate("statements.do-while")$/;"	m
+\sd	SortAlgo.vim	/^onoremap <buffer> <silent> \\sd :call C_InsertTemplate("statements.do-while")$/;"	m
+\sd	SortAlgo.vim	/^vnoremap <buffer> <silent> \\sd :call C_InsertTemplate("statements.do-while", "v")$/;"	m
+\se	SortALgo.vim	/^inoremap <buffer> <silent> \\se :call C_InsertTemplate("statements.else-block")$/;"	m
+\se	SortALgo.vim	/^nnoremap <buffer> <silent> \\se :call C_InsertTemplate("statements.else-block")$/;"	m
+\se	SortALgo.vim	/^onoremap <buffer> <silent> \\se :call C_InsertTemplate("statements.else-block")$/;"	m
+\se	SortALgo.vim	/^vnoremap <buffer> <silent> \\se :call C_InsertTemplate("statements.else-block", "v")$/;"	m
+\se	SortAlgo.vim	/^inoremap <buffer> <silent> \\se :call C_InsertTemplate("statements.else-block")$/;"	m
+\se	SortAlgo.vim	/^nnoremap <buffer> <silent> \\se :call C_InsertTemplate("statements.else-block")$/;"	m
+\se	SortAlgo.vim	/^onoremap <buffer> <silent> \\se :call C_InsertTemplate("statements.else-block")$/;"	m
+\se	SortAlgo.vim	/^vnoremap <buffer> <silent> \\se :call C_InsertTemplate("statements.else-block", "v")$/;"	m
+\sf	SortALgo.vim	/^inoremap <buffer> <silent> \\sf :call C_InsertTemplate("statements.for")$/;"	m
+\sf	SortALgo.vim	/^noremap <buffer> <silent> \\sf :call C_InsertTemplate("statements.for")$/;"	m
+\sf	SortAlgo.vim	/^inoremap <buffer> <silent> \\sf :call C_InsertTemplate("statements.for")$/;"	m
+\sf	SortAlgo.vim	/^noremap <buffer> <silent> \\sf :call C_InsertTemplate("statements.for")$/;"	m
+\sfo	SortALgo.vim	/^inoremap <buffer> <silent> \\sfo :call C_InsertTemplate("statements.for-block")$/;"	m
+\sfo	SortALgo.vim	/^nnoremap <buffer> <silent> \\sfo :call C_InsertTemplate("statements.for-block")$/;"	m
+\sfo	SortALgo.vim	/^onoremap <buffer> <silent> \\sfo :call C_InsertTemplate("statements.for-block")$/;"	m
+\sfo	SortALgo.vim	/^vnoremap <buffer> <silent> \\sfo :call C_InsertTemplate("statements.for-block", "v")$/;"	m
+\sfo	SortAlgo.vim	/^inoremap <buffer> <silent> \\sfo :call C_InsertTemplate("statements.for-block")$/;"	m
+\sfo	SortAlgo.vim	/^nnoremap <buffer> <silent> \\sfo :call C_InsertTemplate("statements.for-block")$/;"	m
+\sfo	SortAlgo.vim	/^onoremap <buffer> <silent> \\sfo :call C_InsertTemplate("statements.for-block")$/;"	m
+\sfo	SortAlgo.vim	/^vnoremap <buffer> <silent> \\sfo :call C_InsertTemplate("statements.for-block", "v")$/;"	m
+\si	SortALgo.vim	/^inoremap <buffer> <silent> \\si :call C_InsertTemplate("statements.if")$/;"	m
+\si	SortALgo.vim	/^noremap <buffer> <silent> \\si :call C_InsertTemplate("statements.if")$/;"	m
+\si	SortAlgo.vim	/^inoremap <buffer> <silent> \\si :call C_InsertTemplate("statements.if")$/;"	m
+\si	SortAlgo.vim	/^noremap <buffer> <silent> \\si :call C_InsertTemplate("statements.if")$/;"	m
+\sie	SortALgo.vim	/^inoremap <buffer> <silent> \\sie :call C_InsertTemplate("statements.if-else")$/;"	m
+\sie	SortALgo.vim	/^nnoremap <buffer> <silent> \\sie :call C_InsertTemplate("statements.if-else")$/;"	m
+\sie	SortALgo.vim	/^onoremap <buffer> <silent> \\sie :call C_InsertTemplate("statements.if-else")$/;"	m
+\sie	SortALgo.vim	/^vnoremap <buffer> <silent> \\sie :call C_InsertTemplate("statements.if-else", "v")$/;"	m
+\sie	SortAlgo.vim	/^inoremap <buffer> <silent> \\sie :call C_InsertTemplate("statements.if-else")$/;"	m
+\sie	SortAlgo.vim	/^nnoremap <buffer> <silent> \\sie :call C_InsertTemplate("statements.if-else")$/;"	m
+\sie	SortAlgo.vim	/^onoremap <buffer> <silent> \\sie :call C_InsertTemplate("statements.if-else")$/;"	m
+\sie	SortAlgo.vim	/^vnoremap <buffer> <silent> \\sie :call C_InsertTemplate("statements.if-else", "v")$/;"	m
+\sif	SortALgo.vim	/^inoremap <buffer> <silent> \\sif :call C_InsertTemplate("statements.if-block")$/;"	m
+\sif	SortALgo.vim	/^nnoremap <buffer> <silent> \\sif :call C_InsertTemplate("statements.if-block")$/;"	m
+\sif	SortALgo.vim	/^onoremap <buffer> <silent> \\sif :call C_InsertTemplate("statements.if-block")$/;"	m
+\sif	SortALgo.vim	/^vnoremap <buffer> <silent> \\sif :call C_InsertTemplate("statements.if-block", "v")$/;"	m
+\sif	SortAlgo.vim	/^inoremap <buffer> <silent> \\sif :call C_InsertTemplate("statements.if-block")$/;"	m
+\sif	SortAlgo.vim	/^nnoremap <buffer> <silent> \\sif :call C_InsertTemplate("statements.if-block")$/;"	m
+\sif	SortAlgo.vim	/^onoremap <buffer> <silent> \\sif :call C_InsertTemplate("statements.if-block")$/;"	m
+\sif	SortAlgo.vim	/^vnoremap <buffer> <silent> \\sif :call C_InsertTemplate("statements.if-block", "v")$/;"	m
+\sife	SortALgo.vim	/^inoremap <buffer> <silent> \\sife :call C_InsertTemplate("statements.if-block-else")$/;"	m
+\sife	SortALgo.vim	/^nnoremap <buffer> <silent> \\sife :call C_InsertTemplate("statements.if-block-else")$/;"	m
+\sife	SortALgo.vim	/^onoremap <buffer> <silent> \\sife :call C_InsertTemplate("statements.if-block-else")$/;"	m
+\sife	SortALgo.vim	/^vnoremap <buffer> <silent> \\sife :call C_InsertTemplate("statements.if-block-else", "v")$/;"	m
+\sife	SortAlgo.vim	/^inoremap <buffer> <silent> \\sife :call C_InsertTemplate("statements.if-block-else")$/;"	m
+\sife	SortAlgo.vim	/^nnoremap <buffer> <silent> \\sife :call C_InsertTemplate("statements.if-block-else")$/;"	m
+\sife	SortAlgo.vim	/^onoremap <buffer> <silent> \\sife :call C_InsertTemplate("statements.if-block-else")$/;"	m
+\sife	SortAlgo.vim	/^vnoremap <buffer> <silent> \\sife :call C_InsertTemplate("statements.if-block-else", "v")$/;"	m
+\ss	SortALgo.vim	/^inoremap <buffer> <silent> \\ss :call C_InsertTemplate("statements.switch")$/;"	m
+\ss	SortALgo.vim	/^nnoremap <buffer> <silent> \\ss :call C_InsertTemplate("statements.switch")$/;"	m
+\ss	SortALgo.vim	/^onoremap <buffer> <silent> \\ss :call C_InsertTemplate("statements.switch")$/;"	m
+\ss	SortALgo.vim	/^vnoremap <buffer> <silent> \\ss :call C_InsertTemplate("statements.switch", "v")$/;"	m
+\ss	SortAlgo.vim	/^inoremap <buffer> <silent> \\ss :call C_InsertTemplate("statements.switch")$/;"	m
+\ss	SortAlgo.vim	/^nnoremap <buffer> <silent> \\ss :call C_InsertTemplate("statements.switch")$/;"	m
+\ss	SortAlgo.vim	/^onoremap <buffer> <silent> \\ss :call C_InsertTemplate("statements.switch")$/;"	m
+\ss	SortAlgo.vim	/^vnoremap <buffer> <silent> \\ss :call C_InsertTemplate("statements.switch", "v")$/;"	m
+\sw	SortALgo.vim	/^inoremap <buffer> <silent> \\sw :call C_InsertTemplate("statements.while")$/;"	m
+\sw	SortALgo.vim	/^noremap <buffer> <silent> \\sw :call C_InsertTemplate("statements.while")$/;"	m
+\sw	SortAlgo.vim	/^inoremap <buffer> <silent> \\sw :call C_InsertTemplate("statements.while")$/;"	m
+\sw	SortAlgo.vim	/^noremap <buffer> <silent> \\sw :call C_InsertTemplate("statements.while")$/;"	m
+\swh	SortALgo.vim	/^inoremap <buffer> <silent> \\swh :call C_InsertTemplate("statements.while-block")$/;"	m
+\swh	SortALgo.vim	/^nnoremap <buffer> <silent> \\swh :call C_InsertTemplate("statements.while-block")$/;"	m
+\swh	SortALgo.vim	/^onoremap <buffer> <silent> \\swh :call C_InsertTemplate("statements.while-block")$/;"	m
+\swh	SortALgo.vim	/^vnoremap <buffer> <silent> \\swh :call C_InsertTemplate("statements.while-block", "v")$/;"	m
+\swh	SortAlgo.vim	/^inoremap <buffer> <silent> \\swh :call C_InsertTemplate("statements.while-block")$/;"	m
+\swh	SortAlgo.vim	/^nnoremap <buffer> <silent> \\swh :call C_InsertTemplate("statements.while-block")$/;"	m
+\swh	SortAlgo.vim	/^onoremap <buffer> <silent> \\swh :call C_InsertTemplate("statements.while-block")$/;"	m
+\swh	SortAlgo.vim	/^vnoremap <buffer> <silent> \\swh :call C_InsertTemplate("statements.while-block", "v")$/;"	m
+\s{	SortALgo.vim	/^inoremap <buffer> <silent> \\s{ :call C_InsertTemplate("statements.block")$/;"	m
+\s{	SortALgo.vim	/^nnoremap <buffer> <silent> \\s{ :call C_InsertTemplate("statements.block")$/;"	m
+\s{	SortALgo.vim	/^onoremap <buffer> <silent> \\s{ :call C_InsertTemplate("statements.block")$/;"	m
+\s{	SortALgo.vim	/^vnoremap <buffer> <silent> \\s{ :call C_InsertTemplate("statements.block", "v")$/;"	m
+\s{	SortAlgo.vim	/^inoremap <buffer> <silent> \\s{ :call C_InsertTemplate("statements.block")$/;"	m
+\s{	SortAlgo.vim	/^nnoremap <buffer> <silent> \\s{ :call C_InsertTemplate("statements.block")$/;"	m
+\s{	SortAlgo.vim	/^onoremap <buffer> <silent> \\s{ :call C_InsertTemplate("statements.block")$/;"	m
+\s{	SortAlgo.vim	/^vnoremap <buffer> <silent> \\s{ :call C_InsertTemplate("statements.block", "v")$/;"	m
+]"	SortALgo.vim	/^nnoremap <buffer> <silent> ]" :call search('^\\(\\s*".*\\n\\)\\@<!\\(\\s*"\\)', "W")$/;"	m
+]"	SortALgo.vim	/^vnoremap <buffer> <silent> ]" :exe "normal! gv"|call search('^\\(\\s*".*\\n\\)\\@<!\\(\\s*"\\)', "W")$/;"	m
+]"	SortAlgo.vim	/^nnoremap <buffer> <silent> ]" :call search('^\\(\\s*".*\\n\\)\\@<!\\(\\s*"\\)', "W")$/;"	m
+]"	SortAlgo.vim	/^vnoremap <buffer> <silent> ]" :exe "normal! gv"|call search('^\\(\\s*".*\\n\\)\\@<!\\(\\s*"\\)', "W")$/;"	m
+]%	SortALgo.vim	/^vmap ]% ]%m'gv``$/;"	m
+]%	SortAlgo.vim	/^vmap ]% ]%m'gv``$/;"	m
+][	SortALgo.vim	/^nnoremap <buffer> <silent> ][ m':call search('^\\s*endf*\\%[unction]\\>', "W")$/;"	m
+][	SortALgo.vim	/^vnoremap <buffer> <silent> ][ m':exe "normal! gv"|call search('^\\s*endf*\\%[unction]\\>', "W")$/;"	m
+][	SortAlgo.vim	/^nnoremap <buffer> <silent> ][ m':call search('^\\s*endf*\\%[unction]\\>', "W")$/;"	m
+][	SortAlgo.vim	/^vnoremap <buffer> <silent> ][ m':exe "normal! gv"|call search('^\\s*endf*\\%[unction]\\>', "W")$/;"	m
+]]	SortALgo.vim	/^nnoremap <buffer> <silent> ]] m':call search('^\\s*fu\\%[nction]\\>', "W")$/;"	m
+]]	SortALgo.vim	/^vnoremap <buffer> <silent> ]] m':exe "normal! gv"|call search('^\\s*fu\\%[nction]\\>', "W")$/;"	m
+]]	SortAlgo.vim	/^nnoremap <buffer> <silent> ]] m':call search('^\\s*fu\\%[nction]\\>', "W")$/;"	m
+]]	SortAlgo.vim	/^vnoremap <buffer> <silent> ]] m':exe "normal! gv"|call search('^\\s*fu\\%[nction]\\>', "W")$/;"	m
+a%	SortALgo.vim	/^vmap a% [%v]%$/;"	m
+a%	SortAlgo.vim	/^vmap a% [%v]%$/;"	m
+c	SortALgo.vim	/^nnoremap <buffer> c :exec "cd ".b:completePathEsc$/;"	m
+c	SortAlgo.vim	/^nnoremap <buffer> c :exec "cd ".b:completePathEsc$/;"	m
+endl	Main.cpp	/^    cout<<argv[1]<<endl;$/;"	l
+gx	SortALgo.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+gx	SortAlgo.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+i	7-1_quicksort.c	/^    int i = low - 1;$/;"	l
+j	7-1_quicksort.c	/^    int j = 0;$/;"	l
+j	SortAlgo.cpp	/^   int j = 0, k = 0;$/;"	l
+k	SortAlgo.cpp	/^   int j = 0, k = 0;$/;"	l
+length	Main.cpp	/^    int length =atoi(argv[1]);$/;"	l
+list	7-1_quicksort.c	/^    int list[LIST_LEN];$/;"	l
+list1	Main.cpp	/^    vector<int> list1;$/;"	l
+list2	Main.cpp	/^    vector<double> list2;$/;"	l
+main	7-1_quicksort.c	/^int main(int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+main	Main.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+mid	SortAlgo.cpp	/^        int mid = (low + high )\/2; $/;"	l
+n	SortALgo.vim	/^nnoremap <buffer> <silent> n :keepjumps normal! n$/;"	m
+n	SortAlgo.vim	/^nnoremap <buffer> <silent> n :keepjumps normal! n$/;"	m
+n1	SortAlgo.cpp	/^   int n1 = mid - low + 1;$/;"	l
+n2	SortAlgo.cpp	/^   int n2 = high - mid;$/;"	l
+partition	7-1_quicksort.c	/^int partition(int list[], int low, int high) {$/;"	f	signature:(int list[], int low, int high)
+q	7-1_quicksort.c	/^        int q = partition(list, low, high);$/;"	l
+quick_sort	7-1_quicksort.c	/^void quick_sort(int list[], int low, int high) {$/;"	f	signature:(int list[], int low, int high)
+resize	Main.cpp	/^    list1.resize(length);$/;"	p	file:	signature:(length)
+resize	Main.cpp	/^    list2.resize(length);$/;"	p	file:	signature:(length)
+s:cpo_save	SortALgo.vim	/^let s:cpo_save=&cpo$/;"	v
+s:cpo_save	SortAlgo.vim	/^let s:cpo_save=&cpo$/;"	v
+s:l	SortALgo.vim	/^let s:l = 109 - ((16 * winheight(0) + 12) \/ 24)$/;"	v
+s:l	SortALgo.vim	/^let s:l = 1344 - ((6 * winheight(0) + 6) \/ 13)$/;"	v
+s:l	SortALgo.vim	/^let s:l = 23 - ((0 * winheight(0) + 1) \/ 2)$/;"	v
+s:l	SortALgo.vim	/^let s:l = 7 - ((2 * winheight(0) + 16) \/ 33)$/;"	v
+s:l	SortALgo.vim	/^let s:l = 909 - ((19 * winheight(0) + 20) \/ 41)$/;"	v
+s:l	SortAlgo.vim	/^let s:l = 10 - ((6 * winheight(0) + 8) \/ 17)$/;"	v
+s:l	SortAlgo.vim	/^let s:l = 14 - ((5 * winheight(0) + 17) \/ 34)$/;"	v
+s:l	SortAlgo.vim	/^let s:l = 21 - ((20 * winheight(0) + 11) \/ 23)$/;"	v
+s:l	SortAlgo.vim	/^let s:l = 507 - ((29 * winheight(0) + 20) \/ 41)$/;"	v
+s:so_save	SortALgo.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:so_save	SortAlgo.vim	/^let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0$/;"	v
+s:sx	SortALgo.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:sx	SortAlgo.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	SortALgo.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+s:wipebuf	SortAlgo.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+tmp	7-1_quicksort.c	/^    int tmp = 0;$/;"	l
+x	7-1_quicksort.c	/^    int x = list[high];$/;"	l
+zo	SortALgo.vim	/^normal zo$/;"	m
+zt	SortALgo.vim	/^normal! zt$/;"	m
+zt	SortAlgo.vim	/^normal! zt$/;"	m
+{	SortALgo.vim	/^inoremap <buffer> {$/;"	m
+{	SortALgo.vim	/^vnoremap <buffer> {$/;"	m
+{	SortAlgo.vim	/^inoremap <buffer> {$/;"	m
+{	SortAlgo.vim	/^vnoremap <buffer> {$/;"	m
+~SortAlgo	SortAlgo.cpp	/^SortAlgo< T >::~SortAlgo ()$/;"	f	class:SortAlgo	signature:()
+~SortAlgo	SortAlgo.h	/^        ~SortAlgo ();$/;"	p	class:SortAlgo	access:public	signature:()
+¤	SortALgo.vim	/^imap ¤ $a$/;"	m
+¤	SortAlgo.vim	/^imap ¤ $a$/;"	m
+°	SortALgo.vim	/^imap ° 0i$/;"	m
+°	SortAlgo.vim	/^imap ° 0i$/;"	m
+ä	SortALgo.vim	/^nnoremap <silent> ä m`:silent -g\/\\m^\\s*$\/d$/;"	m
+ä	SortAlgo.vim	/^nnoremap <silent> ä m`:silent -g\/\\m^\\s*$\/d$/;"	m
+ì	SortALgo.vim	/^nnoremap <silent> ì :set paste$/;"	m
+ì	SortAlgo.vim	/^nnoremap <silent> ì :set paste$/;"	m

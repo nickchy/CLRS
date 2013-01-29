@@ -94,7 +94,7 @@ HDRS= \
 $(wildcard %.h)
 
 #Make file name
-MAKEFILE= make_heap.mak
+MAKEFILE= make_sort.mak
 # Define the final program name
 COMMAND= Main
 
@@ -102,7 +102,7 @@ all: $(COMMAND)
 #COMPILER 
 CC= g++
 # CFLAGS is used for C++ compilation options.
-CFLAGS=  -g -O0
+CFLAGS= -g -O0
 #WARNNING FLAG
 WARNFLAGS= -Werror -Wall
 #-Wshadow -fno-common
@@ -134,7 +134,7 @@ INCLUDEDIR = /home/nick/CLRS/util/
 
 
 SMODULES := \
-  List
+  List \
 
 # Boost libraries' type (a suffix)
 #BOOST_MODULES_TYPE := -mt

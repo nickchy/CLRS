@@ -28,10 +28,9 @@
 #include <stdlib.h>
 #include <iostream>
 #include <limits>
-#include "SortAlgo.h"
-using namespace std;
 #include <vector>
 
+using namespace std;
 
 template < class T >
 class SortAlgo
@@ -65,8 +64,43 @@ class SortAlgo
          * Description:  Merge sort algorithm
          *--------------------------------------------------------------------------------------
          */
-       static void MergeSort ( vector<T>& List,int low, int high);
+        static void MergeSort ( vector<T>& List,int low, int high);
+       /* 
+        * ===  FUNCTION  ======================================================================
+        *         Name:  Partition
+        *  Description: used in quick sort, find the piviot point  
+        * =====================================================================================
+        */
+       static int Partition ( vector<T>& List, int Low,int high);
+
+       /*
+        *--------------------------------------------------------------------------------------
+        *       Class:  SortAlgo
+        *      Method:  SortAlgo :: QuickSort
+        * Description:  implement quicksort algorithm
+        *--------------------------------------------------------------------------------------
+        */
+       static void QuickSort( vector<T>& List, int Low,int high);    
+
+        /* 
+        * ===  FUNCTION  ======================================================================
+        *         Name:  RandomPartition
+        *  Description: used in quick sort, find the piviot point and apply random sampling  
+        * =====================================================================================
+        */
+       static int RandomPartition ( vector<T>& List, int Low,int high);
+
+       /*
+        *--------------------------------------------------------------------------------------
+        *       Class:  SortAlgo
+        *      Method:  SortAlgo :: RandomQuickSort
+        * Description:  implement quicksort algorithm
+        *--------------------------------------------------------------------------------------
+        */
+       static void RandomQuickSort( vector<T>& List, int Low,int high);    
+
        
 }; /* -----  end of template class SortAlgo  ----- */
+
 
 #endif   /* ----- #ifndef SORTALGO_H_INC  ----- */
