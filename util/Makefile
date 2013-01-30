@@ -1,5 +1,8 @@
 .PHONY: all, clean
 
+CC = g++
+CFLAG = -g -O0
+WARNFLAG = -Werror -Wall
 SRC = $(wildcard *.h)
 
 tTarget= $(addsuffix .so, $(basename $(SRC)))
@@ -8,9 +11,10 @@ Target = $(addprefix lib, $(tTarget))
 	
 OBJ = $(addsuffix .o, $(basename $(SRC)))
 all: $(Target) 
+
 %.o: %.cpp %.h
-	g++ -fpic -c  $<
-	@echo $<" successfully compled"
+	$(CC) -fpic $(CFLAG) $(WARNFLAG) -c  $<
+	@echo $<" successfully completed"
 
 $(Target): $(OBJ)
 	g++ -shared -o $@ $<    

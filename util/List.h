@@ -6,7 +6,8 @@
 using namespace std;
 
     template <class T>
-void PrintList(vector<T>& list) {
+void PrintList(vector<T>& list) 
+{
    cout << "List: [";
     unsigned int counter;
     for (counter = 0; counter < list.size(); counter++) {
@@ -19,7 +20,15 @@ void PrintList(vector<T>& list) {
     cout << ("] \n");
 }
 
-void MakeList(vector<int>&, int);
+    template <class T>
+void Swap ( vector<T>& list, int i, int j)
+{
+    T temp = list[i];
+    list[i] = list[j];
+    list[j] = temp;
+}		/* -----  end of template function Swap  ----- */
+
+void MakeList(vector<int>&, int,int = 1000);
 void MakeList(vector<double>&, int);
 
 #endif   /* ----- #ifndef LIST_H_INC  ----- */
