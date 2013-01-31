@@ -30,8 +30,6 @@
 #include <limits>
 #include <vector>
 
-using namespace std;
-
 template < class T >
 class SortAlgo
 {
@@ -55,7 +53,7 @@ class SortAlgo
          * Description:  Merge two subarray into one in order, used for merge sort
          *--------------------------------------------------------------------------------------
          */
-        static void Merge (vector<T>& List, int low, int mid, int high);
+        static void Merge (std::vector<T>& List, int low, int mid, int high);
 
         /*
          *--------------------------------------------------------------------------------------
@@ -64,14 +62,14 @@ class SortAlgo
          * Description:  Merge sort algorithm
          *--------------------------------------------------------------------------------------
          */
-        static void MergeSort ( vector<T>& List,int low, int high);
+        static void MergeSort ( std::vector<T>& List,int low, int high);
        /* 
         * ===  FUNCTION  ======================================================================
         *         Name:  Partition
         *  Description: used in quick sort, find the piviot point  
         * =====================================================================================
         */
-       static int Partition ( vector<T>& List, int Low,int high);
+//       static int Partition ( std::vector<T>& List, int Low,int high);
 
        /*
         *--------------------------------------------------------------------------------------
@@ -80,7 +78,7 @@ class SortAlgo
         * Description:  implement quicksort algorithm
         *--------------------------------------------------------------------------------------
         */
-       static void QuickSort( vector<T>& List, int Low,int high);    
+       static void QuickSort( std::vector<T>& List, int Low,int high);    
 
         /* 
         * ===  FUNCTION  ======================================================================
@@ -88,7 +86,7 @@ class SortAlgo
         *  Description: used in quick sort, find the piviot point and apply random sampling  
         * =====================================================================================
         */
-       static int RandomPartition ( vector<T>& List, int Low,int high);
+//       static int RandomPartition ( vector<T>& List, int Low,int high);
 
        /*
         *--------------------------------------------------------------------------------------
@@ -97,7 +95,7 @@ class SortAlgo
         * Description:  implement quicksort algorithm
         *--------------------------------------------------------------------------------------
         */
-       static void RandomQuickSort( vector<T>& List, int Low,int high);    
+       static void RandomQuickSort( std::vector<T>& List, int Low,int high);    
 
        
 }; /* -----  end of template class SortAlgo  ----- */

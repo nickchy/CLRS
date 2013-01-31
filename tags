@@ -1,0 +1,434 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOOST_INCLUDEDIR	6-heapsort/make_heap.mak	/^BOOST_INCLUDEDIR = \/home\/nick\/boost_1_51_0\/include\/$/;"	m
+BOOST_INCLUDEDIR	7-quicksort/make_sort.mak	/^BOOST_INCLUDEDIR = \/home\/nick\/boost_1_51_0\/include\/$/;"	m
+BOOST_INCLUDEDIR	8-linearsort/Makefile	/^BOOST_INCLUDEDIR = \/home\/nick\/boost_1_51_0\/include\/$/;"	m
+BOOST_INCLUDEDIR	9-median_and_order_statistic/Makefile	/^BOOST_INCLUDEDIR = \/home\/nick\/boost_1_51_0\/include\/$/;"	m
+BOOST_INCLUDEDIR	make_file.mak	/^BOOST_INCLUDEDIR = \/home\/nick\/boost_1_51_0\/include\/$/;"	m
+BOOST_INCLUDEDIR	make_test.mak	/^BOOST_INCLUDEDIR = \/home\/nick\/boost_1_51_0\/include\/$/;"	m
+BOOST_LDFLAGS	make_file.mak	/^BOOST_LDFLAGS := $(addprefix -lboost_,$(BOOST_MODULES_LIBS))$/;"	m
+BOOST_LDFLAGS	make_test.mak	/^BOOST_LDFLAGS := $(addprefix -lboost_,$(BOOST_MODULES_LIBS))$/;"	m
+BOOST_LIBDIR	6-heapsort/make_heap.mak	/^BOOST_LIBDIR = \/home\/nick\/boost_1_51_0\/lib\/$/;"	m
+BOOST_LIBDIR	7-quicksort/make_sort.mak	/^BOOST_LIBDIR = \/home\/nick\/boost_1_51_0\/lib\/$/;"	m
+BOOST_LIBDIR	8-linearsort/Makefile	/^BOOST_LIBDIR = \/home\/nick\/boost_1_51_0\/lib\/$/;"	m
+BOOST_LIBDIR	9-median_and_order_statistic/Makefile	/^BOOST_LIBDIR = \/home\/nick\/boost_1_51_0\/lib\/$/;"	m
+BOOST_LIBDIR	make_file.mak	/^BOOST_LIBDIR = \/home\/nick\/boost_1_51_0\/lib\/$/;"	m
+BOOST_LIBDIR	make_test.mak	/^BOOST_LIBDIR = \/home\/nick\/boost_1_51_0\/lib\/$/;"	m
+BOOST_MODULES	make_test.mak	/^BOOST_MODULES = \\$/;"	m
+BOOST_MODULES_LIBS	make_file.mak	/^BOOST_MODULES_LIBS := $(addsuffix $(BOOT_MODULES_TYPE),$(BOOST_MODULES))$/;"	m
+BOOST_MODULES_LIBS	make_test.mak	/^BOOST_MODULES_LIBS := $(addsuffix $(BOOT_MODULES_TYPE),$(BOOST_MODULES))$/;"	m
+BOOST_MODULES_TYPE	make_file.mak	/^BOOST_MODULES_TYPE := -mt$/;"	m
+BOOST_MODULES_TYPE	make_test.mak	/^BOOST_MODULES_TYPE := -mt$/;"	m
+BuildMaxHeap	6-heapsort/Heap.cpp	/^void Heap::BuildMaxHeap()$/;"	f	class:Heap	signature:()
+BuildMaxHeap	6-heapsort/Heap.h	/^        void BuildMaxHeap();$/;"	p	class:Heap	access:public	signature:()
+BuildMaxHeap	6-heapsort/Main.cpp	/^    ObjHeap.BuildMaxHeap();$/;"	p	file:	signature:()
+CC	6-heapsort/make_heap.mak	/^CC= g++$/;"	m
+CC	7-quicksort/make_sort.mak	/^CC= g++$/;"	m
+CC	8-linearsort/Makefile	/^CC= g++$/;"	m
+CC	9-median_and_order_statistic/Makefile	/^CC= g++$/;"	m
+CC	make_file.mak	/^CC= g++$/;"	m
+CC	make_test.mak	/^CC= g++$/;"	m
+CC	util/Makefile	/^CC = g++$/;"	m
+CFLAG	2-get_started/Makefile	/^CFLAG=-Wall -g$/;"	m
+CFLAG	3-growth_of_functions/Makefile	/^CFLAG=-Wall -g$/;"	m
+CFLAG	4-divide_and_conquer/Makefile	/^CFLAG=-Wall -g$/;"	m
+CFLAG	6-heapsort/Makefile	/^CFLAG=-Wall -g$/;"	m
+CFLAG	util/Makefile	/^CFLAG = -g -O0$/;"	m
+CFLAGS	6-heapsort/make_heap.mak	/^CFLAGS=  -g -O0$/;"	m
+CFLAGS	7-quicksort/make_sort.mak	/^CFLAGS= -g -O0$/;"	m
+CFLAGS	8-linearsort/Makefile	/^CFLAGS= -g -O0$/;"	m
+CFLAGS	9-median_and_order_statistic/Makefile	/^CFLAGS= -g -O0$/;"	m
+COMMAND	6-heapsort/make_heap.mak	/^COMMAND= Main$/;"	m
+COMMAND	7-quicksort/make_sort.mak	/^COMMAND= Main$/;"	m
+COMMAND	8-linearsort/Makefile	/^COMMAND= Main$/;"	m
+COMMAND	9-median_and_order_statistic/Makefile	/^COMMAND= Main$/;"	m
+COMMAND	make_file.mak	/^COMMAND= Main$/;"	m
+COMMAND	make_test.mak	/^COMMAND= Main$/;"	m
+CPPFLAGS	6-heapsort/make_heap.mak	/^CPPFLAGS := \\$/;"	m
+CPPFLAGS	7-quicksort/make_sort.mak	/^CPPFLAGS := \\$/;"	m
+CPPFLAGS	8-linearsort/Makefile	/^CPPFLAGS := \\$/;"	m
+CPPFLAGS	9-median_and_order_statistic/Makefile	/^CPPFLAGS := \\$/;"	m
+CPPFLAGS	make_file.mak	/^CPPFLAGS := \\$/;"	m
+CPPFLAGS	make_test.mak	/^CPPFLAGS := \\$/;"	m
+CXXFLAGS	make_file.mak	/^CXXFLAGS=  -g -O0$/;"	m
+CXXFLAGS	make_test.mak	/^CXXFLAGS=  -g -O0$/;"	m
+CountSort	8-linearsort/LinearSort.cpp	/^        void CountSort(vecint const& list, vecint& sortedList,int num) $/;"	f	namespace:LinearSort	signature:(vecint const& list, vecint& sortedList,int num)
+CountSort	8-linearsort/LinearSort.hpp	/^    void CountSort (vec const& , vec& ,int ); $/;"	p	namespace:LinearSort	signature:(vec const& , vec& ,int )
+CountSort	8-linearsort/Main.cpp	/^    LinearSort::CountSort(list1,sortedList1,range);$/;"	p	class:LinearSort	file:	signature:(list1,sortedList1,range)
+CountSort	9-median_and_order_statistic/Main.cpp	/^    LinearSort::CountSort(list1,sortedList1,range);$/;"	p	class:LinearSort	file:	signature:(list1,sortedList1,range)
+ExtractMaximum	6-heapsort/Heap.cpp	/^int Heap::ExtractMaximum()$/;"	f	class:Heap	signature:()
+ExtractMaximum	6-heapsort/Heap.h	/^        int ExtractMaximum();$/;"	p	class:Heap	access:public	signature:()
+GetHeapSize	6-heapsort/Heap.h	/^        int GetHeapSize() {return m_heapSize;}$/;"	f	class:Heap	access:public	signature:()
+HDRS	6-heapsort/make_heap.mak	/^HDRS= \\$/;"	m
+HDRS	7-quicksort/make_sort.mak	/^HDRS= \\$/;"	m
+HDRS	8-linearsort/Makefile	/^HDRS= \\$/;"	m
+HDRS	9-median_and_order_statistic/Makefile	/^HDRS= \\$/;"	m
+HDRS	make_file.mak	/^HDRS= \\$/;"	m
+HDRS	make_test.mak	/^HDRS= \\$/;"	m
+HEAP_H	6-heapsort/Heap.h	2;"	d
+Heap	6-heapsort/Heap.cpp	/^Heap::Heap(int heapSize,vector<int> list)$/;"	f	class:Heap	signature:(int heapSize,vector<int> list)
+Heap	6-heapsort/Heap.h	/^        Heap(int, vector<int>);$/;"	p	class:Heap	access:public	signature:(int, vector<int>)
+Heap	6-heapsort/Heap.h	/^class Heap$/;"	c
+Heap::BuildMaxHeap	6-heapsort/Heap.cpp	/^void Heap::BuildMaxHeap()$/;"	f	class:Heap	signature:()
+Heap::BuildMaxHeap	6-heapsort/Heap.h	/^        void BuildMaxHeap();$/;"	p	class:Heap	access:public	signature:()
+Heap::ExtractMaximum	6-heapsort/Heap.cpp	/^int Heap::ExtractMaximum()$/;"	f	class:Heap	signature:()
+Heap::ExtractMaximum	6-heapsort/Heap.h	/^        int ExtractMaximum();$/;"	p	class:Heap	access:public	signature:()
+Heap::GetHeapSize	6-heapsort/Heap.h	/^        int GetHeapSize() {return m_heapSize;}$/;"	f	class:Heap	access:public	signature:()
+Heap::Heap	6-heapsort/Heap.cpp	/^Heap::Heap(int heapSize,vector<int> list)$/;"	f	class:Heap	signature:(int heapSize,vector<int> list)
+Heap::Heap	6-heapsort/Heap.h	/^        Heap(int, vector<int>);$/;"	p	class:Heap	access:public	signature:(int, vector<int>)
+Heap::IncreaseKey	6-heapsort/Heap.cpp	/^void Heap::IncreaseKey(int i, int key)$/;"	f	class:Heap	signature:(int i, int key)
+Heap::IncreaseKey	6-heapsort/Heap.h	/^        void IncreaseKey(int, int);$/;"	p	class:Heap	access:public	signature:(int, int)
+Heap::Left	6-heapsort/Heap.cpp	/^int Heap::Left(int i)$/;"	f	class:Heap	signature:(int i)
+Heap::Left	6-heapsort/Heap.h	/^        int Left(int);$/;"	p	class:Heap	access:public	signature:(int)
+Heap::MaxHeapInsert	6-heapsort/Heap.cpp	/^void Heap::MaxHeapInsert(int key)$/;"	f	class:Heap	signature:(int key)
+Heap::MaxHeapInsert	6-heapsort/Heap.h	/^        void MaxHeapInsert(int);$/;"	p	class:Heap	access:public	signature:(int)
+Heap::MaxHeapify	6-heapsort/Heap.cpp	/^void Heap::MaxHeapify(int i)$/;"	f	class:Heap	signature:(int i)
+Heap::MaxHeapify	6-heapsort/Heap.h	/^        void MaxHeapify(int);$/;"	p	class:Heap	access:public	signature:(int)
+Heap::Maximum	6-heapsort/Heap.cpp	/^int Heap::Maximum(){return m_list[0];};$/;"	f	class:Heap	signature:()
+Heap::Maximum	6-heapsort/Heap.h	/^        int Maximum();$/;"	p	class:Heap	access:public	signature:()
+Heap::Parent	6-heapsort/Heap.cpp	/^int Heap::Parent(int i)$/;"	f	class:Heap	signature:(int i)
+Heap::Parent	6-heapsort/Heap.h	/^        int Parent(int);$/;"	p	class:Heap	access:public	signature:(int)
+Heap::ResetHeapSize	6-heapsort/Heap.h	/^        void ResetHeapSize() {m_heapSize = m_maxHeapSize;}$/;"	f	class:Heap	access:public	signature:()
+Heap::Right	6-heapsort/Heap.cpp	/^int Heap::Right(int i)$/;"	f	class:Heap	signature:(int i)
+Heap::Right	6-heapsort/Heap.h	/^        int Right(int);$/;"	p	class:Heap	access:public	signature:(int)
+Heap::SetMaxHeapSize	6-heapsort/Heap.cpp	/^void Heap::SetMaxHeapSize(int maxHeapSize)$/;"	f	class:Heap	signature:(int maxHeapSize)
+Heap::SetMaxHeapSize	6-heapsort/Heap.h	/^        void SetMaxHeapSize(int);$/;"	p	class:Heap	access:public	signature:(int)
+Heap::Sort	6-heapsort/Heap.cpp	/^void Heap::Sort()$/;"	f	class:Heap	signature:()
+Heap::Sort	6-heapsort/Heap.h	/^        void Sort();$/;"	p	class:Heap	access:public	signature:()
+Heap::m_heapSize	6-heapsort/Heap.h	/^        int m_heapSize;$/;"	m	class:Heap	access:private
+Heap::m_list	6-heapsort/Heap.h	/^        vector<int> m_list;$/;"	m	class:Heap	access:public
+Heap::m_maxHeapSize	6-heapsort/Heap.h	/^        int m_maxHeapSize;$/;"	m	class:Heap	access:private
+INCLUDEDIR	6-heapsort/make_heap.mak	/^INCLUDEDIR = \/home\/nick\/CLRS\/util\/$/;"	m
+INCLUDEDIR	7-quicksort/make_sort.mak	/^INCLUDEDIR = \/home\/nick\/CLRS\/util\/$/;"	m
+INCLUDEDIR	8-linearsort/Makefile	/^INCLUDEDIR = \/home\/nick\/CLRS\/util\/$/;"	m
+INCLUDEDIR	9-median_and_order_statistic/Makefile	/^INCLUDEDIR = \/home\/nick\/CLRS\/util\/$/;"	m
+IncreaseKey	6-heapsort/Heap.cpp	/^void Heap::IncreaseKey(int i, int key)$/;"	f	class:Heap	signature:(int i, int key)
+IncreaseKey	6-heapsort/Heap.h	/^        void IncreaseKey(int, int);$/;"	p	class:Heap	access:public	signature:(int, int)
+IncreaseKey	6-heapsort/Main.cpp	/^    ObjHeap.IncreaseKey(ObjHeap.GetHeapSize() - 2, key);$/;"	p	file:	signature:(ObjHeap.GetHeapSize() - 2, key)
+L	2-get_started/2-3_merge_sort.c	/^    int L[20];$/;"	l
+L	7-quicksort/SortAlgo.cpp	/^   vector<T> L;$/;"	l
+LDFLAGS	6-heapsort/make_heap.mak	/^LDFLAGS  := \\$/;"	m
+LDFLAGS	7-quicksort/make_sort.mak	/^LDFLAGS  := \\$/;"	m
+LDFLAGS	8-linearsort/Makefile	/^LDFLAGS  := \\$/;"	m
+LDFLAGS	9-median_and_order_statistic/Makefile	/^LDFLAGS  := \\$/;"	m
+LDFLAGS	make_file.mak	/^LDFLAGS  := \\$/;"	m
+LDFLAGS	make_test.mak	/^LDFLAGS  := \\$/;"	m
+LIBDIR	6-heapsort/make_heap.mak	/^LIBDIR = \/home\/nick\/CLRS\/util\/$/;"	m
+LIBDIR	7-quicksort/make_sort.mak	/^LIBDIR = \/home\/nick\/CLRS\/util\/$/;"	m
+LIBDIR	8-linearsort/Makefile	/^LIBDIR = \/home\/nick\/CLRS\/util\/$/;"	m
+LIBDIR	9-median_and_order_statistic/Makefile	/^LIBDIR = \/home\/nick\/CLRS\/util\/$/;"	m
+LIB_SMODULES	6-heapsort/make_heap.mak	/^LIB_SMODULES := $(addprefix -l,$(SMODULES))$/;"	m
+LIB_SMODULES	7-quicksort/make_sort.mak	/^LIB_SMODULES := $(addprefix -l,$(SMODULES))$/;"	m
+LIB_SMODULES	8-linearsort/Makefile	/^LIB_SMODULES := $(addprefix -l,$(SMODULES))$/;"	m
+LIB_SMODULES	9-median_and_order_statistic/Makefile	/^LIB_SMODULES := $(addprefix -l,$(SMODULES))$/;"	m
+LINEARSORT_H	8-linearsort/LinearSort.hpp	19;"	d
+LIST_H	util/List.h	2;"	d
+LIST_LEN	2-get_started/2-1_insertion_sort.c	5;"	d	file:
+LIST_LEN	2-get_started/2-3_merge_sort.c	5;"	d	file:
+LIST_LEN	4-divide_and_conquer/4-1_max_subarray.c	5;"	d	file:
+LIST_LEN	7-quicksort/7-1_quicksort.c	5;"	d	file:
+Left	6-heapsort/Heap.cpp	/^int Heap::Left(int i)$/;"	f	class:Heap	signature:(int i)
+Left	6-heapsort/Heap.h	/^        int Left(int);$/;"	p	class:Heap	access:public	signature:(int)
+LinearSort	8-linearsort/LinearSort.cpp	/^namespace LinearSort$/;"	n	file:
+LinearSort	8-linearsort/LinearSort.hpp	/^namespace LinearSort$/;"	n
+LinearSort::CountSort	8-linearsort/LinearSort.cpp	/^        void CountSort(vecint const& list, vecint& sortedList,int num) $/;"	f	namespace:LinearSort	signature:(vecint const& list, vecint& sortedList,int num)
+LinearSort::CountSort	8-linearsort/LinearSort.hpp	/^    void CountSort (vec const& , vec& ,int ); $/;"	p	namespace:LinearSort	signature:(vec const& , vec& ,int )
+LinearSort::CountSort	8-linearsort/Main.cpp	/^    LinearSort::CountSort(list1,sortedList1,range);$/;"	p	class:LinearSort	file:	signature:(list1,sortedList1,range)
+LinearSort::CountSort	9-median_and_order_statistic/Main.cpp	/^    LinearSort::CountSort(list1,sortedList1,range);$/;"	p	class:LinearSort	file:	signature:(list1,sortedList1,range)
+LinearSort::RadixSort	8-linearsort/LinearSort.cpp	/^        void RadixSort (vecint const& list, vecint& sortedList,int num)$/;"	f	namespace:LinearSort	signature:(vecint const& list, vecint& sortedList,int num)
+LinearSort::RadixSort	8-linearsort/LinearSort.hpp	/^    void RadixSort (vec const& , vec& ,int ); $/;"	p	namespace:LinearSort	signature:(vec const& , vec& ,int )
+LinearSort::countvec	8-linearsort/LinearSort.cpp	/^        vecint countvec(num);$/;"	p	file:	signature:(num)
+LinearSort::resize	8-linearsort/LinearSort.cpp	/^        sortedList.resize(list.size());$/;"	p	file:	signature:(list.size())
+LinearSort::vec	8-linearsort/LinearSort.hpp	/^    typedef std::vector<int> vec;$/;"	t	namespace:LinearSort
+LinearSort::vecint	8-linearsort/LinearSort.cpp	/^    typedef std::vector<int> vecint;$/;"	t	namespace:LinearSort	file:
+MAKEFILE	6-heapsort/make_heap.mak	/^MAKEFILE= make_heap.mak$/;"	m
+MAKEFILE	7-quicksort/make_sort.mak	/^MAKEFILE= make_sort.mak$/;"	m
+MAKEFILE	8-linearsort/Makefile	/^MAKEFILE= make_sort.mak$/;"	m
+MAKEFILE	9-median_and_order_statistic/Makefile	/^MAKEFILE= make_sort.mak$/;"	m
+MAKEFILE	make_file.mak	/^MAKEFILE= make_heapsort.mak$/;"	m
+MAKEFILE	make_test.mak	/^MAKEFILE= make_test.mak$/;"	m
+MOREFLAGS	6-heapsort/make_heap.mak	/^MOREFLAGS= -ansi -pedantic -Wpointer-arith -Wcast-qual -Wcast-align \\$/;"	m
+MOREFLAGS	7-quicksort/make_sort.mak	/^MOREFLAGS= -ansi -pedantic -Wpointer-arith -Wcast-qual -Wcast-align \\$/;"	m
+MOREFLAGS	8-linearsort/Makefile	/^MOREFLAGS= -ansi -pedantic -Wpointer-arith -Wcast-qual -Wcast-align \\$/;"	m
+MOREFLAGS	9-median_and_order_statistic/Makefile	/^MOREFLAGS= -ansi -pedantic -Wpointer-arith -Wcast-qual -Wcast-align \\$/;"	m
+MOREFLAGS	make_file.mak	/^MOREFLAGS= -ansi -pedantic -Wpointer-arith -Wcast-qual -Wcast-align \\$/;"	m
+MOREFLAGS	make_test.mak	/^MOREFLAGS= -ansi -pedantic -Wpointer-arith -Wcast-qual -Wcast-align \\$/;"	m
+MakeList	6-heapsort/List.cpp	/^void MakeList(vector<int>& list, int length) {$/;"	f	signature:(vector<int>& list, int length)
+MakeList	6-heapsort/List.h	/^void MakeList(vector<int>&, int);$/;"	p	signature:(vector<int>&, int)
+MakeList	util/List.cpp	/^void MakeList(vector<double>& list, int length) {$/;"	f	signature:(vector<double>& list, int length)
+MakeList	util/List.cpp	/^void MakeList(vector<int>& list, int length, int range) {$/;"	f	signature:(vector<int>& list, int length, int range)
+MakeList	util/List.h	/^void MakeList(vector<double>&, int);$/;"	p	signature:(vector<double>&, int)
+MakeList	util/List.h	/^void MakeList(vector<int>&, int,int = 1000);$/;"	p	signature:(vector<int>&, int,int = 1000)
+Max	8-linearsort/OrderStatistic.hpp	/^    void Max (  )$/;"	f	namespace:OrderStatistic	signature:( )
+MaxHeapInsert	6-heapsort/Heap.cpp	/^void Heap::MaxHeapInsert(int key)$/;"	f	class:Heap	signature:(int key)
+MaxHeapInsert	6-heapsort/Heap.h	/^        void MaxHeapInsert(int);$/;"	p	class:Heap	access:public	signature:(int)
+MaxHeapInsert	6-heapsort/Main.cpp	/^   ObjHeap.MaxHeapInsert(key);$/;"	p	file:	signature:(key)
+MaxHeapify	6-heapsort/Heap.cpp	/^void Heap::MaxHeapify(int i)$/;"	f	class:Heap	signature:(int i)
+MaxHeapify	6-heapsort/Heap.h	/^        void MaxHeapify(int);$/;"	p	class:Heap	access:public	signature:(int)
+Maximum	6-heapsort/Heap.cpp	/^int Heap::Maximum(){return m_list[0];};$/;"	f	class:Heap	signature:()
+Maximum	6-heapsort/Heap.h	/^        int Maximum();$/;"	p	class:Heap	access:public	signature:()
+Merge	7-quicksort/SortAlgo.cpp	/^void SortAlgo<T>::Merge (vector<T>& List, int low, int mid, int high)$/;"	f	class:SortAlgo	signature:(vector<T>& List, int low, int mid, int high)
+Merge	7-quicksort/SortAlgo.h	/^        static void Merge (vector<T>& List, int low, int mid, int high);$/;"	p	class:SortAlgo	access:public	signature:(vector<T>& List, int low, int mid, int high)
+MergeSort	7-quicksort/Main.cpp	/^    SortAlgo<double>::MergeSort(list2,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list2,0,length-1)
+MergeSort	7-quicksort/Main.cpp	/^    SortAlgo<int>::MergeSort(list1,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list1,0,length-1)
+MergeSort	7-quicksort/Main.cpp	/^    SortAlgo<int>::MergeSort(list1,2,length-2);$/;"	p	class:SortAlgo	file:	signature:(list1,2,length-2)
+MergeSort	7-quicksort/SortAlgo.cpp	/^void SortAlgo<T>::MergeSort ( vector<T>& List,int low, int high)$/;"	f	class:SortAlgo	signature:( vector<T>& List,int low, int high)
+MergeSort	7-quicksort/SortAlgo.h	/^        static void MergeSort ( vector<T>& List,int low, int high);$/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List,int low, int high)
+OBJ	util/Makefile	/^OBJ = $(addsuffix .o, $(basename $(SRC)))$/;"	m
+OBJS	2-get_started/Makefile	/^OBJS = common.o$/;"	m
+OBJS	6-heapsort/Makefile	/^OBJS = common.o$/;"	m
+OBJS	6-heapsort/make_heap.mak	/^OBJS= $(addsuffix .o, $(basename $(SRCS)))$/;"	m
+OBJS	7-quicksort/make_sort.mak	/^OBJS= $(addsuffix .o, $(basename $(SRCS)))$/;"	m
+OBJS	8-linearsort/Makefile	/^OBJS= $(addsuffix .o, $(basename $(SRCS)))$/;"	m
+OBJS	9-median_and_order_statistic/Makefile	/^OBJS= $(addsuffix .o, $(basename $(SRCS)))$/;"	m
+OBJS	make_file.mak	/^OBJS= $(addsuffix .o, $(basename $(SRCS)))$/;"	m
+OBJS	make_test.mak	/^OBJS= $(addsuffix .o, $(basename $(SRCS)))$/;"	m
+ORDERSTATISTIC_H	8-linearsort/OrderStatistic.hpp	19;"	d
+ObjHeap	6-heapsort/Main.cpp	/^    Heap ObjHeap = Heap(length, list);$/;"	l
+OrderStatistic	8-linearsort/OrderStatistic.hpp	/^namespace OrderStatistic$/;"	n
+OrderStatistic::Max	8-linearsort/OrderStatistic.hpp	/^    void Max (  )$/;"	f	namespace:OrderStatistic	signature:( )
+Parent	6-heapsort/Heap.cpp	/^int Heap::Parent(int i)$/;"	f	class:Heap	signature:(int i)
+Parent	6-heapsort/Heap.h	/^        int Parent(int);$/;"	p	class:Heap	access:public	signature:(int)
+Partition	7-quicksort/SortAlgo.cpp	/^int SortAlgo<T>::Partition ( vector<T>& List,int low, int high)$/;"	f	class:SortAlgo	signature:( vector<T>& List,int low, int high)
+Partition	7-quicksort/SortAlgo.h	/^       static int Partition ( vector<T>& List, int Low,int high);$/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List, int Low,int high)
+Print	test/test.cpp	/^void Print(vector<T> a)$/;"	f	signature:(vector<T> a)
+PrintList	6-heapsort/List.cpp	/^void PrintList(vector<int>& list) {$/;"	f	signature:(vector<int>& list)
+PrintList	6-heapsort/List.h	/^void PrintList(vector<int>& );$/;"	p	signature:(vector<int>& )
+PrintList	util/List.h	/^void PrintList(vector<T>& list) $/;"	f	signature:(vector<T>& list)
+QuickSort	7-quicksort/Main.cpp	/^    SortAlgo<double>::QuickSort(list2,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list2,0,length-1)
+QuickSort	7-quicksort/Main.cpp	/^    SortAlgo<int>::QuickSort(list1,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list1,0,length-1)
+QuickSort	7-quicksort/SortAlgo.cpp	/^void SortAlgo<T>::QuickSort (vector<T>& List,int low, int high )$/;"	f	class:SortAlgo	signature:(vector<T>& List,int low, int high )
+QuickSort	7-quicksort/SortAlgo.h	/^       static void QuickSort( vector<T>& List, int Low,int high);    $/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List, int Low,int high)
+R	2-get_started/2-3_merge_sort.c	/^    int R[20];$/;"	l
+R	7-quicksort/SortAlgo.cpp	/^   vector<T> R;$/;"	l
+RadixSort	8-linearsort/LinearSort.cpp	/^        void RadixSort (vecint const& list, vecint& sortedList,int num)$/;"	f	namespace:LinearSort	signature:(vecint const& list, vecint& sortedList,int num)
+RadixSort	8-linearsort/LinearSort.hpp	/^    void RadixSort (vec const& , vec& ,int ); $/;"	p	namespace:LinearSort	signature:(vec const& , vec& ,int )
+RandomPartition	7-quicksort/SortAlgo.cpp	/^int SortAlgo<T>::RandomPartition (vector<T>& List,int low, int high )$/;"	f	class:SortAlgo	signature:(vector<T>& List,int low, int high )
+RandomPartition	7-quicksort/SortAlgo.h	/^       static int RandomPartition ( vector<T>& List, int Low,int high);$/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List, int Low,int high)
+RandomQuickSort	7-quicksort/Main.cpp	/^    SortAlgo<double>::RandomQuickSort(list2,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list2,0,length-1)
+RandomQuickSort	7-quicksort/Main.cpp	/^    SortAlgo<int>::RandomQuickSort(list1,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list1,0,length-1)
+RandomQuickSort	7-quicksort/SortAlgo.cpp	/^void SortAlgo<T>::RandomQuickSort (vector<T>& List,int low, int high )$/;"	f	class:SortAlgo	signature:(vector<T>& List,int low, int high )
+RandomQuickSort	7-quicksort/SortAlgo.h	/^       static void RandomQuickSort( vector<T>& List, int Low,int high);    $/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List, int Low,int high)
+ResetHeapSize	6-heapsort/Heap.h	/^        void ResetHeapSize() {m_heapSize = m_maxHeapSize;}$/;"	f	class:Heap	access:public	signature:()
+Right	6-heapsort/Heap.cpp	/^int Heap::Right(int i)$/;"	f	class:Heap	signature:(int i)
+Right	6-heapsort/Heap.h	/^        int Right(int);$/;"	p	class:Heap	access:public	signature:(int)
+SHELL	6-heapsort/make_heap.mak	/^SHELL=\/bin\/sh$/;"	m
+SHELL	7-quicksort/make_sort.mak	/^SHELL=\/bin\/sh$/;"	m
+SHELL	8-linearsort/Makefile	/^SHELL=\/bin\/sh$/;"	m
+SHELL	9-median_and_order_statistic/Makefile	/^SHELL=\/bin\/sh$/;"	m
+SHELL	make_file.mak	/^SHELL=\/bin\/sh$/;"	m
+SHELL	make_test.mak	/^SHELL=\/bin\/sh$/;"	m
+SMODULES	6-heapsort/make_heap.mak	/^SMODULES := \\$/;"	m
+SMODULES	7-quicksort/make_sort.mak	/^SMODULES := \\$/;"	m
+SMODULES	8-linearsort/Makefile	/^SMODULES := \\$/;"	m
+SMODULES	9-median_and_order_statistic/Makefile	/^SMODULES := \\$/;"	m
+SORTALGO_H	7-quicksort/SortAlgo.h	20;"	d
+SRC	util/Makefile	/^SRC = $(wildcard *.h)$/;"	m
+SRCS	6-heapsort/make_heap.mak	/^SRCS= \\$/;"	m
+SRCS	7-quicksort/make_sort.mak	/^SRCS= \\$/;"	m
+SRCS	8-linearsort/Makefile	/^SRCS= \\$/;"	m
+SRCS	9-median_and_order_statistic/Makefile	/^SRCS= \\$/;"	m
+SRCS	make_file.mak	/^SRCS= \\$/;"	m
+SRCS	make_test.mak	/^SRCS= \\$/;"	m
+SetMaxHeapSize	6-heapsort/Heap.cpp	/^void Heap::SetMaxHeapSize(int maxHeapSize)$/;"	f	class:Heap	signature:(int maxHeapSize)
+SetMaxHeapSize	6-heapsort/Heap.h	/^        void SetMaxHeapSize(int);$/;"	p	class:Heap	access:public	signature:(int)
+Sort	6-heapsort/Heap.cpp	/^void Heap::Sort()$/;"	f	class:Heap	signature:()
+Sort	6-heapsort/Heap.h	/^        void Sort();$/;"	p	class:Heap	access:public	signature:()
+SortAlgo	7-quicksort/SortAlgo.cpp	/^SortAlgo< T >::SortAlgo ()$/;"	f	class:SortAlgo	signature:()
+SortAlgo	7-quicksort/SortAlgo.h	/^          SortAlgo ();$/;"	p	class:SortAlgo	access:public	signature:()
+SortAlgo	7-quicksort/SortAlgo.h	/^class SortAlgo$/;"	c
+SortAlgo::Merge	7-quicksort/SortAlgo.cpp	/^void SortAlgo<T>::Merge (vector<T>& List, int low, int mid, int high)$/;"	f	class:SortAlgo	signature:(vector<T>& List, int low, int mid, int high)
+SortAlgo::Merge	7-quicksort/SortAlgo.h	/^        static void Merge (vector<T>& List, int low, int mid, int high);$/;"	p	class:SortAlgo	access:public	signature:(vector<T>& List, int low, int mid, int high)
+SortAlgo::MergeSort	7-quicksort/Main.cpp	/^    SortAlgo<double>::MergeSort(list2,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list2,0,length-1)
+SortAlgo::MergeSort	7-quicksort/Main.cpp	/^    SortAlgo<int>::MergeSort(list1,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list1,0,length-1)
+SortAlgo::MergeSort	7-quicksort/Main.cpp	/^    SortAlgo<int>::MergeSort(list1,2,length-2);$/;"	p	class:SortAlgo	file:	signature:(list1,2,length-2)
+SortAlgo::MergeSort	7-quicksort/SortAlgo.cpp	/^void SortAlgo<T>::MergeSort ( vector<T>& List,int low, int high)$/;"	f	class:SortAlgo	signature:( vector<T>& List,int low, int high)
+SortAlgo::MergeSort	7-quicksort/SortAlgo.h	/^        static void MergeSort ( vector<T>& List,int low, int high);$/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List,int low, int high)
+SortAlgo::Partition	7-quicksort/SortAlgo.cpp	/^int SortAlgo<T>::Partition ( vector<T>& List,int low, int high)$/;"	f	class:SortAlgo	signature:( vector<T>& List,int low, int high)
+SortAlgo::Partition	7-quicksort/SortAlgo.h	/^       static int Partition ( vector<T>& List, int Low,int high);$/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List, int Low,int high)
+SortAlgo::QuickSort	7-quicksort/Main.cpp	/^    SortAlgo<double>::QuickSort(list2,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list2,0,length-1)
+SortAlgo::QuickSort	7-quicksort/Main.cpp	/^    SortAlgo<int>::QuickSort(list1,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list1,0,length-1)
+SortAlgo::QuickSort	7-quicksort/SortAlgo.cpp	/^void SortAlgo<T>::QuickSort (vector<T>& List,int low, int high )$/;"	f	class:SortAlgo	signature:(vector<T>& List,int low, int high )
+SortAlgo::QuickSort	7-quicksort/SortAlgo.h	/^       static void QuickSort( vector<T>& List, int Low,int high);    $/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List, int Low,int high)
+SortAlgo::RandomPartition	7-quicksort/SortAlgo.cpp	/^int SortAlgo<T>::RandomPartition (vector<T>& List,int low, int high )$/;"	f	class:SortAlgo	signature:(vector<T>& List,int low, int high )
+SortAlgo::RandomPartition	7-quicksort/SortAlgo.h	/^       static int RandomPartition ( vector<T>& List, int Low,int high);$/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List, int Low,int high)
+SortAlgo::RandomQuickSort	7-quicksort/Main.cpp	/^    SortAlgo<double>::RandomQuickSort(list2,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list2,0,length-1)
+SortAlgo::RandomQuickSort	7-quicksort/Main.cpp	/^    SortAlgo<int>::RandomQuickSort(list1,0,length-1);$/;"	p	class:SortAlgo	file:	signature:(list1,0,length-1)
+SortAlgo::RandomQuickSort	7-quicksort/SortAlgo.cpp	/^void SortAlgo<T>::RandomQuickSort (vector<T>& List,int low, int high )$/;"	f	class:SortAlgo	signature:(vector<T>& List,int low, int high )
+SortAlgo::RandomQuickSort	7-quicksort/SortAlgo.h	/^       static void RandomQuickSort( vector<T>& List, int Low,int high);    $/;"	p	class:SortAlgo	access:public	signature:( vector<T>& List, int Low,int high)
+SortAlgo::SortAlgo	7-quicksort/SortAlgo.cpp	/^SortAlgo< T >::SortAlgo ()$/;"	f	class:SortAlgo	signature:()
+SortAlgo::SortAlgo	7-quicksort/SortAlgo.h	/^          SortAlgo ();$/;"	p	class:SortAlgo	access:public	signature:()
+SortAlgo::~SortAlgo	7-quicksort/SortAlgo.cpp	/^SortAlgo< T >::~SortAlgo ()$/;"	f	class:SortAlgo	signature:()
+SortAlgo::~SortAlgo	7-quicksort/SortAlgo.h	/^        ~SortAlgo ();$/;"	p	class:SortAlgo	access:public	signature:()
+Swap	util/List.h	/^void Swap ( vector<T>& list, int i, int j)$/;"	f	signature:( vector<T>& list, int i, int j)
+Target	util/Makefile	/^Target = $(addprefix lib, $(tTarget))$/;"	m
+WARNFLAG	util/Makefile	/^WARNFLAG = -Werror -Wall$/;"	m
+WARNFLAGS	6-heapsort/make_heap.mak	/^WARNFLAGS= -Werror -Wall$/;"	m
+WARNFLAGS	7-quicksort/make_sort.mak	/^WARNFLAGS= -Werror -Wall$/;"	m
+WARNFLAGS	8-linearsort/Makefile	/^WARNFLAGS= -Werror -Wall$/;"	m
+WARNFLAGS	9-median_and_order_statistic/Makefile	/^WARNFLAGS= -Werror -Wall$/;"	m
+WARNFLAGS	make_file.mak	/^WARNFLAGS= -Werror -Wall$/;"	m
+WARNFLAGS	make_test.mak	/^WARNFLAGS= -Werror -Wall$/;"	m
+__anon1::high	4-divide_and_conquer/4-1_max_subarray.c	/^    int high;$/;"	m	struct:__anon1	file:	access:public
+__anon1::low	4-divide_and_conquer/4-1_max_subarray.c	/^    int low;$/;"	m	struct:__anon1	file:	access:public
+__anon1::sum	4-divide_and_conquer/4-1_max_subarray.c	/^    int sum;$/;"	m	struct:__anon1	file:	access:public
+brkpt	6-heapsort/Heap.cpp	/^  int brkpt = (m_heapSize >> 1) -1;$/;"	l
+c	2-get_started/2-3_merge_sort.c	/^    int c;$/;"	l
+counter	2-get_started/common.c	/^    int counter;$/;"	l
+counter	6-heapsort/List.cpp	/^    unsigned int counter;$/;"	l
+counter	common.c	/^    int counter;$/;"	l
+counter	util/List.cpp	/^    unsigned int counter;$/;"	l
+counter	util/List.h	/^    unsigned int counter;$/;"	l
+countvec	8-linearsort/LinearSort.cpp	/^        vecint countvec(num);$/;"	p	file:	signature:(num)
+cross	4-divide_and_conquer/4-1_max_subarray.c	/^        section cross = find_max_cross_subarray(list, low, mid, high);$/;"	l
+current	4-divide_and_conquer/4-1_max_subarray.c	/^    int current = 0;$/;"	l
+el	4-divide_and_conquer/4-1_max_subarray.c	/^        section el = {low, high, list[low]};$/;"	l
+endl	6-heapsort/Heap.cpp	/^        cout<<"new key "<<key<<" is samller than current key "<<m_list[i]<<endl;$/;"	l
+endl	6-heapsort/Main.cpp	/^    cout<<argv[1]<<endl;$/;"	l
+endl	7-quicksort/Main.cpp	/^    cout<<argv[1]<<endl;$/;"	l
+endl	8-linearsort/Main.cpp	/^    cout<<argv[1]<<endl;$/;"	l
+endl	9-median_and_order_statistic/Main.cpp	/^    cout<<argv[1]<<endl;$/;"	l
+endl	test/test.cpp	/^    cout<<endl;$/;"	l
+find_max_cross_subarray	4-divide_and_conquer/4-1_max_subarray.c	/^section find_max_cross_subarray(int list[], int low, int mid, int high) {$/;"	f	signature:(int list[], int low, int mid, int high)
+find_max_subarray	4-divide_and_conquer/4-1_max_subarray.c	/^section find_max_subarray(int list[], int low, int high) {$/;"	f	signature:(int list[], int low, int high)
+find_max_value	4-divide_and_conquer/4-1_max_subarray.c	/^section find_max_value(int list[]) {$/;"	f	signature:(int list[])
+high	4-divide_and_conquer/4-1_max_subarray.c	/^    int high = 0;$/;"	l
+high	4-divide_and_conquer/4-1_max_subarray.c	/^    int high;$/;"	m	struct:__anon1	file:	access:public
+i	2-get_started/2-1_insertion_sort.c	/^    int i;$/;"	l
+i	2-get_started/2-3_merge_sort.c	/^    int i = 0;$/;"	l
+i	2-get_started/2-3_merge_sort.c	/^    int i, j, k;$/;"	l
+i	4-divide_and_conquer/4-1_max_subarray.c	/^    int i;$/;"	l
+i	7-quicksort/7-1_quicksort.c	/^    int i = low - 1;$/;"	l
+i	7-quicksort/SortAlgo.cpp	/^    int i = low -1;$/;"	l
+i	test/test.cpp	/^        cout<< *i << ' ';$/;"	l
+insertion_sort	2-get_started/2-1_insertion_sort.c	/^void insertion_sort(int list[], int length) {$/;"	f	signature:(int list[], int length)
+it	6-heapsort/Heap.cpp	/^    vector<int>::iterator it = m_list.begin();$/;"	l
+it	test/test.cpp	/^  vector<int>::iterator it = A.begin();          $/;"	l
+j	2-get_started/2-1_insertion_sort.c	/^    int j;$/;"	l
+j	2-get_started/2-3_merge_sort.c	/^    int i, j, k;$/;"	l
+j	2-get_started/2-3_merge_sort.c	/^    int j = 0;$/;"	l
+j	7-quicksort/7-1_quicksort.c	/^    int j = 0;$/;"	l
+j	7-quicksort/SortAlgo.cpp	/^   int j = 0, k = 0;$/;"	l
+k	2-get_started/2-1_insertion_sort.c	/^    int k;$/;"	l
+k	2-get_started/2-3_merge_sort.c	/^    int i, j, k;$/;"	l
+k	2-get_started/2-3_merge_sort.c	/^    int k;$/;"	l
+k	7-quicksort/SortAlgo.cpp	/^   int j = 0, k = 0;$/;"	l
+key	6-heapsort/Main.cpp	/^    int key = ObjHeap.m_list[ObjHeap.GetHeapSize() - 2] + 500;$/;"	l
+key	6-heapsort/Main.cpp	/^   cin>>key;$/;"	l
+l	6-heapsort/Heap.cpp	/^    int l = Left(i);$/;"	l
+largest	6-heapsort/Heap.cpp	/^    int largest;$/;"	l
+left	4-divide_and_conquer/4-1_max_subarray.c	/^        section left = find_max_subarray(list, low, mid);$/;"	l
+left_sum	4-divide_and_conquer/4-1_max_subarray.c	/^    int left_sum = -999;$/;"	l
+length	6-heapsort/Heap.cpp	/^    int length = m_heapSize-1; $/;"	l
+length	6-heapsort/Main.cpp	/^    int length =atoi(argv[1]);$/;"	l
+length	7-quicksort/Main.cpp	/^    int length =atoi(argv[1]);$/;"	l
+length	8-linearsort/Main.cpp	/^    int length =atoi(argv[1]);$/;"	l
+length	9-median_and_order_statistic/Main.cpp	/^    int length =atoi(argv[1]);$/;"	l
+list	2-get_started/2-1_insertion_sort.c	/^    int list[LIST_LEN];$/;"	l
+list	2-get_started/2-3_merge_sort.c	/^    int list[LIST_LEN];$/;"	l
+list	4-divide_and_conquer/4-1_max_subarray.c	/^    int list[LIST_LEN] = {13, -3, -25, 20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7};$/;"	l
+list	6-heapsort/List.cpp	/^            cout << list[counter] << ", ";$/;"	l
+list	6-heapsort/List.cpp	/^            cout << list[counter];$/;"	l
+list	6-heapsort/Main.cpp	/^    vector<int> list;$/;"	l
+list	7-quicksort/7-1_quicksort.c	/^    int list[LIST_LEN];$/;"	l
+list	util/List.h	/^            cout << list[counter] << ", ";$/;"	l
+list	util/List.h	/^            cout << list[counter];$/;"	l
+list1	7-quicksort/Main.cpp	/^    vector<int> list1;$/;"	l
+list1	8-linearsort/Main.cpp	/^    std::vector<int> list1;$/;"	l
+list1	9-median_and_order_statistic/Main.cpp	/^    std::vector<int> list1;$/;"	l
+list2	7-quicksort/Main.cpp	/^    vector<double> list2;$/;"	l
+list2	8-linearsort/Main.cpp	/^    std::vector<double> list2;$/;"	l
+list2	9-median_and_order_statistic/Main.cpp	/^    std::vector<double> list2;$/;"	l
+low	4-divide_and_conquer/4-1_max_subarray.c	/^    int low = 0;$/;"	l
+low	4-divide_and_conquer/4-1_max_subarray.c	/^    int low;$/;"	m	struct:__anon1	file:	access:public
+m_heapSize	6-heapsort/Heap.h	/^        int m_heapSize;$/;"	m	class:Heap	access:private
+m_list	6-heapsort/Heap.h	/^        vector<int> m_list;$/;"	m	class:Heap	access:public
+m_maxHeapSize	6-heapsort/Heap.h	/^        int m_maxHeapSize;$/;"	m	class:Heap	access:private
+main	2-get_started/2-1_insertion_sort.c	/^int main(int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+main	2-get_started/2-3_merge_sort.c	/^int main(int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+main	4-divide_and_conquer/4-1_max_subarray.c	/^int main(int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+main	6-heapsort/Main.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	7-quicksort/7-1_quicksort.c	/^int main(int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+main	7-quicksort/Main.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	8-linearsort/Main.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	9-median_and_order_statistic/Main.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	test/test.cpp	/^int main()$/;"	f	signature:()
+make_list	2-get_started/common.c	/^void make_list(int list[], int length) {$/;"	f	signature:(int list[], int length)
+make_list	2-get_started/common.h	/^void make_list(int[], int);$/;"	p	signature:(int[], int)
+make_list	common.c	/^void make_list(int list[], int length) {$/;"	f	signature:(int list[], int length)
+make_list	common.h	/^void make_list(int[], int);$/;"	p	signature:(int[], int)
+max	4-divide_and_conquer/4-1_max_subarray.c	/^    int max = 0;$/;"	l
+max	6-heapsort/Heap.cpp	/^    int max = m_list[0];$/;"	l
+max_left	4-divide_and_conquer/4-1_max_subarray.c	/^    int max_left = 0;$/;"	l
+max_right	4-divide_and_conquer/4-1_max_subarray.c	/^    int max_right = 0;$/;"	l
+merge1	2-get_started/2-3_merge_sort.c	/^void merge1(int list[], int start, int mid, int end) {$/;"	f	signature:(int list[], int start, int mid, int end)
+merge2	2-get_started/2-3_merge_sort.c	/^void merge2(int list[], int start, int mid, int end) {$/;"	f	signature:(int list[], int start, int mid, int end)
+merge_sort	2-get_started/2-3_merge_sort.c	/^void merge_sort(int list[], int start, int end) {$/;"	f	signature:(int list[], int start, int end)
+mid	2-get_started/2-3_merge_sort.c	/^    int mid;$/;"	l
+mid	4-divide_and_conquer/4-1_max_subarray.c	/^        int mid = (low+high) \/ 2;$/;"	l
+mid	7-quicksort/SortAlgo.cpp	/^        int mid = (low + high )\/2; $/;"	l
+n1	2-get_started/2-3_merge_sort.c	/^    int n1 = mid - start + 1;$/;"	l
+n1	7-quicksort/SortAlgo.cpp	/^   int n1 = mid - low + 1;$/;"	l
+n2	2-get_started/2-3_merge_sort.c	/^    int n2 = end - mid;$/;"	l
+n2	7-quicksort/SortAlgo.cpp	/^   int n2 = high - mid;$/;"	l
+partition	7-quicksort/7-1_quicksort.c	/^int partition(int list[], int low, int high) {$/;"	f	signature:(int list[], int low, int high)
+piviot	7-quicksort/SortAlgo.cpp	/^    T piviot = List[high];$/;"	l
+print_list	2-get_started/common.c	/^void print_list(int list[], int length) {$/;"	f	signature:(int list[], int length)
+print_list	2-get_started/common.h	/^void print_list(int[], int);$/;"	p	signature:(int[], int)
+print_list	common.c	/^void print_list(int list[], int length) {$/;"	f	signature:(int list[], int length)
+print_list	common.h	/^void print_list(int[], int);$/;"	p	signature:(int[], int)
+print_section	4-divide_and_conquer/4-1_max_subarray.c	/^void print_section(section sec) {$/;"	f	signature:(section sec)
+q	7-quicksort/7-1_quicksort.c	/^        int q = partition(list, low, high);$/;"	l
+q	7-quicksort/SortAlgo.cpp	/^        int q = Partition(List,low, high);$/;"	l
+q	7-quicksort/SortAlgo.cpp	/^        int q = RandomPartition(List,low, high);$/;"	l
+quick_sort	7-quicksort/7-1_quicksort.c	/^void quick_sort(int list[], int low, int high) {$/;"	f	signature:(int list[], int low, int high)
+r	6-heapsort/Heap.cpp	/^    int r = Right(i);$/;"	l
+range	8-linearsort/Main.cpp	/^    int range;$/;"	l
+range	9-median_and_order_statistic/Main.cpp	/^    int range;$/;"	l
+resize	6-heapsort/Heap.cpp	/^    m_list.resize(m_heapSize);$/;"	p	file:	signature:(m_heapSize)
+resize	6-heapsort/Main.cpp	/^    list.resize(length);$/;"	p	file:	signature:(length)
+resize	7-quicksort/Main.cpp	/^    list1.resize(length);$/;"	p	file:	signature:(length)
+resize	7-quicksort/Main.cpp	/^    list2.resize(length);$/;"	p	file:	signature:(length)
+resize	8-linearsort/LinearSort.cpp	/^        sortedList.resize(list.size());$/;"	p	file:	signature:(list.size())
+resize	8-linearsort/Main.cpp	/^    list1.resize(length);$/;"	p	file:	signature:(length)
+resize	8-linearsort/Main.cpp	/^    list2.resize(length);$/;"	p	file:	signature:(length)
+resize	9-median_and_order_statistic/Main.cpp	/^    list1.resize(length);$/;"	p	file:	signature:(length)
+resize	9-median_and_order_statistic/Main.cpp	/^    list2.resize(length);$/;"	p	file:	signature:(length)
+result1	4-divide_and_conquer/4-1_max_subarray.c	/^    section result1 = find_max_value(list);$/;"	l
+result2	4-divide_and_conquer/4-1_max_subarray.c	/^    section result2 = find_max_subarray(list, 0, LIST_LEN - 1);$/;"	l
+ret	4-divide_and_conquer/4-1_max_subarray.c	/^            section ret = {cross.low, cross.high, cross.sum};$/;"	l
+ret	4-divide_and_conquer/4-1_max_subarray.c	/^            section ret = {left.low, left.high, left.sum};$/;"	l
+ret	4-divide_and_conquer/4-1_max_subarray.c	/^            section ret = {right.low, right.high, right.sum};$/;"	l
+ret	4-divide_and_conquer/4-1_max_subarray.c	/^    section ret = {low, high, max};$/;"	l
+ret	4-divide_and_conquer/4-1_max_subarray.c	/^    section ret = {max_left, max_right, left_sum+right_sum};$/;"	l
+right	4-divide_and_conquer/4-1_max_subarray.c	/^        section right = find_max_subarray(list, mid+1, high);$/;"	l
+right_sum	4-divide_and_conquer/4-1_max_subarray.c	/^    int right_sum = -999;$/;"	l
+section	4-divide_and_conquer/4-1_max_subarray.c	/^} section;$/;"	t	typeref:struct:__anon1	file:
+seed	2-get_started/common.c	/^    unsigned int seed = (unsigned int)time(NULL);$/;"	l
+seed	6-heapsort/List.cpp	/^    unsigned int seed = (unsigned int)time(NULL);$/;"	l
+seed	7-quicksort/Main.cpp	/^    unsigned int seed = (unsigned int)time(NULL);$/;"	l
+seed	8-linearsort/Main.cpp	/^    unsigned int seed = (unsigned int)time(NULL);$/;"	l
+seed	9-median_and_order_statistic/Main.cpp	/^    unsigned int seed = (unsigned int)time(NULL);$/;"	l
+seed	common.c	/^    unsigned int seed = (unsigned int)time(NULL);$/;"	l
+sort	6-heapsort/Main.cpp	/^   (ObjHeap.*sort)();$/;"	p	file:	signature:()
+sortedList1	8-linearsort/Main.cpp	/^    std::vector<int> sortedList1;$/;"	l
+sortedList1	9-median_and_order_statistic/Main.cpp	/^    std::vector<int> sortedList1;$/;"	l
+sum	4-divide_and_conquer/4-1_max_subarray.c	/^    int sum = 0;$/;"	l
+sum	4-divide_and_conquer/4-1_max_subarray.c	/^    int sum;$/;"	m	struct:__anon1	file:	access:public
+tTarget	util/Makefile	/^tTarget= $(addsuffix .so, $(basename $(SRC)))$/;"	m
+temp	2-get_started/2-3_merge_sort.c	/^    int temp[20];$/;"	l
+temp	6-heapsort/Heap.cpp	/^            int temp = m_list[i];$/;"	l
+temp	6-heapsort/Heap.cpp	/^        int temp = m_list[i];$/;"	l
+temp	6-heapsort/Heap.cpp	/^        int temp;$/;"	l
+temp	7-quicksort/SortAlgo.cpp	/^     int temp = low + rand() % (high-low + 1);$/;"	l
+temp	util/List.h	/^    T temp = list[i];$/;"	l
+tmp	7-quicksort/7-1_quicksort.c	/^    int tmp = 0;$/;"	l
+vec	8-linearsort/LinearSort.hpp	/^    typedef std::vector<int> vec;$/;"	t	namespace:LinearSort
+vecint	8-linearsort/LinearSort.cpp	/^    typedef std::vector<int> vecint;$/;"	t	namespace:LinearSort	file:
+x	7-quicksort/7-1_quicksort.c	/^    int x = list[high];$/;"	l
+~SortAlgo	7-quicksort/SortAlgo.cpp	/^SortAlgo< T >::~SortAlgo ()$/;"	f	class:SortAlgo	signature:()
+~SortAlgo	7-quicksort/SortAlgo.h	/^        ~SortAlgo ();$/;"	p	class:SortAlgo	access:public	signature:()

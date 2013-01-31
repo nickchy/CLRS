@@ -94,7 +94,7 @@ HDRS= \
 $(wildcard %.hpp)
 
 #Make file name
-MAKEFILE= make_sort.mak
+MAKEFILE= Makefile
 # Define the final program name
 COMMAND= Main
 

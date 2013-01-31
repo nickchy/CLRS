@@ -15,13 +15,12 @@
  *
  * =====================================================================================
  */
+#include "SortAlgo.h"
 #include <stdlib.h>
 #include <time.h>
 #include <iostream>
 #include <limits>
-#include "SortAlgo.h"
 #include "List.h"
-using namespace std;
 /*
  *--------------------------------------------------------------------------------------
  *       Class:  SortAlgo
@@ -55,13 +54,13 @@ SortAlgo< T >::~SortAlgo ()
  *--------------------------------------------------------------------------------------
  */
     template < class T >
-void SortAlgo<T>::Merge (vector<T>& List, int low, int mid, int high)
+void SortAlgo<T>::Merge (std::vector<T>& List, int low, int mid, int high)
 {
    int n1 = mid - low + 1;
    int n2 = high - mid;
 
-   vector<T> L;
-   vector<T> R;
+   std::vector<T> L;
+   std::vector<T> R;
    L.resize(n1 + 1);
    R.resize(n2 + 1);
    
@@ -73,9 +72,9 @@ void SortAlgo<T>::Merge (vector<T>& List, int low, int mid, int high)
        R[i] = List[mid + 1 + i];
    }
     
-   L[n1] = numeric_limits<T>::max();
+   L[n1] = std::numeric_limits<T>::max();
 
-   R[n2] = numeric_limits<T>::max();
+   R[n2] = std::numeric_limits<T>::max();
 
    int j = 0, k = 0;
 
@@ -94,7 +93,7 @@ void SortAlgo<T>::Merge (vector<T>& List, int low, int mid, int high)
    
 
     template < class T >
-void SortAlgo<T>::MergeSort ( vector<T>& List,int low, int high)
+void SortAlgo<T>::MergeSort ( std::vector<T>& List,int low, int high)
 {
     
     if ( low >= 0 && high < int(List.size())) {
@@ -109,13 +108,13 @@ void SortAlgo<T>::MergeSort ( vector<T>& List,int low, int high)
         }
     }
     else { 
-        cout<<"inputed index error\n";
+        std::cout<<"inputed index error\n";
     }
 }		/* -----  end of method SortAlgo<T>::MergeSort  ----- */
 
-
+/* 
     template < class T >
-int SortAlgo<T>::Partition ( vector<T>& List,int low, int high)
+int SortAlgo<T>::List::Partition ( vector<T>& List,int low, int high)
 {
     T piviot = List[high];
     int i = low -1;
@@ -124,42 +123,43 @@ int SortAlgo<T>::Partition ( vector<T>& List,int low, int high)
         if(List[j]<= piviot)
         {
             i++;
-            Swap(List, i ,j);
+            List::Swap(List, i ,j);
         }
     }
 
-    Swap(List, (i+1), high);
+    List::Swap(List, (i+1), high);
     return i+1;
-}		/* -----  end of method SortAlgo<T>::Partition  ----- */
-
+}
+*/
 
     template < class T >
-void SortAlgo<T>::QuickSort (vector<T>& List,int low, int high )
+void SortAlgo<T>::QuickSort (std::vector<T>& List,int low, int high )
 {
     if (low < high)
     {
-        int q = Partition(List,low, high);
+        int q = List::Partition(List,low, high);
         QuickSort(List, low, q-1);
         QuickSort(List, q+1, high);
     }
 
 }		/* -----  end of method SortAlgo<T>::QuickSort  ----- */
 
-
+/* 
     template < class T >
-int SortAlgo<T>::RandomPartition (vector<T>& List,int low, int high )
+int SortAlgo<T>::List::RandomPartition (vector<T>& List,int low, int high )
 {
      int temp = low + rand() % (high-low + 1);
-     Swap(List, temp, high);
-     return Partition(List,low, high);
-}		/* -----  end of method SortAlgo<T>::RandomPartition  ----- */
+     List::Swap(List, temp, high);
+     return List::Partition(List,low, high);
+}		
+*/
 
     template < class T >
-void SortAlgo<T>::RandomQuickSort (vector<T>& List,int low, int high )
+void SortAlgo<T>::RandomQuickSort (std::vector<T>& List,int low, int high )
 {
     if (low < high)
     {
-        int q = RandomPartition(List,low, high);
+        int q = List::RandomPartition(List,low, high);
         QuickSort(List, low, q-1);
         QuickSort(List, q+1, high);
     }

@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOOST_INCLUDEDIR	Makefile	/^BOOST_INCLUDEDIR = \/home\/nick\/boost_1_51_0\/include\/$/;"	m
+BOOST_LIBDIR	Makefile	/^BOOST_LIBDIR = \/home\/nick\/boost_1_51_0\/lib\/$/;"	m
+CC	Makefile	/^CC= g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS= -g -O0$/;"	m
+COMMAND	Makefile	/^COMMAND= Main$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS := \\$/;"	m
+HDRS	Makefile	/^HDRS= \\$/;"	m
+INCLUDEDIR	Makefile	/^INCLUDEDIR = \/home\/nick\/CLRS\/util\/$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS  := \\$/;"	m
+LIBDIR	Makefile	/^LIBDIR = \/home\/nick\/CLRS\/util\/$/;"	m
+LIB_SMODULES	Makefile	/^LIB_SMODULES := $(addprefix -l,$(SMODULES))$/;"	m
+List::MakeList	Main.cpp	/^    List::MakeList(list1, length);$/;"	p	class:List	file:	signature:(list1, length)
+List::MakeList	Main.cpp	/^    List::MakeList(list2, length);$/;"	p	class:List	file:	signature:(list2, length)
+MAKEFILE	Makefile	/^MAKEFILE= make_sort.mak$/;"	m
+MOREFLAGS	Makefile	/^MOREFLAGS= -ansi -pedantic -Wpointer-arith -Wcast-qual -Wcast-align \\$/;"	m
+MakeList	Main.cpp	/^    List::MakeList(list1, length);$/;"	p	class:List	file:	signature:(list1, length)
+MakeList	Main.cpp	/^    List::MakeList(list2, length);$/;"	p	class:List	file:	signature:(list2, length)
+Max	OrderStat.hpp	/^        void Max ( std::vector<T>& list T& maxval)$/;"	f	signature:( std::vector<T>& list T& maxval)
+Min	OrderStat.hpp	/^        void Min ( std::vector<T>& list T& minval)$/;"	f	signature:( std::vector<T>& list T& minval)
+MinMax	OrderStat.hpp	/^        void MinMax ( std::vector<T>& list T& maxval T& minval)$/;"	f	signature:( std::vector<T>& list T& maxval T& minval)
+OBJS	Makefile	/^OBJS= $(addsuffix .o, $(basename $(SRCS)))$/;"	m
+ORDERSTAT_H	OrderStat.hpp	20;"	d
+RandomizedSelection	OrderStat.hpp	/^        T RandomizedSelection ( std::vector<T>& list,int low, int high, int i)$/;"	f	signature:( std::vector<T>& list,int low, int high, int i)
+SHELL	Makefile	/^SHELL=\/bin\/sh$/;"	m
+SMODULES	Makefile	/^SMODULES := \\$/;"	m
+SRCS	Makefile	/^SRCS= \\$/;"	m
+WARNFLAGS	Makefile	/^WARNFLAGS= -Werror -Wall$/;"	m
+cout	Main.cpp	/^    std::cout<<"For int vector:\\n";$/;"	m	class:std	file:
+cout	Main.cpp	/^    std::cout<<"max: \\n\\n";$/;"	m	class:std	file:
+endl	Main.cpp	/^    std::cout<<argv[1]<<endl;$/;"	l
+g	Main.cpp	/^    OrderStat::Max<int>g(list1,0,length-1,maxint);$/;"	p	file:	signature:(list1,0,length-1,maxint)
+g	Main.cpp	/^    OrderStat::Min<int>g(list1,0,length-1,minint);   $/;"	p	file:	signature:(list1,0,length-1,minint)
+g	Main.cpp	/^    OrderStat::MinMax<int>g(list1,0,length-1,maxint, minint);$/;"	p	file:	signature:(list1,0,length-1,maxint, minint)
+k	OrderStat.hpp	/^            int k = q - low + 1;$/;"	l
+k	OrderStat.hpp	/^           int k = 0;$/;"	l
+length	Main.cpp	/^    int length =atoi(argv[1]);$/;"	l
+length	OrderStat.hpp	/^           int length = (int)list.size();$/;"	l
+list1	Main.cpp	/^    std::vector<int> list1;$/;"	l
+list2	Main.cpp	/^    std::vector<double> list2;$/;"	l
+main	Main.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+maxint	Main.cpp	/^    int maxint, minint;$/;"	l
+maxint	Main.cpp	/^    std::cout<<"max of the intg vector is: "<<maxint<<"\\n";$/;"	l
+mindouble	Main.cpp	/^    double maxdouble mindouble;$/;"	l
+minint	Main.cpp	/^    int maxint, minint;$/;"	l
+minint	Main.cpp	/^    std::cout<<"min of the intg vector is: "<<minint<<"\\n";$/;"	l
+q	OrderStat.hpp	/^            int q = List::RandomPartition( list,low, high);$/;"	l
+range	Main.cpp	/^    int range;$/;"	l
+resize	Main.cpp	/^    list1.resize(length);$/;"	p	file:	signature:(length)
+resize	Main.cpp	/^    list2.resize(length);$/;"	p	file:	signature:(length)
+seed	Main.cpp	/^    unsigned int seed = (unsigned int)time(NULL);$/;"	l
+sortedList1	Main.cpp	/^    std::vector<int> sortedList1;$/;"	l
+std::cout	Main.cpp	/^    std::cout<<"For int vector:\\n";$/;"	m	class:std	file:
+std::cout	Main.cpp	/^    std::cout<<"max: \\n\\n";$/;"	m	class:std	file:
+tempmax	OrderStat.hpp	/^              int tempmax, tempmin;$/;"	l
+tempmin	OrderStat.hpp	/^              int tempmax, tempmin;$/;"	l

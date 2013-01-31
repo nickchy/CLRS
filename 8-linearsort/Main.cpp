@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 {
 //    typedef vector<int> vecint;
     
-    cout<<argv[1]<<endl;
+    std::cout<<argv[1]<<std::endl;
     int length =atoi(argv[1]);
     
     int range;
@@ -30,21 +30,21 @@ int main(int argc, char *argv[])
     std::vector<double> list2;
     list1.resize(length);
     list2.resize(length);
-    MakeList(list1, length);
-    MakeList(list2, length);
+    List::MakeList(list1, length);
+    List::MakeList(list2, length);
     // test function pointer
-//    cout<<"Original List:\n";
-//    PrintList(list1);
-//   cout<<"count sort: \n\n";
-//    cout<<"For double vector:\n";
-//    PrintList(list2);
-//    cout<<"Sort the double vector:\n";
+//    std::cout<<"Original List:\n";
+//    List::PrintList(list1);
+//   std::cout<<"count sort: \n\n";
+//    std::cout<<"For double vector:\n";
+//    List::PrintList(list2);
+//    std::cout<<"Sort the double vector:\n";
 //    SortAlgo<double>::RandomQuickSort(list2,0,length-1);
-//    PrintList(list2);
-    cout<<"For integer vector:\n";
-    PrintList(list1);
-    cout<<"Sort the int vector:\n";
+//    List::PrintList(list2);
+    std::cout<<"For integer vector:\n";
+    List::PrintList(list1);
+    std::cout<<"Sort the int vector:\n";
     LinearSort::CountSort(list1,sortedList1,range);
-    PrintList(sortedList1);
+    List::PrintList(sortedList1);
      
 } 
