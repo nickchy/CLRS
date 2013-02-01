@@ -1,4 +1,5 @@
 #include "Stack.hpp"
+#include "Queue.hpp"
 #include "List.h"
 #include <stdlib.h>
 #include <vector>
@@ -25,4 +26,34 @@ int main(int argc, char *argv[])
    std::cout<<" and Pop double is : "<<StackDouble.Pop()<<" now index top is: "<<StackDouble.GetTop()<<" \n";
 
    std::cout<<"pop again int: "<<StackInt.GetTop()<<"and again: "<<StackInt.GetTop();
-} 
+
+   std::cout<<"\nNow for QUEUE: \n";
+   Queue<int> QueueInt(length);
+   Queue<double> QueueDouble(length);
+   QueueInt.EnQueue(5);
+   QueueDouble.EnQueue(5.0);
+   std::cout<<"After Enqueue 5: Int and Double head/tail are now:\n";
+   std::cout<<QueueInt.GetHead()<<", "<<QueueInt.GetTail()<<"\n";
+   std::cout<<QueueDouble.GetHead()<<", "<<QueueDouble.GetTail()<<"\n";
+   std::cout<<"Dequeue int: "<<QueueInt.DeQueue();
+   std::cout<<" now Head, tail is: "<< QueueInt.GetHead()<<", "<<QueueInt.GetTail()<<"\n";
+   std::cout<<" and Dequeue double is : "<<QueueDouble.DeQueue()<<"\nnow index Head, Tail is: ";
+   std::cout<<QueueDouble.GetHead()<<", "<<QueueDouble.GetTail()<<" \n";
+   std::cout<<"test is empty "<<QueueDouble.IsEmpty();
+
+   
+   for ( int i= 0;i< length-1 ;i++ ) 
+   {
+      QueueDouble.EnQueue(5);
+   }
+  
+   std::cout<<"Head and Tail: "<<QueueDouble.GetHead()<<", "<<QueueDouble.GetTail()<<"\n";
+   std::cout<<"test is full "<<QueueDouble.IsFull();
+    
+   std::cout<<"\ntest enqueue when is full: \n";
+   QueueDouble.EnQueue(5);
+   std::cout<<"Head and Tail: "<<QueueDouble.GetHead()<<", "<<QueueDouble.GetTail()<<"\n";
+   
+
+}
+

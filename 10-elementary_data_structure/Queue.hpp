@@ -17,7 +17,6 @@
 
 #ifndef  QUEUE_H
 #define  QUEUE_H
-#include <vector>
 #include <assert.h>    // For error-checking purposes
 
 //-------------------------------------------------
@@ -32,15 +31,19 @@ class Queue
     Queue(const Queue<T> &OtherQueue);
     ~Queue(void);
 
-    inline void        Push(const T &Item); // Adds Item to the top
-    inline T        Pop(void);              // Returns Item from the top
-    inline const T &Peek(int Depth) const;  // Peek a depth downwards
-
+    inline void EnQueue(const T &Item); // Adds Item to the top
+    inline T DeQueue(void);              // Returns Item from the top
+    inline bool IsFull();
+    inline bool IsEmpty();
+    inline const int GetHead();
+    inline const int GetTail();
   protected:
     T     *_data;           // The actual _data array
     int       _head;    // the head 
     int _tail;          // the tail
     const int _maxNum;        // Maximum number of elements
+    inline int  MoveNext(int pos) const;
+
 };
 
 //-------------------------------------------------
@@ -52,10 +55,23 @@ template <class T>
 Queue<T>::Queue(int MaxSize) :
     _maxNum( MaxSize )    // Initialize the constant
 {
-  _data = new T[_maxNum];
-  _top = ;
+  _data = new T[_maxNum+1];   // need N+1 array size to implement N queue 
+  _head = _tail = 0;
 }
 
+// Queue Copy Constructor function
+template <class T>
+Queue<T>::Queue(const Queue &OtherQueue) :
+                _maxNum( OtherQueue._maxNum )  // Initialize the constant
+{
+  _tail = OtherQueue._tail;
+  _head       = OtherQueue._head;
+  _data      = new T[_maxNum + 1];
+  for (int i = 0; i < _maxNum; i++)
+  {
+    _data[i] = OtherQueue._data[i];
+  }
+}
 // Queue Destructor function
 template <class T>
 Queue<T>::~Queue(void)
@@ -63,34 +79,78 @@ Queue<T>::~Queue(void)
   delete[] _data;
 }
 
+// find the next head/tail index with wrap around
+  template < class T >
+inline int Queue<T>::MoveNext (int pos ) const
+{
+  assert( pos <= _maxNum);
+  return (pos + 1) % (_maxNum + 1);
+
+}		// -----  end of method Queue<T>::Next  -----
+
+
+  template < class T >
+inline const int Queue<T>::GetHead()
+{
+  return _head;
+}
+		// -----  end of method Queue<T>::GetHead  -----
+
+  template < class T >
+inline const int Queue<T>::GetTail()
+{
+  return _tail;
+}
+		// -----  end of method Queue<T>::GetHead  -----
+
+
+  template < class T >
+inline bool Queue<T>::IsFull ()
+{
+  if(MoveNext(_tail) == _head)
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
+}		// -----  end of method Queue<T>::IsFull  -----
+
+  template < class T >
+inline bool Queue<T>::IsEmpty ()
+{
+  if(_tail == _head)
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
+}
 // Push() function
 template <class T>
-inline void Queue<T>::Enqueue(const T &Item)
+inline void Queue<T>::EnQueue(const T &Item)
 {
   // Error Check: Make sure we aren't exceeding the maximum storage space
-  assert(_head - _tail > 1);
+  assert(!IsFull());
   
-  _data[++_top] = Item;
+  _data[_tail] = Item;
+  _tail = MoveNext(_tail);
 }
 
 // Pop() function
 template <class T>
-inline T Queue<T>::Pop(void)
+inline T Queue<T>::DeQueue(void)
 {
   // Error Check: Make sure we aren't popping from an empty Queue
-  assert(_top > 0);
+  assert(!IsEmpty());
 
-  return _data[_top--];
+  T item = _data[_head];
+  _head = MoveNext(_head);
+
+  return item;
 }
 
-// Peek() function
-template <class T>
-inline const T &Queue<T>::Peek(int Depth) const
-{
-  // Error Check: Make sure the depth doesn't exceed the number of elements
-  assert(Depth < _top);
-
-  return _data[ _top - (Depth + 1) ];
-}
-
-#endif   // ----- #ifndef STACK_H_INC  -----
+#endif   // ----- #ifndef QUEUE_H  -----
