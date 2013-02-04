@@ -88,23 +88,25 @@ class LinkedList
               _prevPtr = NULL;
               size = 0;
           }
+
         LinkedList* add(T data)  // return pointer type.
         {
            Node<T> *temp = new Node<T>(data);
            _currPtr->setNext(temp);
            _currPtr = temp;
            size++;
-           cout<<datum<<" is added.";
+           cout<<data<<" is added.";
            return this; //pointer type specification
         }
 
         T next()
         {
-           T data = (*__nextPtr).getDatum();
+           T data = (*_nextPtr).getData();
            cout<<data<<" is visited.";
-           __nextPtr = __nextPtr->getNext();
+           _nextPtr = _nextPtr->getNext();
            return data;
         }
+ 
         int getSize()
         {
            return size;
